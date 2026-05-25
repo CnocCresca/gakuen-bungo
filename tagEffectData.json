@@ -279,3 +279,603 @@
       "unit": "上昇",
       "isRatio": true,
       "effectValue": 0.2
+    },
+    {
+      "name": "夢野久作",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    }
+  ],
+  "宮沢賢治_学生服": [
+    {
+      "name": "谷崎潤一郎",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.14
+    },
+    {
+      "name": "ポオ",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 50
+    }
+  ],
+  "迎えに来てよ": [
+    {
+      "name": "国木田独歩",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "谷崎潤一郎",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 20
+    },
+    {
+      "name": "宮沢賢治",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    }
+  ],
+  "生徒会長の心構え": [
+    {
+      "name": "与謝野晶子",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    },
+    {
+      "name": "福沢諭吉",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 20
+    },
+    {
+      "name": "ポオ",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 15
+    }
+  ],
+  "江戸川乱歩_学生服": [
+    {
+      "name": "国木田独歩",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 50
+    },
+    {
+      "name": "中原中也",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "素敵な写真": [
+    {
+      "name": "江戸川乱歩",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    },
+    {
+      "name": "与謝野晶子",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 45
+    },
+    {
+      "name": "芥川龍之介",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    }
+  ],
+  "谷崎潤一郎_学生服": [
+    {
+      "name": "中島敦",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 400
+    },
+    {
+      "name": "国木田独歩",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "福沢諭吉_仕事着": [
+    {
+      "name": "江戸川乱歩",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 15
+    },
+    {
+      "name": "織田作之助",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 200
+    }
+  ],
+  "織田作之助_仕事着": [
+    {
+      "name": "太宰治",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "坂口安吾",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "坂口安吾_学生服": [
+    {
+      "name": "太宰治",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 50
+    },
+    {
+      "name": "末広鐵腸",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "森鴎外_仕事着": [
+    {
+      "name": "福沢諭吉",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "中原中也",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "うずまき": [
+    {
+      "name": "中島敦",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.07
+    },
+    {
+      "name": "芥川龍之介",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "ルーシー・M_学生服": [
+    {
+      "name": "ポオ",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "条野採菊",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 400
+    }
+  ],
+  "フョードル・D_学生服": [
+    {
+      "name": "ニコライ・G",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.15
+    },
+    {
+      "name": "シグマ",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "ニコライ・G_学生服": [
+    {
+      "name": "澁澤龍彦",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.14
+    },
+    {
+      "name": "シグマ",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "澁澤龍彦_学生服": [
+    {
+      "name": "澁澤龍彦",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "ニコライ・G",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 15
+    }
+  ],
+  "シグマ_学生服": [
+    {
+      "name": "フョードル・D",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 400
+    },
+    {
+      "name": "ニコライ・G",
+      "effectType": "被ダメージ",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "条野採菊_学生服": [
+    {
+      "name": "大倉燁子",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.14
+    },
+    {
+      "name": "末広鐵腸",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "夢野久作_学生服": [
+    {
+      "name": "宮沢賢治",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.14
+    },
+    {
+      "name": "泉鏡花",
+      "effectType": "被ダメージ",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "ポオ_学生服": [
+    {
+      "name": "江戸川乱歩",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.15
+    },
+    {
+      "name": "シグマ",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.14
+    }
+  ],
+  "大倉燁子_学生服": [
+    {
+      "name": "条野採菊",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 10
+    },
+    {
+      "name": "末広鐵腸",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.15
+    }
+  ],
+  "末広鐵腸_学生服": [
+    {
+      "name": "条野採菊",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 50
+    },
+    {
+      "name": "大倉燁子",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    }
+  ],
+  "無頼漢": [
+    {
+      "name": "宮沢賢治",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.2
+    },
+    {
+      "name": "夢野久作",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.07
+    },
+    {
+      "name": "坂口安吾",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 37
+    }
+  ],
+  "マイ・オピニオン": [
+    {
+      "name": "宮沢賢治",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    },
+    {
+      "name": "泉鏡花",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "森鴎外",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    }
+  ],
+  "静かな午餉": [
+    {
+      "name": "中島敦",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "太宰治",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 600
+    },
+    {
+      "name": "森鴎外",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "治療の時間": [
+    {
+      "name": "江戸川乱歩",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "芥川龍之介",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.2
+    },
+    {
+      "name": "森鴎外",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "武装生徒会の新人": [
+    {
+      "name": "太宰治",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "国木田独歩",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 600
+    },
+    {
+      "name": "泉鏡花",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    }
+  ],
+  "慌ただしいお使い": [
+    {
+      "name": "芥川龍之介",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    },
+    {
+      "name": "中原中也",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "ルーシー・M",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.15
+    }
+  ],
+  "放課後の寄り道": [
+    {
+      "name": "中島敦",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "宮沢賢治",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "夢野久作",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    }
+  ],
+  "与謝野晶子_体操服": [
+    {
+      "name": "泉鏡花",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "中島敦_体操服": [
+    {
+      "name": "宮沢賢治",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "太宰治_体操服": [
+    {
+      "name": "江戸川乱歩",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "泉鏡花_体操服": [
+    {
+      "name": "国木田独歩",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "宮沢賢治_体操服": [
+    {
+      "name": "太宰治",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "国木田独歩_体操服": [
+    {
+      "name": "谷崎潤一郎",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "江戸川乱歩_体操服": [
+    {
+      "name": "中島敦",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "谷崎潤一郎_体操服": [
+    {
+      "name": "与謝野晶子",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ]
+}
