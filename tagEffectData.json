@@ -1,0 +1,281 @@
+{
+  "馬房にて": [
+    {
+      "name": "太宰治",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    },
+    {
+      "name": "フョードル・D",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "シグマ",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.2
+    }
+  ],
+  "消閑のしらべ": [
+    {
+      "name": "澁澤龍彦",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "ニコライ・G",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "大倉燁子",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    }
+  ],
+  "題目のない昼下り": [
+    {
+      "name": "中島敦",
+      "effectType": "回避",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "福沢諭吉",
+      "effectType": "回避",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "坂口安吾",
+      "effectType": "体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    }
+  ],
+  "芥川龍之介_学生服": [
+    {
+      "name": "谷崎潤一郎",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.07
+    },
+    {
+      "name": "与謝野晶子",
+      "effectType": "移動速度",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "与謝野晶子_学生服": [
+    {
+      "name": "国木田独歩",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "泉鏡花",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 400
+    }
+  ],
+  "中原中也_学生服": [
+    {
+      "name": "太宰治",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    },
+    {
+      "name": "森鴎外",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    }
+  ],
+  "中島敦_私服・春": [
+    {
+      "name": "谷崎潤一郎",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 1
+    },
+    {
+      "name": "澁澤龍彦",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.07
+    }
+  ],
+  "中島敦_学生服": [
+    {
+      "name": "江戸川乱歩",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
+    },
+    {
+      "name": "与謝野晶子",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.14
+    }
+  ],
+  "泉鏡花_学生服": [
+    {
+      "name": "芥川龍之介",
+      "effectType": "被ダメージ",
+      "unit": "減少",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "森鴎外",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    }
+  ],
+  "多忙な副会長": [
+    {
+      "name": "太宰治",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 20
+    },
+    {
+      "name": "福沢諭吉",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.3
+    },
+    {
+      "name": "織田作之助",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    }
+  ],
+  "国木田独歩_学生服": [
+    {
+      "name": "中島敦",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 10
+    },
+    {
+      "name": "宮沢賢治",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 15
+    }
+  ],
+  "潤いを求めて": [
+    {
+      "name": "中島敦",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.1
+    },
+    {
+      "name": "ルーシー・M",
+      "effectType": "最大体力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 300
+    },
+    {
+      "name": "フョードル・D",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.05
+    }
+  ],
+  "舞い散る桜吹雪": [
+    {
+      "name": "中島敦",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.2
+    },
+    {
+      "name": "国木田独歩",
+      "effectType": "威圧",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.3
+    },
+    {
+      "name": "坂口安吾",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": true,
+      "effectValue": 0.1
+    }
+  ],
+  "太宰治_学生服": [
+    {
+      "name": "福沢諭吉",
+      "effectType": "攻撃頻度",
+      "unit": "短縮",
+      "isRatio": false,
+      "effectValue": 0.15
+    },
+    {
+      "name": "芥川龍之介",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": false,
+      "effectValue": 10
+    }
+  ],
+  "一緒に野菜収穫": [
+    {
+      "name": "中島敦",
+      "effectType": "攻撃力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.15
+    },
+    {
+      "name": "泉鏡花",
+      "effectType": "抵抗力",
+      "unit": "上昇",
+      "isRatio": true,
+      "effectValue": 0.2
