@@ -1,4 +1,4 @@
-export const skillTextData = {
+const skillTextData = {
     /* SSR */
     "ドラコニア・ルーム": {
         name: "ドラコニア・ルーム",
