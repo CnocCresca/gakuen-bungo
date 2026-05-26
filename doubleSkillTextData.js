@@ -1,5 +1,4 @@
-
-export const doubleSkillTextData = {
+const doubleSkillTextData = {
 
         "ドラコニア・ルーム": {
             name: "ドラコニア・ルーム",
