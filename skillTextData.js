@@ -1,5 +1,4 @@
 const skillTextData = {
-   
     /* SSR */
     綺麗にしてあげるよ: {
         name: "綺麗にしてあげるよ",
