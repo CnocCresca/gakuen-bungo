@@ -4142,8 +4142,8 @@
         "position": "前衛",
         "type": "攻撃型",
         "status": {
-            "HP": 4680.2,
-            "ATK": 8128,
+            "HP": 5320,
+            "ATK": 9240,
             "knockBack": 0,
             "resist": 40,
             "range": 725,
@@ -4973,8 +4973,8 @@
     },
     "芥川龍之介_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "攻撃型",
         "status": {
             "HP": 4900,
             "ATK": 9600,
@@ -6462,8 +6462,8 @@
         "position": "前衛",
         "type": "攻撃型",
         "status": {
-            "HP": 4925.2,
-            "ATK": 7910,
+            "HP": 5600,
+            "ATK": 8960,
             "knockBack": 0,
             "resist": 40,
             "range": 250,
