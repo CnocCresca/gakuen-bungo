@@ -5,7 +5,7 @@
             "HP": 6400,
             "ATK": 1600
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": "true",
             "onlyYourself": {
                 "fixed_heal": null,
@@ -36,7 +36,7 @@
             "HP": 5600,
             "ATK": 2400
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "damageCut": {
@@ -69,7 +69,7 @@
             "HP": 1600,
             "ATK": 6400
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
@@ -100,7 +100,7 @@
             "HP": 4800,
             "ATK": 3200
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "decreaseDamage": {
@@ -132,7 +132,7 @@
             "HP": 889,
             "ATK": 7110
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
@@ -163,7 +163,7 @@
             "HP": 3200,
             "ATK": 4800
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
