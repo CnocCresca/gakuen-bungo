@@ -4,8 +4,8 @@
         "pt": 520,
         "range": 800,
         "effect": {
-            "time": null,
-            "target": null,
+            "time": 10,
+            "target": 6,
             "isAttack": true,
             "attack": {
                 "color": null,
@@ -64,7 +64,8 @@
                 "knock_down": null,
                 "resist_down": null,
                 "attackSpan_down": null,
-                "speed_down": {
+                "speed_down": null,
+                "dodge_down": {
                     "lv10": 35,
                     "rise": 2
                 }
