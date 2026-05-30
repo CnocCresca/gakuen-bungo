@@ -1721,9 +1721,8 @@
                     },
                     "fixed_damage": null
                 },
-                "isOnlyYourself": false,
-                "isAlly": true,
-                "ally": {
+                "isOnlyYourself": true,
+                "onlyYourself": {
                     "isIncludingYourself": false,
                     "decreaseDamage": null,
                     "fixed_heal": null,
@@ -1749,6 +1748,7 @@
                         }
                     }
                 },
+                "isAlly": false,
                 "isEnemy": false,
                 "enemy": {
                     "ATK_down": null,
