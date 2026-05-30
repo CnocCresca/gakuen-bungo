@@ -153,7 +153,8 @@
                     "knock_down": null,
                     "resist_down": null,
                     "attackSpan_down": null,
-                    "speed_down": {
+                    "speed_down": null,
+                    "dodge_down": {
                         "lv10": 35,
                         "rise": 2
                     }
