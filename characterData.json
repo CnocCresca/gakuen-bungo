@@ -8,8 +8,12 @@
             "中島敦_学生服",
             "中島敦_体操服"
         ],
-        "arms": {},
-        "sticker": [],
+        "arms": [
+            "中島敦_紅ノ壱"
+        ],
+        "sticker": [
+            "武装生徒会の新人"
+        ],
         "highSchool": "桜眞學園",
         "grade": ""
     },
@@ -20,7 +24,7 @@
             "国木田独歩_学生服",
             "国木田独歩_体操服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "桜眞學園",
         "grade": ""
@@ -33,8 +37,13 @@
             "太宰治_学生服",
             "太宰治_体操服"
         ],
-        "arms": {},
-        "sticker": [],
+        "arms": [
+            "太宰治_翠ノ壱"
+        ],
+        "sticker": [
+            "潤いを求めて",
+            "舞い散る桜吹雪"
+        ],
         "highSchool": "桜眞學園",
         "grade": ""
     },
@@ -45,7 +54,7 @@
             "宮沢賢治_学生服",
             "宮沢賢治_体操服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "桜眞學園",
         "grade": ""
@@ -58,7 +67,7 @@
             "江戸川乱歩_学生服",
             "江戸川乱歩_体操服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "桜眞學園",
         "grade": ""
@@ -71,7 +80,7 @@
             "谷崎潤一郎_学生服",
             "谷崎潤一郎_体操服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "桜眞學園",
         "grade": ""
@@ -83,7 +92,7 @@
             "泉鏡花_学生服",
             "泉鏡花_体操服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "桜眞學園",
         "grade": ""
@@ -95,7 +104,7 @@
             "与謝野晶子_学生服",
             "与謝野晶子_体操服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "桜眞學園",
         "grade": ""
@@ -105,8 +114,12 @@
             "静かな午餉",
             "芥川龍之介_学生服"
         ],
-        "arms": {},
-        "sticker": [],
+        "arms": [
+            "芥川龍之介_黒ノ壱"
+        ],
+        "sticker": [
+            "静かな午餉"
+        ],
         "highSchool": "桜眞學園",
         "grade": ""
     },
@@ -115,8 +128,12 @@
             "無頼漢",
             "中原中也_学生服"
         ],
-        "arms": {},
-        "sticker": [],
+        "arms": [
+            "中原中也_蒼ノ壱"
+        ],
+        "sticker": [
+            "無頼漢"
+        ],
         "highSchool": "桜眞學園",
         "grade": ""
     },
@@ -125,7 +142,7 @@
         "card": [
             "坂口安吾_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "",
         "grade": ""
@@ -135,7 +152,7 @@
         "card": [
             "福沢諭吉_仕事着"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "",
         "grade": ""
@@ -146,8 +163,10 @@
             "題目のない昼下り",
             "織田作之助_仕事着"
         ],
-        "arms": {},
-        "sticker": [],
+        "arms": [],
+        "sticker": [
+            "題目のない昼下り"
+        ],
         "highSchool": "",
         "grade": ""
     },
@@ -156,7 +175,7 @@
         "card": [
             "森鴎外_仕事着"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "",
         "grade": ""
@@ -166,7 +185,7 @@
         "card": [
             "夢野久作_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "桜眞學園_中等部",
         "grade": "2年"
@@ -177,7 +196,7 @@
             "うずまき",
             "ルーシー・M_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "F・I・S",
         "grade": "grade10"
@@ -187,7 +206,7 @@
         "card": [
             "ポオ_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "F・I・S",
         "grade": "grade12"
@@ -197,7 +216,7 @@
         "card": [
             "大倉燁子_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "やまと曙高校",
         "grade": "1年"
@@ -207,7 +226,7 @@
         "card": [
             "末広鐵腸_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "やまと曙高校",
         "grade": "2年"
@@ -217,7 +236,7 @@
         "card": [
             "条野採菊_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "やまと曙高校",
         "grade": "2年"
@@ -228,7 +247,9 @@
             "馬房にて",
             "澁澤龍彦_学生服"
         ],
-        "arms": {},
+        "arms": [
+            "澁澤龍彦_翠ノ壱"
+        ],
         "sticker": [],
         "highSchool": "聖北天学院高校",
         "grade": "2年"
@@ -238,7 +259,7 @@
         "card": [
             "シグマ_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "聖北天学院高校",
         "grade": "1年"
@@ -249,8 +270,12 @@
             "消閑のしらべ",
             "フョードル・D_学生服"
         ],
-        "arms": {},
-        "sticker": [],
+        "arms": [
+            "フョードル・D_黒ノ壱"
+        ],
+        "sticker": [
+            "消閑のしらべ"
+        ],
         "highSchool": "聖北天学院高校",
         "grade": "2年"
     },
@@ -259,7 +284,7 @@
         "card": [
             "ニコライ・G_学生服"
         ],
-        "arms": {},
+        "arms": [],
         "sticker": [],
         "highSchool": "聖北天学院高校",
         "grade": "2年"
