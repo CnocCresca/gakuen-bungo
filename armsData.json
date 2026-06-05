@@ -5,7 +5,7 @@
             "HP": 6400,
             "ATK": 1600
         },
-        "effect": {
+        "effct": {
             "isOnlyYourself": "true",
             "onlyYourself": {
                 "fixed_heal": null,
@@ -36,7 +36,7 @@
             "HP": 5600,
             "ATK": 2400
         },
-        "effect": {
+        "effct": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "damageCut": {
@@ -69,7 +69,7 @@
             "HP": 1600,
             "ATK": 6400
         },
-        "effect": {
+        "effct": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
@@ -100,7 +100,7 @@
             "HP": 4800,
             "ATK": 3200
         },
-        "effect": {
+        "effct": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "decreaseDamage": {
@@ -132,7 +132,7 @@
             "HP": 889,
             "ATK": 7110
         },
-        "effect": {
+        "effct": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
@@ -163,7 +163,7 @@
             "HP": 3200,
             "ATK": 4800
         },
-        "effect": {
+        "effct": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
@@ -181,6 +181,40 @@
                 "speed_up": null,
                 "knock_up": null,
                 "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            }
+        }
+    },
+    "織田作之助_白ノ壱": {
+        "status": {
+            "color": "白",
+            "HP": 710,
+            "ATK": 8888
+        },
+        "effct": {
+            "isOnlyYourself": "true",
+            "onlyYourself": {
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": {
+                    "lv10": 33,
+                    "rise": 1.8888888888888888
+                },
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": {
+                    "lv10": 33,
+                    "rise": 1.8888888888888888
+                },
                 "fitness_up": null,
                 "isInterval": false,
                 "interval": {
