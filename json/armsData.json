@@ -198,7 +198,7 @@
             "ATK": 8888
         },
         "effct": {
-            "isOnlyYourself": "true",
+            "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
                 "healPercent": null,
