@@ -3714,5 +3714,96 @@
                 "speed_down": null
             }
         }
+    },
+    "回復を図る。": {
+        "name": "回復を図る。",
+        "pt": 300,
+        "range": 800,
+        "effect": {
+            "time": null,
+            "target": 2,
+            "isAttack": false,
+            "isOnlyYourself": false,
+            "isAlly": true,
+            "ally": {
+                "isIncludingYourself": true,
+                "decreaseDamage": null,
+                "fixed_heal": {
+                    "lv10": 800,
+                    "rise": 44.44444444444444
+                },
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isEnemy": false
+        }
+    },
+    "受けてみやがれ！": {
+        "name": "受けてみやがれ！",
+        "pt": 400,
+        "range": 500,
+        "effect": {
+            "time": 12,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "黒",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 750,
+                    "rise": 41.666666666666664
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "isAlly": false,
+            "isEnemy": true,
+            "enemy": {
+                "ATK_down": null,
+                "increaseDamage": {
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
+                },
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": null,
+                "speed_down": null
+            }
+        }
+    },
+    "痛かったらごめんね": {
+        "name": "痛かったらごめんね",
+        "pt": 500,
+        "range": 900,
+        "effect": {
+            "time": null,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "白",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 1000,
+                    "rise": 55.55555555555556
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "isAlly": false,
+            "isEnemy": false
+        }
     }
 }
