@@ -3438,5 +3438,96 @@
                 "speed_down": null
             }
         }
+    },
+    "む…飲み物を…": {
+        "name": "む…飲み物を…",
+        "pt": 150,
+        "range": 600,
+        "effect": {
+            "time": null,
+            "target": 1,
+            "isAttack": false,
+            "isOnlyYourself": false,
+            "isAlly": true,
+            "ally": {
+                "isIncludingYourself": true,
+                "decreaseDamage": null,
+                "fixed_heal": {
+                    "lv10": 800,
+                    "rise": 44.44444444444444
+                },
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isEnemy": false
+        }
+    },
+    "当てるのは得意でな！": {
+        "name": "当てるのは得意でな！",
+        "pt": 200,
+        "range": 400,
+        "effect": {
+            "time": 8,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "黒",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 500,
+                    "rise": 27.77777777777778
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "isAlly": false,
+            "isEnemy": true,
+            "enemy": {
+                "ATK_down": null,
+                "increaseDamage": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": null,
+                "speed_down": null
+            }
+        }
+    },
+    "パスだよ☆受け取って！": {
+        "name": "パスだよ☆受け取って！",
+        "pt": 250,
+        "range": 850,
+        "effect": {
+            "time": null,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "白",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 700,
+                    "rise": 38.888888888888886
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "isAlly": false,
+            "isEnemy": false
+        }
     }
 }
