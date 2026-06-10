@@ -3127,176 +3127,176 @@
             "Step1": {
                 "HP": 0.1,
                 "knockBack": 0.15
-            },
-            "cardInfo": {},
-            "skill": {
-                "name": "雨ニモマケズ",
-                "pt": 300,
-                "range": 400,
-                "effect": {
-                    "time": 12,
-                    "target": 3,
-                    "isAttack": true,
-                    "attack": {
-                        "color": "白",
-                        "attackStyle": "ヰ能",
-                        "damagePercent": {
-                            "lv10": 400,
-                            "rise": 22.22222222222222
-                        },
-                        "fixed_damage": null
+            }
+        },
+        "cardInfo": {},
+        "skill": {
+            "name": "雨ニモマケズ",
+            "pt": 300,
+            "range": 400,
+            "effect": {
+                "time": 12,
+                "target": 3,
+                "isAttack": true,
+                "attack": {
+                    "color": "白",
+                    "attackStyle": "ヰ能",
+                    "damagePercent": {
+                        "lv10": 400,
+                        "rise": 22.22222222222222
                     },
-                    "isOnlyYourself": true,
-                    "onlyYourself": {
-                        "decreaseDamage": null,
-                        "fixed_heal": null,
-                        "healPercent": null,
-                        "ATK_up": null,
-                        "MAXHP_up": null,
-                        "resist_up": null,
-                        "attackSpan_up": null,
-                        "speed_up": null,
-                        "knock_up": {
-                            "lv10": 40,
-                            "rise": 2.2222222222222223
-                        },
-                        "dodge_up": null,
-                        "fitness_up": null,
-                        "isInterval": false,
-                        "interval": {
-                            "time": null,
-                            "healPercent": null,
-                            "fixed_heal": null
-                        }
-                    },
-                    "isAlly": false,
-                    "allies": {
-                        "isIncludingYourself": false,
-                        "decreaseDamage": null,
-                        "fixed_heal": null,
-                        "healPercent": null,
-                        "ATK_up": null,
-                        "MAXHP_up": null,
-                        "resist_up": null,
-                        "attackSpan_up": null,
-                        "speed_up": null,
-                        "knock_up": null,
-                        "dodge_up": null,
-                        "fitness_up": null,
-                        "isInterval": false,
-                        "interval": {
-                            "time": null,
-                            "healPercent": null,
-                            "fixed_heal": null
-                        }
-                    },
-                    "isEnemy": false,
-                    "enemy": {
-                        "ATK_down": null,
-                        "increaseDamage": null,
-                        "knock_down": null,
-                        "resist_down": null,
-                        "attackSpan_down": null,
-                        "speed_down": null
-                    }
-                }
-            },
-            "doubleSkill": {
-                "name": "雨ニモマケズ",
-                "pt": 600,
-                "range": 500,
-                "effect": {
-                    "time": 12,
-                    "target": "全て",
-                    "isAttack": true,
-                    "attack": {
-                        "color": "白",
-                        "attackStyle": "ヰ能",
-                        "damagePercent": {
-                            "lv10": 550,
-                            "rise": 30.555555555555557
-                        },
-                        "fixed_damage": null
-                    },
-                    "isOnlyYourself": true,
-                    "onlyYourself": {
-                        "decreaseDamage": null,
-                        "fixed_heal": null,
-                        "healPercent": null,
-                        "ATK_up": null,
-                        "MAXHP_up": null,
-                        "resist_up": null,
-                        "attackSpan_up": null,
-                        "speed_up": null,
-                        "knock_up": {
-                            "lv10": 60,
-                            "rise": 3.3333333333333335
-                        },
-                        "dodge_up": null,
-                        "fitness_up": null,
-                        "isInterval": false,
-                        "interval": {
-                            "time": null,
-                            "healPercent": null,
-                            "fixed_heal": null
-                        }
-                    },
-                    "isAlly": false,
-                    "ally": {
-                        "isIncludingYourself": false,
-                        "decreaseDamage": null,
-                        "fixed_heal": null,
-                        "healPercent": null,
-                        "ATK_up": null,
-                        "MAXHP_up": null,
-                        "resist_up": null,
-                        "attackSpan_up": null,
-                        "speed_up": null,
-                        "knock_up": null,
-                        "dodge_up": null,
-                        "fitness_up": null,
-                        "isInterval": false,
-                        "interval": {
-                            "time": null,
-                            "healPercent": null,
-                            "fixed_heal": null
-                        }
-                    },
-                    "isEnemy": false,
-                    "enemy": {
-                        "ATK_down": null,
-                        "increaseDamage": null,
-                        "knock_down": null,
-                        "resist_down": null,
-                        "attackSpan_down": null,
-                        "speed_down": null
-                    }
-                }
-            },
-            "tagEffect": [
-                {
-                    "name": "中島敦",
-                    "effectType": "攻撃力",
-                    "unit": "上昇",
-                    "isRatio": true,
-                    "effectValue": 0.15
+                    "fixed_damage": null
                 },
-                {
-                    "name": "泉鏡花",
-                    "effectType": "抵抗力",
-                    "unit": "上昇",
-                    "isRatio": true,
-                    "effectValue": 0.2
+                "isOnlyYourself": true,
+                "onlyYourself": {
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": {
+                        "lv10": 40,
+                        "rise": 2.2222222222222223
+                    },
+                    "dodge_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
                 },
-                {
-                    "name": "夢野久作",
-                    "effectType": "最大体力",
-                    "unit": "上昇",
-                    "isRatio": true,
-                    "effectValue": 0.2
+                "isAlly": false,
+                "allies": {
+                    "isIncludingYourself": false,
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isEnemy": false,
+                "enemy": {
+                    "ATK_down": null,
+                    "increaseDamage": null,
+                    "knock_down": null,
+                    "resist_down": null,
+                    "attackSpan_down": null,
+                    "speed_down": null
                 }
-            ]
-        }
+            }
+        },
+        "doubleSkill": {
+            "name": "雨ニモマケズ",
+            "pt": 600,
+            "range": 500,
+            "effect": {
+                "time": 12,
+                "target": "全て",
+                "isAttack": true,
+                "attack": {
+                    "color": "白",
+                    "attackStyle": "ヰ能",
+                    "damagePercent": {
+                        "lv10": 550,
+                        "rise": 30.555555555555557
+                    },
+                    "fixed_damage": null
+                },
+                "isOnlyYourself": true,
+                "onlyYourself": {
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": {
+                        "lv10": 60,
+                        "rise": 3.3333333333333335
+                    },
+                    "dodge_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isAlly": false,
+                "ally": {
+                    "isIncludingYourself": false,
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isEnemy": false,
+                "enemy": {
+                    "ATK_down": null,
+                    "increaseDamage": null,
+                    "knock_down": null,
+                    "resist_down": null,
+                    "attackSpan_down": null,
+                    "speed_down": null
+                }
+            }
+        },
+        "tagEffect": [
+            {
+                "name": "中島敦",
+                "effectType": "攻撃力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.15
+            },
+            {
+                "name": "泉鏡花",
+                "effectType": "抵抗力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.2
+            },
+            {
+                "name": "夢野久作",
+                "effectType": "最大体力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.2
+            }
+        ]
     },
     "中島敦_私服・春": {
         "rarity": "SR",
