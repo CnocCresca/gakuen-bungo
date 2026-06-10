@@ -6,7 +6,6 @@
         "status": {
             "HP": 8410,
             "ATK": 10730,
-            "knockBack": 0,
             "resist": 40,
             "range": 300,
             "speed": 580,
@@ -14,13 +13,16 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "knockBack": 20
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "knockBack": 15
             },
             "Step1": {
-                "ATK": 0.07
+                "ATK": 0.07,
+                "knockBack": 10
             }
         },
         "skill": {
@@ -200,7 +202,6 @@
         "status": {
             "HP": 8700,
             "ATK": 10440,
-            "knockBack": 0,
             "resist": 50,
             "range": 300,
             "speed": 530,
@@ -208,15 +209,17 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "decreaseDamage": 0.15
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "decreaseDamage": 0.11
             },
             "Step1": {
-                "ATK": 0.07
-            },
-            "decreaseDamage": 0.15
+                "ATK": 0.07,
+                "decreaseDamage": 0.07
+            }
         },
         "skill": {
             "name": "ドラコニア・ルーム",
@@ -387,15 +390,24 @@
         "status": {
             "HP": 7250,
             "ATK": 3625,
-            "knockBack": 0,
             "resist": 30,
             "range": 550,
             "speed": 480,
             "attckSpan": 2.5
         },
         "unique": {
-            "HP": 0.2,
-            "resist": 0.2
+            "Step3": {
+                "HP": 0.2,
+                "resist": 0.2
+            },
+            "Step2": {
+                "HP": 0.15,
+                "resist": 0.15
+            },
+            "Step1": {
+                "HP": 0.1,
+                "resist": 0.1
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -558,7 +570,6 @@
         "status": {
             "HP": 5800,
             "ATK": 4350,
-            "knockBack": 0,
             "resist": 30,
             "range": 600,
             "speed": 550,
@@ -567,10 +578,16 @@
         "unique": {
             "Step3": {
                 "HP": 0.2,
-                "speed": 0.2
+                "speed": 0.15
             },
-            "Step2": {},
-            "Step1": {}
+            "Step2": {
+                "HP": 0.15,
+                "speed": 0.11
+            },
+            "Step1": {
+                "HP": 0.1,
+                "speed": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -735,7 +752,6 @@
         "status": {
             "HP": 7250,
             "ATK": 12325,
-            "knockBack": 0,
             "resist": 45,
             "range": 250,
             "speed": 550,
@@ -743,15 +759,17 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "knockBack": 20
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "knockBack": 15
             },
             "Step1": {
-                "ATK": 0.07
-            },
-            "knockBack": 20
+                "ATK": 0.07,
+                "knockBack": 10
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -899,26 +917,28 @@
     },
     "題目のない昼下り": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "支援型",
         "status": {
             "HP": 0,
             "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "resist": 30,
+            "range": 400,
+            "speed": 560,
+            "attckSpan": 2
         },
         "unique": {
             "Step3": {
-                "dodge_up": null
+                "dodge_up": 0.1,
+                "decreaseDamage": 0.15
             },
             "Step2": {
-                "dodge_up": null
+                "dodge_up": 0.0075,
+                "decreaseDamage": 0.11
             },
             "Step1": {
-                "dodge_up": null
+                "dodge_up": 0.05,
+                "decreaseDamage": 0.07
             }
         },
         "cardInfo": {},
@@ -1067,21 +1087,29 @@
     },
     "潤いを求めて": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 5800,
+            "ATK": 1740,
+            "resist": 25,
+            "range": 400,
+            "speed": 540,
+            "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15,
+                "HP": 0.2
+            },
+            "Step2": {
+                "decreaseDamage": 0.11,
+                "HP": 0.15
+            },
+            "Step1": {
+                "decreaseDamage": 0.07,
+                "HP": 0.1
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -1229,21 +1257,29 @@
     },
     "迎えに来てよ": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "後衛",
+        "type": "支援型",
         "status": {
             "HP": 0,
             "ATK": 0,
-            "knockBack": 0,
             "resist": 0,
             "range": 0,
             "speed": 0,
             "attckSpan": 0
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "speed": 80,
+                "knockBack": 0.3
+            },
+            "Step2": {
+                "speed": 60,
+                "knockBack": 0.225
+            },
+            "Step1": {
+                "speed": 40,
+                "knockBack": 0.15
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -1403,28 +1439,29 @@
     },
     "慌ただしいお使い": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
             "HP": 0,
             "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "resist": 70,
+            "range": 200,
+            "speed": 620,
+            "attckSpan": 2.3
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "knockBack": 20
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "knockBack": 15
             },
             "Step1": {
-                "ATK": 0.07
-            },
-            "knockBack": 20
+                "ATK": 0.07,
+                "knockBack": 10
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -1582,7 +1619,6 @@
         "status": {
             "HP": 6525,
             "ATK": 12325,
-            "knockBack": 0,
             "resist": 40,
             "range": 350,
             "speed": 450,
@@ -1590,15 +1626,17 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "knockBack": 20
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "knockBack": 15
             },
             "Step1": {
-                "ATK": 0.07
-            },
-            "knockBack": 20
+                "ATK": 0.07,
+                "knockBack": 10
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -1750,7 +1788,6 @@
         "status": {
             "HP": 7925,
             "ATK": 10875,
-            "knockBack": 0,
             "resist": 40,
             "range": 250,
             "speed": 590,
@@ -1758,10 +1795,12 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "resist": 0.2
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "resist": 0.15
             },
             "Step1": {
                 "ATK": 0.07,
@@ -1926,21 +1965,29 @@
     },
     "舞い散る桜吹雪": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 10875,
+            "ATK": 7975,
+            "resist": 70,
+            "range": 200,
+            "speed": 600,
+            "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15,
+                "HP": 600
+            },
+            "Step2": {
+                "decreaseDamage": 0.11,
+                "HP": 450
+            },
+            "Step1": {
+                "decreaseDamage": 0.07,
+                "HP": 300
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -2113,16 +2160,24 @@
         "status": {
             "HP": 7250,
             "ATK": 11600,
-            "knockBack": 0,
             "resist": 40,
             "range": 725,
             "speed": 540,
             "attckSpan": 2.8
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "HP": 600,
+                "knockBack": 20
+            },
+            "Step2": {
+                "HP": 450,
+                "knockBack": 15
+            },
+            "Step1": {
+                "HP": 300,
+                "knockBack": 10
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -2273,9 +2328,8 @@
         "position": "後衛",
         "type": " 支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
+            "HP": 5800,
+            "ATK": 2305,
             "resist": 30,
             "range": 725,
             "speed": 360,
@@ -2283,15 +2337,15 @@
         },
         "unique": {
             "Step3": {
-                "attackSpan": 0.075,
-                "HP": 0.15
+                "attackSpan": 0.1,
+                "HP": 0.2
             },
             "Step2": {
                 "attackSpan": 0.075,
                 "HP": 0.15
             },
             "Step1": {
-                "attackSpan": 0,
+                "attackSpan": 0.05,
                 "HP": 0.1
             }
         },
@@ -2466,21 +2520,29 @@
     },
     "素敵な写真": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 11600,
+            "ATK": 7250,
+            "resist": 70,
+            "range": 200,
+            "speed": 610,
+            "attckSpan": 2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15,
+                "resist": 10
+            },
+            "Step2": {
+                "decreaseDamage": 0.11,
+                "resist": 8
+            },
+            "Step1": {
+                "decreaseDamage": 0.07,
+                "resist": 5
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -2659,21 +2721,29 @@
     },
     "治療の時間": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 4350,
+            "ATK": 2900,
+            "resist": 25,
+            "range": 450,
+            "speed": 420,
+            "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "knockBack": 20,
+                "HP": 600
+            },
+            "Step2": {
+                "knockBack": 15,
+                "HP": 450
+            },
+            "Step1": {
+                "knockBack": 10,
+                "HP": 300
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -2843,21 +2913,29 @@
     },
     "放課後の寄り道": {
         "rarity": "SSR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "攻撃型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 7250,
+            "ATK": 7540,
+            "resist": 40,
+            "range": 500,
+            "speed": 590,
+            "attckSpan": 1.8
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "spped": 80,
+                "ATK": 0.15
+            },
+            "Step2": {
+                "spped": 60,
+                "ATK": 0.11
+            },
+            "Step1": {
+                "spped": 40,
+                "ATK": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -3032,185 +3110,193 @@
         "status": {
             "HP": 7250,
             "ATK": 6148,
-            "knockBack": 0,
             "resist": 40,
             "range": 250,
             "speed": 570,
             "attckSpan": 3
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
-        },
-        "cardInfo": {},
-        "skill": {
-            "name": "雨ニモマケズ",
-            "pt": 300,
-            "range": 400,
-            "effect": {
-                "time": 12,
-                "target": 3,
-                "isAttack": true,
-                "attack": {
-                    "color": "白",
-                    "attackStyle": "ヰ能",
-                    "damagePercent": {
-                        "lv10": 400,
-                        "rise": 22.22222222222222
-                    },
-                    "fixed_damage": null
-                },
-                "isOnlyYourself": true,
-                "onlyYourself": {
-                    "decreaseDamage": null,
-                    "fixed_heal": null,
-                    "healPercent": null,
-                    "ATK_up": null,
-                    "MAXHP_up": null,
-                    "resist_up": null,
-                    "attackSpan_up": null,
-                    "speed_up": null,
-                    "knock_up": {
-                        "lv10": 40,
-                        "rise": 2.2222222222222223
-                    },
-                    "dodge_up": null,
-                    "fitness_up": null,
-                    "isInterval": false,
-                    "interval": {
-                        "time": null,
-                        "healPercent": null,
-                        "fixed_heal": null
-                    }
-                },
-                "isAlly": false,
-                "allies": {
-                    "isIncludingYourself": false,
-                    "decreaseDamage": null,
-                    "fixed_heal": null,
-                    "healPercent": null,
-                    "ATK_up": null,
-                    "MAXHP_up": null,
-                    "resist_up": null,
-                    "attackSpan_up": null,
-                    "speed_up": null,
-                    "knock_up": null,
-                    "dodge_up": null,
-                    "fitness_up": null,
-                    "isInterval": false,
-                    "interval": {
-                        "time": null,
-                        "healPercent": null,
-                        "fixed_heal": null
-                    }
-                },
-                "isEnemy": false,
-                "enemy": {
-                    "ATK_down": null,
-                    "increaseDamage": null,
-                    "knock_down": null,
-                    "resist_down": null,
-                    "attackSpan_down": null,
-                    "speed_down": null
-                }
-            }
-        },
-        "doubleSkill": {
-            "name": "雨ニモマケズ",
-            "pt": 600,
-            "range": 500,
-            "effect": {
-                "time": 12,
-                "target": "全て",
-                "isAttack": true,
-                "attack": {
-                    "color": "白",
-                    "attackStyle": "ヰ能",
-                    "damagePercent": {
-                        "lv10": 550,
-                        "rise": 30.555555555555557
-                    },
-                    "fixed_damage": null
-                },
-                "isOnlyYourself": true,
-                "onlyYourself": {
-                    "decreaseDamage": null,
-                    "fixed_heal": null,
-                    "healPercent": null,
-                    "ATK_up": null,
-                    "MAXHP_up": null,
-                    "resist_up": null,
-                    "attackSpan_up": null,
-                    "speed_up": null,
-                    "knock_up": {
-                        "lv10": 60,
-                        "rise": 3.3333333333333335
-                    },
-                    "dodge_up": null,
-                    "fitness_up": null,
-                    "isInterval": false,
-                    "interval": {
-                        "time": null,
-                        "healPercent": null,
-                        "fixed_heal": null
-                    }
-                },
-                "isAlly": false,
-                "ally": {
-                    "isIncludingYourself": false,
-                    "decreaseDamage": null,
-                    "fixed_heal": null,
-                    "healPercent": null,
-                    "ATK_up": null,
-                    "MAXHP_up": null,
-                    "resist_up": null,
-                    "attackSpan_up": null,
-                    "speed_up": null,
-                    "knock_up": null,
-                    "dodge_up": null,
-                    "fitness_up": null,
-                    "isInterval": false,
-                    "interval": {
-                        "time": null,
-                        "healPercent": null,
-                        "fixed_heal": null
-                    }
-                },
-                "isEnemy": false,
-                "enemy": {
-                    "ATK_down": null,
-                    "increaseDamage": null,
-                    "knock_down": null,
-                    "resist_down": null,
-                    "attackSpan_down": null,
-                    "speed_down": null
-                }
-            }
-        },
-        "tagEffect": [
-            {
-                "name": "中島敦",
-                "effectType": "攻撃力",
-                "unit": "上昇",
-                "isRatio": true,
-                "effectValue": 0.15
+            "Step3": {
+                "knockBack": 0.3,
+                "HP": 0.2
             },
-            {
-                "name": "泉鏡花",
-                "effectType": "抵抗力",
-                "unit": "上昇",
-                "isRatio": true,
-                "effectValue": 0.2
+            "Step2": {
+                "knockBack": 0.225,
+                "HP": 0.15
             },
-            {
-                "name": "夢野久作",
-                "effectType": "最大体力",
-                "unit": "上昇",
-                "isRatio": true,
-                "effectValue": 0.2
-            }
-        ]
+            "Step1": {
+                "HP": 0.1,
+                "knockBack": 0.15
+            },
+            "cardInfo": {},
+            "skill": {
+                "name": "雨ニモマケズ",
+                "pt": 300,
+                "range": 400,
+                "effect": {
+                    "time": 12,
+                    "target": 3,
+                    "isAttack": true,
+                    "attack": {
+                        "color": "白",
+                        "attackStyle": "ヰ能",
+                        "damagePercent": {
+                            "lv10": 400,
+                            "rise": 22.22222222222222
+                        },
+                        "fixed_damage": null
+                    },
+                    "isOnlyYourself": true,
+                    "onlyYourself": {
+                        "decreaseDamage": null,
+                        "fixed_heal": null,
+                        "healPercent": null,
+                        "ATK_up": null,
+                        "MAXHP_up": null,
+                        "resist_up": null,
+                        "attackSpan_up": null,
+                        "speed_up": null,
+                        "knock_up": {
+                            "lv10": 40,
+                            "rise": 2.2222222222222223
+                        },
+                        "dodge_up": null,
+                        "fitness_up": null,
+                        "isInterval": false,
+                        "interval": {
+                            "time": null,
+                            "healPercent": null,
+                            "fixed_heal": null
+                        }
+                    },
+                    "isAlly": false,
+                    "allies": {
+                        "isIncludingYourself": false,
+                        "decreaseDamage": null,
+                        "fixed_heal": null,
+                        "healPercent": null,
+                        "ATK_up": null,
+                        "MAXHP_up": null,
+                        "resist_up": null,
+                        "attackSpan_up": null,
+                        "speed_up": null,
+                        "knock_up": null,
+                        "dodge_up": null,
+                        "fitness_up": null,
+                        "isInterval": false,
+                        "interval": {
+                            "time": null,
+                            "healPercent": null,
+                            "fixed_heal": null
+                        }
+                    },
+                    "isEnemy": false,
+                    "enemy": {
+                        "ATK_down": null,
+                        "increaseDamage": null,
+                        "knock_down": null,
+                        "resist_down": null,
+                        "attackSpan_down": null,
+                        "speed_down": null
+                    }
+                }
+            },
+            "doubleSkill": {
+                "name": "雨ニモマケズ",
+                "pt": 600,
+                "range": 500,
+                "effect": {
+                    "time": 12,
+                    "target": "全て",
+                    "isAttack": true,
+                    "attack": {
+                        "color": "白",
+                        "attackStyle": "ヰ能",
+                        "damagePercent": {
+                            "lv10": 550,
+                            "rise": 30.555555555555557
+                        },
+                        "fixed_damage": null
+                    },
+                    "isOnlyYourself": true,
+                    "onlyYourself": {
+                        "decreaseDamage": null,
+                        "fixed_heal": null,
+                        "healPercent": null,
+                        "ATK_up": null,
+                        "MAXHP_up": null,
+                        "resist_up": null,
+                        "attackSpan_up": null,
+                        "speed_up": null,
+                        "knock_up": {
+                            "lv10": 60,
+                            "rise": 3.3333333333333335
+                        },
+                        "dodge_up": null,
+                        "fitness_up": null,
+                        "isInterval": false,
+                        "interval": {
+                            "time": null,
+                            "healPercent": null,
+                            "fixed_heal": null
+                        }
+                    },
+                    "isAlly": false,
+                    "ally": {
+                        "isIncludingYourself": false,
+                        "decreaseDamage": null,
+                        "fixed_heal": null,
+                        "healPercent": null,
+                        "ATK_up": null,
+                        "MAXHP_up": null,
+                        "resist_up": null,
+                        "attackSpan_up": null,
+                        "speed_up": null,
+                        "knock_up": null,
+                        "dodge_up": null,
+                        "fitness_up": null,
+                        "isInterval": false,
+                        "interval": {
+                            "time": null,
+                            "healPercent": null,
+                            "fixed_heal": null
+                        }
+                    },
+                    "isEnemy": false,
+                    "enemy": {
+                        "ATK_down": null,
+                        "increaseDamage": null,
+                        "knock_down": null,
+                        "resist_down": null,
+                        "attackSpan_down": null,
+                        "speed_down": null
+                    }
+                }
+            },
+            "tagEffect": [
+                {
+                    "name": "中島敦",
+                    "effectType": "攻撃力",
+                    "unit": "上昇",
+                    "isRatio": true,
+                    "effectValue": 0.15
+                },
+                {
+                    "name": "泉鏡花",
+                    "effectType": "抵抗力",
+                    "unit": "上昇",
+                    "isRatio": true,
+                    "effectValue": 0.2
+                },
+                {
+                    "name": "夢野久作",
+                    "effectType": "最大体力",
+                    "unit": "上昇",
+                    "isRatio": true,
+                    "effectValue": 0.2
+                }
+            ]
+        }
     },
     "中島敦_私服・春": {
         "rarity": "SR",
@@ -3219,7 +3305,6 @@
         "status": {
             "HP": 5600,
             "ATK": 8960,
-            "knockBack": 0,
             "resist": 40,
             "range": 450,
             "speed": 450,
@@ -3406,7 +3491,6 @@
         "status": {
             "HP": 0,
             "ATK": 0,
-            "knockBack": 0,
             "resist": 0,
             "range": 0,
             "speed": 0,
@@ -3579,7 +3663,6 @@
         "status": {
             "HP": 5600,
             "ATK": 8960,
-            "knockBack": 0,
             "resist": 40,
             "range": 250,
             "speed": 540,
@@ -3754,6 +3837,27 @@
     },
     "泉鏡花_学生服": {
         "rarity": "SR",
+        "position": "前衛",
+        "type": "防御型",
+        "status": {
+            "HP": 8960,
+            "ATK": 3639,
+            "resist": 70,
+            "range": 200,
+            "speed": 650,
+            "attckSpan": 2.1
+        },
+        "unique": {
+            "Step3": {
+                "resist": 10
+            },
+            "Step2": {
+                "resist": 8
+            },
+            "Step1": {
+                "resist": 5
+            }
+        },
         "cardInfo": {},
         "skill": {
             "name": "大人しくして",
@@ -3924,12 +4028,11 @@
     },
     "与謝野晶子_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "攻撃型",
         "status": {
             "HP": 7280,
             "ATK": 5824,
-            "knockBack": 0,
             "resist": 40,
             "range": 250,
             "speed": 590,
@@ -4104,20 +4207,23 @@
     },
     "国木田独歩_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "後衛",
+        "type": "支援型",
         "status": {
             "HP": 4200,
             "ATK": 3639,
-            "knockBack": 0,
             "resist": 30,
             "range": 725,
             "speed": 450,
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
+            "Step3": {
+                "HP": 0.2
+            },
+            "Step2": {
+                "HP": 0.15
+            },
             "Step1": {
                 "HP": 0.1
             }
@@ -4291,17 +4397,21 @@
         "status": {
             "HP": 5320,
             "ATK": 9240,
-            "knockBack": 0,
             "resist": 40,
             "range": 725,
             "speed": 500,
             "attckSpan": 2.8
         },
         "unique": {
-            "ATK": 0,
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15
+            },
+            "Step2": {
+                "decreaseDamage": 0.11
+            },
+            "Step1": {
+                "decreaseDamage": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -4461,21 +4571,26 @@
     },
     "宮沢賢治_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 3360,
+            "ATK": 1187,
+            "resist": 25,
+            "range": 450,
+            "speed": 450,
+            "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "HP": 600
+            },
+            "Step2": {
+                "HP": 450
+            },
+            "Step1": {
+                "HP": 300
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -4635,21 +4750,26 @@
     },
     "江戸川乱歩_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "後衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 4480,
+            "ATK": 3360,
+            "resist": 30,
+            "range": 725,
+            "speed": 360,
+            "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15
+            },
+            "Step2": {
+                "decreaseDamage": 0.11
+            },
+            "Step1": {
+                "decreaseDamage": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -4821,21 +4941,26 @@
     },
     "谷崎潤一郎_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 3600,
+            "ATK": 2000,
+            "resist": 30,
+            "range": 250,
+            "speed": 540,
+            "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "speed": 0.15
+            },
+            "Step2": {
+                "speed": 0.11
+            },
+            "Step1": {
+                "speed": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -5007,21 +5132,26 @@
     },
     "坂口安吾_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 4080,
+            "ATK": 3080,
+            "resist": 30,
+            "range": 500,
+            "speed": 450,
+            "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15
+            },
+            "Step2": {
+                "decreaseDamage": 0.11
+            },
+            "Step1": {
+                "decreaseDamage": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -5192,7 +5322,6 @@
         "status": {
             "HP": 4900,
             "ATK": 9600,
-            "knockBack": 0,
             "resist": 40,
             "range": 725,
             "speed": 400,
@@ -5372,7 +5501,6 @@
         "status": {
             "HP": 5600,
             "ATK": 8960,
-            "knockBack": 0,
             "resist": 40,
             "range": 450,
             "speed": 590,
@@ -5552,17 +5680,21 @@
         "status": {
             "HP": 6160,
             "ATK": 8400,
-            "knockBack": 0,
             "resist": 40,
             "range": 250,
             "speed": 510,
             "attckSpan": 2
         },
         "unique": {
-            "ATK": 0,
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "knockBack": 0.3
+            },
+            "Step2": {
+                "knockBack": 0.225
+            },
+            "Step1": {
+                "knockBack": 0.15
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -5722,6 +5854,27 @@
     },
     "森鴎外_仕事着": {
         "rarity": "SR",
+        "position": "後衛",
+        "type": "回復型",
+        "status": {
+            "HP": 3360,
+            "ATK": 2240,
+            "resist": 25,
+            "range": 725,
+            "speed": 420,
+            "attckSpan": 2
+        },
+        "unique": {
+            "Step3": {
+                "decreaseDamage": 0.15
+            },
+            "Step2": {
+                "decreaseDamage": 0.11
+            },
+            "Step1": {
+                "decreaseDamage": 0.07
+            }
+        },
         "cardInfo": {},
         "skill": {
             "name": "焦る事は無い",
@@ -5880,6 +6033,27 @@
     },
     "織田作之助_仕事着": {
         "rarity": "SR",
+        "position": "前衛",
+        "type": "防御型",
+        "status": {
+            "HP": 9240,
+            "ATK": 5320,
+            "resist": 70,
+            "range": 200,
+            "speed": 620,
+            "attckSpan": 1.9
+        },
+        "unique": {
+            "Step3": {
+                "resist": 0.2
+            },
+            "Step2": {
+                "resist": 0.15
+            },
+            "Step1": {
+                "resist": 0.1
+            }
+        },
         "cardInfo": {},
         "skill": {
             "name": "少し痛いぞ",
@@ -6030,25 +6204,46 @@
                     "speed_down": null
                 }
             }
-        }
+        },
+        "tagEffect": [
+            {
+                "name": "太宰治",
+                "effectType": "攻撃力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.1
+            },
+            {
+                "name": "坂口安吾",
+                "effectType": "移動速度",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.1
+            }
+        ]
     },
     "夢野久作_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 3360,
+            "ATK": 2240,
+            "resist": 25,
+            "range": 450,
+            "speed": 360,
+            "attckSpan": 2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "HP": 600
+            },
+            "Step2": {
+                "HP": 450
+            },
+            "Step1": {
+                "HP": 300
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -6208,21 +6403,26 @@
     },
     "ルーシー・M_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 4200,
+            "ATK": 3639,
+            "resist": 30,
+            "range": 350,
+            "speed": 500,
+            "attckSpan": 2.1
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "ATK": 0.15
+            },
+            "Step2": {
+                "ATK": 0.11
+            },
+            "Step1": {
+                "ATK": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -6394,21 +6594,26 @@
     },
     "ポオ_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "後衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 3920,
+            "ATK": 3920,
+            "resist": 30,
+            "range": 725,
+            "speed": 420,
+            "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "attackSpan": "0.2秒"
+            },
+            "Step2": {
+                "attackSpan": "0.15秒"
+            },
+            "Step1": {
+                "attackSpan": "0.1秒"
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -6576,21 +6781,26 @@
     },
     "大倉燁子_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 7839,
+            "ATK": 6300,
+            "resist": 70,
+            "range": 200,
+            "speed": 650,
+            "attckSpan": 1.5
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "speed": 0.15
+            },
+            "Step2": {
+                "speed": 0.11
+            },
+            "Step1": {
+                "speed": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -6761,7 +6971,6 @@
         "status": {
             "HP": 5600,
             "ATK": 8960,
-            "knockBack": 0,
             "resist": 40,
             "range": 250,
             "speed": 590,
@@ -6936,21 +7145,26 @@
     },
     "条野採菊_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 9100,
+            "ATK": 5460,
+            "resist": 70,
+            "range": 200,
+            "speed": 660,
+            "attckSpan": 2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "speed": 80
+            },
+            "Step2": {
+                "speed": 60
+            },
+            "Step1": {
+                "speed": 40
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -7122,21 +7336,26 @@
     },
     "澁澤龍彦_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 4480,
+            "ATK": 3360,
+            "resist": 30,
+            "range": 450,
+            "speed": 480,
+            "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "attackSpan": 0.1
+            },
+            "Step2": {
+                "attackSpan": 0.075
+            },
+            "Step1": {
+                "attackSpan": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -7302,21 +7521,26 @@
     },
     "シグマ_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "後衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 3360,
+            "ATK": 2240,
+            "resist": 25,
+            "range": 725,
+            "speed": 510,
+            "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "attackSpan": "0.2秒"
+            },
+            "Step2": {
+                "attackSpan": "0.15秒"
+            },
+            "Step1": {
+                "attackSpan": "0.1秒"
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -7476,21 +7700,26 @@
     },
     "フョードル・D_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 3360,
+            "ATK": 2240,
+            "resist": 25,
+            "range": 450,
+            "speed": 450,
+            "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15
+            },
+            "Step2": {
+                "decreaseDamage": 0.11
+            },
+            "Step1": {
+                "decreaseDamage": 0.07
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -7650,21 +7879,26 @@
     },
     "ニコライ・G_学生服": {
         "rarity": "SR",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 8960,
+            "ATK": 3639,
+            "resist": 70,
+            "range": 200,
+            "speed": 630,
+            "attckSpan": 2.3
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "knockBack": 0.3
+            },
+            "Step2": {
+                "knockBack": 0.225
+            },
+            "Step1": {
+                "knockBack": 0.15
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -7836,21 +8070,26 @@
     },
     "中島敦_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 2100,
+            "ATK": 910,
+            "resist": 25,
+            "range": 500,
+            "speed": 540,
+            "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.1
+            },
+            "Step2": {
+                "decreaseDamage": 0.075
+            },
+            "Step1": {
+                "decreaseDamage": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -7978,21 +8217,26 @@
     },
     "国木田独歩_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 5600,
+            "ATK": 3500,
+            "resist": 70,
+            "range": 200,
+            "speed": 600,
+            "attckSpan": 2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.1
+            },
+            "Step2": {
+                "decreaseDamage": 0.075
+            },
+            "Step1": {
+                "decreaseDamage": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -8151,21 +8395,26 @@
     },
     "宮沢賢治_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "前衛",
+        "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 5600,
+            "ATK": 3500,
+            "resist": 70,
+            "range": 200,
+            "speed": 600,
+            "attckSpan": 2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.1
+            },
+            "Step2": {
+                "decreaseDamage": 0.075
+            },
+            "Step1": {
+                "decreaseDamage": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -8324,21 +8573,26 @@
     },
     "太宰治_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 2800,
+            "ATK": 1365,
+            "resist": 30,
+            "range": 500,
+            "speed": 400,
+            "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "ATK": 0.1
+            },
+            "Step2": {
+                "ATK": 0.075
+            },
+            "Step1": {
+                "ATK": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -8497,21 +8751,26 @@
     },
     "江戸川乱歩_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "攻撃型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 5600,
+            "ATK": 3500,
+            "resist": 40,
+            "range": 300,
+            "speed": 500,
+            "attckSpan": 2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "ATK": 0.1
+            },
+            "Step2": {
+                "ATK": 0.075
+            },
+            "Step1": {
+                "ATK": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -8625,21 +8884,26 @@
     },
     "谷崎潤一郎_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "中衛",
+        "type": "攻撃型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 3500,
+            "ATK": 3640,
+            "resist": 40,
+            "range": 500,
+            "speed": 420,
+            "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "ATK": 0.1
+            },
+            "Step2": {
+                "ATK": 0.075
+            },
+            "Step1": {
+                "ATK": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -8791,21 +9055,26 @@
     },
     "与謝野晶子_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "後衛",
+        "type": "回復型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 2100,
+            "ATK": 742,
+            "resist": 25,
+            "range": 700,
+            "speed": 540,
+            "attckSpan": 3
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.1
+            },
+            "Step2": {
+                "decreaseDamage": 0.075
+            },
+            "Step1": {
+                "decreaseDamage": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -8958,21 +9227,26 @@
     },
     "泉鏡花_体操服": {
         "rarity": "R",
-        "position": "",
-        "type": "",
+        "position": "後衛",
+        "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
-            "knockBack": 0,
-            "resist": 0,
-            "range": 0,
-            "speed": 0,
-            "attckSpan": 0
+            "HP": 2800,
+            "ATK": 1113,
+            "resist": 30,
+            "range": 700,
+            "speed": 530,
+            "attckSpan": 3
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "ATK": 0.1
+            },
+            "Step2": {
+                "ATK": 0.075
+            },
+            "Step1": {
+                "ATK": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -9136,7 +9410,6 @@
         "status": {
             "HP": 2100,
             "ATK": 1400,
-            "knockBack": 0,
             "resist": 25,
             "range": 500,
             "speed": 540,
@@ -9239,7 +9512,6 @@
         "status": {
             "HP": 5600,
             "ATK": 3500,
-            "knockBack": 0,
             "resist": 70,
             "range": 200,
             "speed": 600,
@@ -9249,8 +9521,12 @@
             "Step3": {
                 "decreaseDamage": 0.1
             },
-            "Step2": {},
-            "Step1": {}
+            "Step2": {
+                "decreaseDamage": 0.075
+            },
+            "Step1": {
+                "decreaseDamage": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
@@ -9336,7 +9612,6 @@
         "status": {
             "HP": 3500,
             "ATK": 5600,
-            "knockBack": 0,
             "resist": 40,
             "range": 700,
             "speed": 560,
@@ -9344,10 +9619,14 @@
         },
         "unique": {
             "Step3": {
-                "decreaseDamage": 0.1
+                "ATK": 0.1
             },
-            "Step2": {},
-            "Step1": {}
+            "Step2": {
+                "ATK": 0.075
+            },
+            "Step1": {
+                "ATK": 0.05
+            }
         },
         "cardInfo": {},
         "skill": {
