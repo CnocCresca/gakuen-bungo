@@ -3,7 +3,7 @@ const skillTextData = {
     "次のキャストで決めるぞ。": {
         name: "次のキャストで決めるぞ。",
         text: () =>
-            `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性物理ダメージを、8秒間、敵の攻撃力を${ATK_down}%減少、攻撃頻度を${attackSpan_down}%延長させる\n8秒間、自身の抵抗力を${resist_down}%上昇させる`,
+            `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性物理ダメージを、8秒間、敵の攻撃力を${ATK_down}%減少、攻撃頻度を${attackSpan_down}%延長させる\n8秒間、自身の抵抗力を${resist_up}%上昇させる`,
         pt: 220, //skillポイント
         range: 550, //範囲
     },
