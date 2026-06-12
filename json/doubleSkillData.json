@@ -1,4 +1,62 @@
 {
+    "釣り上げてみせる。": {
+        "name": "釣り上げてみせる。",
+        "pt": 440,
+        "range": 700,
+        "effect": {
+            "time": 12,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "蒼",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 1200,
+                    "rise": 66.66666666666667
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": {
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
+                },
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isAlly": false,
+            "isEnemy": true,
+            "enemy": {
+                "ATK_down": {
+                    "lv10": 25,
+                    "rise": 1.4444444444444444
+                },
+                "increaseDamage": null,
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": {
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
+                },
+                "speed_down": null
+            }
+        }
+    },
     "掃除の仕上げだ": {
         "name": "掃除の仕上げだ",
         "pt": 520,

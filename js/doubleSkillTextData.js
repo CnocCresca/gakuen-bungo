@@ -1,4 +1,11 @@
 const doubleSkillTextData = {
+    "釣り上げてみせる。": {
+        text: () =>
+            `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性物理ダメージを、12秒間、敵の攻撃力を${ATK_down}%減少、攻撃頻度を${attackSpan_down}%延長させる\n12秒間、自身の抵抗力を${resist_down}%上昇させる`,
+        name: "釣り上げてみせる。",
+        pt: 440, //skillポイント
+        range: 700, //範囲
+    },
     掃除の仕上げだ: {
         name: "掃除の仕上げだ",
         text: () => `範囲内の6体の敵に対し、通常攻撃の${damagePercent}倍の白属性物理ダメージを与え、10秒間、敵の命中を${dodge_down}%減少させる`, //dodge_down 初出

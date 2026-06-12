@@ -1,5 +1,12 @@
 const skillTextData = {
     /* SSR */
+    "次のキャストで決めるぞ。": {
+        name: "次のキャストで決めるぞ。",
+        text: () =>
+            `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性物理ダメージを、8秒間、敵の攻撃力を${ATK_down}%減少、攻撃頻度を${attackSpan_down}%延長させる\n8秒間、自身の抵抗力を${resist_down}%上昇させる`,
+        pt: 220, //skillポイント
+        range: 550, //範囲
+    },
     綺麗にしてあげるよ: {
         name: "綺麗にしてあげるよ",
         text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の白属性物理ダメージを与え、5秒間、敵の命中を${dodge_down}%減少させる`, //dodge_down 初出
@@ -9,8 +16,8 @@ const skillTextData = {
     "ドラコニア・ルーム": {
         name: "ドラコニア・ルーム",
         text: () => `範囲内の 2体の敵に対し、通常攻撃の${damagePercent}倍の翠属性ヰ能ヰダメージを与え、 4秒間、敵のヰ能攻撃を発動出来なくさせる`,
-        pt: null, //skillポイント
-        range: null, //範囲
+        pt: 300, //skillポイント
+        range: 900, //範囲
     },
     残念ですがお別れのようです: {
         name: "残念ですがお別れのようです",

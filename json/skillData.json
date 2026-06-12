@@ -1,4 +1,62 @@
 {
+    "次のキャストで決めるぞ。": {
+        "name": "次のキャストで決めるぞ。",
+        "pt": 220,
+        "range": 550,
+        "effect": {
+            "time": 8,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "蒼",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 900,
+                    "rise": 50
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isAlly": false,
+            "isEnemy": true,
+            "enemy": {
+                "ATK_down": {
+                    "lv10": 15,
+                    "rise": 0.8888888888888888
+                },
+                "increaseDamage": null,
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "speed_down": null
+            }
+        }
+    },
     "綺麗にしてあげるよ": {
         "name": "綺麗にしてあげるよ",
         "pt": 260,
@@ -74,8 +132,8 @@
     },
     "ドラコニア・ルーム": {
         "name": "ドラコニア・ルーム",
-        "pt": null,
-        "range": null,
+        "pt": 300,
+        "range": 900,
         "effect": {
             "time": 4,
             "target": 2,
