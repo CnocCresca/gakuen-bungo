@@ -1,6 +1,7 @@
 {
     "筋書破りの日曜日": {
         "rarity": "SSR",
+        "color": "蒼",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -167,6 +168,7 @@
     },
     "陰の輪郭、垣間見て": {
         "rarity": "SSR",
+        "color": "白",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -363,6 +365,7 @@
     },
     "馬房にて": {
         "rarity": "SSR",
+        "color": "翠",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -551,6 +554,7 @@
     },
     "消閑のしらべ": {
         "rarity": "SSR",
+        "color": "黒",
         "position": "後衛",
         "type": "支援型",
         "status": {
@@ -731,6 +735,7 @@
     },
     "マイ・オピニオン": {
         "rarity": "SSR",
+        "color": "白",
         "position": "後衛",
         "type": "支援型",
         "status": {
@@ -913,6 +918,7 @@
     },
     "無頼漢": {
         "rarity": "SSR",
+        "color": "蒼",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -1083,6 +1089,7 @@
     },
     "題目のない昼下り": {
         "rarity": "SSR",
+        "color": "白",
         "position": "中衛",
         "type": "支援型",
         "status": {
@@ -1253,6 +1260,7 @@
     },
     "潤いを求めて": {
         "rarity": "SSR",
+        "color": "紅",
         "position": "中衛",
         "type": "回復型",
         "status": {
@@ -1423,6 +1431,7 @@
     },
     "迎えに来てよ": {
         "rarity": "SSR",
+        "color": "紅",
         "position": "後衛",
         "type": "支援型",
         "status": {
@@ -1605,6 +1614,7 @@
     },
     "慌ただしいお使い": {
         "rarity": "SSR",
+        "color": "白",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -1780,6 +1790,7 @@
     },
     "静かな午餉": {
         "rarity": "SSR",
+        "color": "黒",
         "position": "中衛",
         "type": "攻撃型",
         "status": {
@@ -1949,6 +1960,7 @@
     },
     "武装生徒会の新人": {
         "rarity": "SSR",
+        "color": "紅",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -2131,6 +2143,7 @@
     },
     "舞い散る桜吹雪": {
         "rarity": "SSR",
+        "color": "翠",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -2321,6 +2334,7 @@
     },
     "多忙な副会長": {
         "rarity": "SSR",
+        "color": "紅",
         "position": "後衛",
         "type": "攻撃型",
         "status": {
@@ -2491,6 +2505,7 @@
     },
     "生徒会長の心構え": {
         "rarity": "SSR",
+        "color": "翠",
         "position": "後衛",
         "type": " 支援型",
         "status": {
@@ -2686,6 +2701,7 @@
     },
     "素敵な写真": {
         "rarity": "SSR",
+        "color": "紅",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -2887,6 +2903,7 @@
     },
     "治療の時間": {
         "rarity": "SSR",
+        "color": "蒼",
         "position": "中衛",
         "type": "回復型",
         "status": {
@@ -3079,6 +3096,7 @@
     },
     "放課後の寄り道": {
         "rarity": "SSR",
+        "color": "蒼",
         "position": "中衛",
         "type": "攻撃型",
         "status": {
@@ -3091,15 +3109,15 @@
         },
         "unique": {
             "Step3": {
-                "spped": 80,
+                "speed": 80,
                 "ATK": 0.15
             },
             "Step2": {
-                "spped": 60,
+                "speed": 60,
                 "ATK": 0.11
             },
             "Step1": {
-                "spped": 40,
+                "speed": 40,
                 "ATK": 0.07
             }
         },
@@ -3271,6 +3289,7 @@
     },
     "一緒に野菜収穫": {
         "rarity": "SSR",
+        "color": "白",
         "position": "前衛",
         "type": "攻撃",
         "status": {
@@ -3466,6 +3485,7 @@
     },
     "中島敦_私服・春": {
         "rarity": "SR",
+        "color": "蒼",
         "position": "中衛",
         "type": "攻撃型",
         "status": {
@@ -3652,6 +3672,7 @@
     "うずまき": {
         "rarity": "SR",
         "cardInfo": {},
+        "color": "翠",
         "position": "",
         "type": "",
         "status": {
@@ -3824,6 +3845,7 @@
     },
     "中島敦_学生服": {
         "rarity": "SR",
+        "color": "翠",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -4003,6 +4025,7 @@
     },
     "泉鏡花_学生服": {
         "rarity": "SR",
+        "color": "蒼",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -4194,6 +4217,7 @@
     },
     "与謝野晶子_学生服": {
         "rarity": "SR",
+        "color": "紅",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -4373,6 +4397,7 @@
     },
     "国木田独歩_学生服": {
         "rarity": "SR",
+        "color": "翠",
         "position": "後衛",
         "type": "支援型",
         "status": {
@@ -4558,6 +4583,7 @@
     },
     "太宰治_学生服": {
         "rarity": "SR",
+        "color": "黒",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -4737,6 +4763,7 @@
     },
     "宮沢賢治_学生服": {
         "rarity": "SR",
+        "color": "紅",
         "position": "中衛",
         "type": "回復型",
         "status": {
@@ -4916,6 +4943,7 @@
     },
     "江戸川乱歩_学生服": {
         "rarity": "SR",
+        "color": "白",
         "position": "後衛",
         "type": "支援型",
         "status": {
@@ -5107,6 +5135,7 @@
     },
     "谷崎潤一郎_学生服": {
         "rarity": "SR",
+        "color": "蒼",
         "position": "前衛",
         "type": "支援型",
         "status": {
@@ -5298,6 +5327,7 @@
     },
     "坂口安吾_学生服": {
         "rarity": "SR",
+        "color": "白",
         "position": "中衛",
         "type": "支援型",
         "status": {
@@ -5483,6 +5513,7 @@
     },
     "芥川龍之介_学生服": {
         "rarity": "SR",
+        "color": "翠",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -5662,6 +5693,7 @@
     },
     "中原中也_学生服": {
         "rarity": "SR",
+        "color": "紅",
         "position": "中衛",
         "type": "攻撃型",
         "status": {
@@ -5841,6 +5873,7 @@
     },
     "福沢諭吉_仕事着": {
         "rarity": "SR",
+        "color": "白",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -6020,6 +6053,7 @@
     },
     "森鴎外_仕事着": {
         "rarity": "SR",
+        "color": "黒",
         "position": "後衛",
         "type": "回復型",
         "status": {
@@ -6199,6 +6233,7 @@
     },
     "織田作之助_仕事着": {
         "rarity": "SR",
+        "color": "紅",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -6390,6 +6425,7 @@
     },
     "夢野久作_学生服": {
         "rarity": "SR",
+        "color": "翠",
         "position": "中衛",
         "type": "回復型",
         "status": {
@@ -6569,6 +6605,7 @@
     },
     "ルーシー・M_学生服": {
         "rarity": "SR",
+        "color": "蒼",
         "position": "中衛",
         "type": "支援型",
         "status": {
@@ -6760,6 +6797,7 @@
     },
     "ポオ_学生服": {
         "rarity": "SR",
+        "color": "蒼",
         "position": "後衛",
         "type": "支援型",
         "status": {
@@ -6947,6 +6985,7 @@
     },
     "大倉燁子_学生服": {
         "rarity": "SR",
+        "color": "紅",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -7132,6 +7171,7 @@
     },
     "末広鐵腸_学生服": {
         "rarity": "SR",
+        "color": "蒼",
         "position": "前衛",
         "type": "攻撃型",
         "status": {
@@ -7311,6 +7351,7 @@
     },
     "条野採菊_学生服": {
         "rarity": "SR",
+        "color": "黒",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -7502,6 +7543,7 @@
     },
     "澁澤龍彦_学生服": {
         "rarity": "SR",
+        "color": "紅",
         "position": "中衛",
         "type": "支援型",
         "status": {
@@ -7687,6 +7729,7 @@
     },
     "シグマ_学生服": {
         "rarity": "SR",
+        "color": "蒼",
         "position": "後衛",
         "type": "回復型",
         "status": {
@@ -7866,6 +7909,7 @@
     },
     "フョードル・D_学生服": {
         "rarity": "SR",
+        "color": "白",
         "position": "中衛",
         "type": "回復型",
         "status": {
@@ -8045,6 +8089,7 @@
     },
     "ニコライ・G_学生服": {
         "rarity": "SR",
+        "color": "翠",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -8236,6 +8281,7 @@
     },
     "中島敦_体操服": {
         "rarity": "R",
+        "color": "紅",
         "position": "中衛",
         "type": "回復型",
         "status": {
@@ -8383,6 +8429,7 @@
     },
     "国木田独歩_体操服": {
         "rarity": "R",
+        "color": "白",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -8561,6 +8608,7 @@
     },
     "宮沢賢治_体操服": {
         "rarity": "R",
+        "color": "蒼",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -8739,6 +8787,7 @@
     },
     "太宰治_体操服": {
         "rarity": "R",
+        "color": "紅",
         "position": "中衛",
         "type": "支援型",
         "status": {
@@ -8917,6 +8966,7 @@
     },
     "江戸川乱歩_体操服": {
         "rarity": "R",
+        "color": "蒼",
         "position": "中衛",
         "type": "攻撃型",
         "status": {
@@ -9050,6 +9100,7 @@
     },
     "谷崎潤一郎_体操服": {
         "rarity": "R",
+        "color": "翠",
         "position": "中衛",
         "type": "攻撃型",
         "status": {
@@ -9221,6 +9272,7 @@
     },
     "与謝野晶子_体操服": {
         "rarity": "R",
+        "color": "翠",
         "position": "後衛",
         "type": "回復型",
         "status": {
@@ -9393,6 +9445,7 @@
     },
     "泉鏡花_体操服": {
         "rarity": "R",
+        "color": "黒",
         "position": "後衛",
         "type": "支援型",
         "status": {
@@ -9571,6 +9624,7 @@
     },
     "芥川龍之介_体操服": {
         "rarity": "R",
+        "color": "蒼",
         "position": "中衛",
         "type": "回復型",
         "status": {
@@ -9673,6 +9727,7 @@
     },
     "中原中也_体操服": {
         "rarity": "R",
+        "color": "黒",
         "position": "前衛",
         "type": "防御型",
         "status": {
@@ -9773,6 +9828,7 @@
     },
     "夢野久作_体操服": {
         "rarity": "R",
+        "color": "白",
         "position": "後衛",
         "type": "攻撃型",
         "status": {
