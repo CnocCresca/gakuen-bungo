@@ -319,7 +319,7 @@
             },
             "isOnlyYourself": false,
             "isAlly": false,
-            "Ally": {
+            "ally": {
                 "isIncludingYourself": null,
                 "decreaseDamage": null,
                 "fixed_heal": null,
