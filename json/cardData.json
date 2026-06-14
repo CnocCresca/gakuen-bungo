@@ -41,7 +41,7 @@
                         "lv10": 900,
                         "rise": 50
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -99,7 +99,7 @@
                         "lv10": 1200,
                         "rise": 66.66666666666667
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -208,7 +208,7 @@
                         "lv10": 700,
                         "rise": 38.888888888888886
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -281,7 +281,7 @@
                         "lv10": 1200,
                         "rise": 66.66666666666667
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -405,7 +405,7 @@
                         "lv10": 800,
                         "rise": 44.44444444444444
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -474,7 +474,7 @@
                         "lv10": 1000,
                         "rise": 55.55555555555556
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -963,7 +963,7 @@
                 },
                 "isOnlyYourself": false,
                 "isAlly": false,
-                "Ally": {
+                "ally": {
                     "isIncludingYourself": null,
                     "decreaseDamage": null,
                     "fixed_heal": null,
@@ -3356,7 +3356,7 @@
                     }
                 },
                 "isAlly": false,
-                "allies": {
+                "ally": {
                     "isIncludingYourself": false,
                     "decreaseDamage": null,
                     "fixed_heal": null,
@@ -3523,7 +3523,7 @@
                         "lv10": 600,
                         "rise": 33.333333333333336
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -3700,7 +3700,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -3883,7 +3883,7 @@
                         "lv10": 750,
                         "rise": 41.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -3952,7 +3952,7 @@
                         "lv10": 1500,
                         "rise": 83.33333333333333
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4063,7 +4063,7 @@
                         "lv10": 400,
                         "rise": 22.22222222222222
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -4138,7 +4138,7 @@
                         "lv10": 660,
                         "rise": 36.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -4255,7 +4255,7 @@
                         "lv10": 370,
                         "rise": 20.555555555555557
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4324,7 +4324,7 @@
                         "lv10": 740,
                         "rise": 41.111111111111114
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4435,7 +4435,7 @@
                         "lv10": 680,
                         "rise": 37.77777777777778
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4507,7 +4507,7 @@
                         "lv10": 720,
                         "rise": 40
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4621,7 +4621,7 @@
                         "lv10": 750,
                         "rise": 41.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4690,7 +4690,7 @@
                         "lv10": 800,
                         "rise": 44.44444444444444
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4798,7 +4798,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4867,7 +4867,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -4978,7 +4978,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5053,7 +5053,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5170,7 +5170,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5245,7 +5245,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5365,7 +5365,7 @@
                         "lv10": 520,
                         "rise": 28.88888888888889
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5437,7 +5437,7 @@
                         "lv10": 640,
                         "rise": 35.55555555555556
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5551,7 +5551,7 @@
                         "lv10": 490,
                         "rise": 27.22222222222222
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5620,7 +5620,7 @@
                         "lv10": 750,
                         "rise": 41.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5731,7 +5731,7 @@
                         "lv10": 750,
                         "rise": 41.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5800,7 +5800,7 @@
                         "lv10": 1500,
                         "rise": 83.33333333333333
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5911,7 +5911,7 @@
                         "lv10": 300,
                         "rise": 16.666666666666668
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -5980,7 +5980,7 @@
                         "lv10": 600,
                         "rise": 33.333333333333336
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6088,7 +6088,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6157,7 +6157,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6271,7 +6271,7 @@
                         "lv10": 530,
                         "rise": 29.444444444444443
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -6346,7 +6346,7 @@
                         "lv10": 1060,
                         "rise": 58.888888888888886
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -6460,7 +6460,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6529,7 +6529,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6643,7 +6643,7 @@
                         "lv10": 500,
                         "rise": 27.77777777777778
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6718,7 +6718,7 @@
                         "lv10": 750,
                         "rise": 41.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6832,7 +6832,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -6905,7 +6905,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -7023,7 +7023,7 @@
                         "lv10": 560,
                         "rise": 31.11111111111111
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -7095,7 +7095,7 @@
                         "lv10": 1120,
                         "rise": 62.22222222222222
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -7209,7 +7209,7 @@
                         "lv10": 750,
                         "rise": 41.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -7278,7 +7278,7 @@
                         "lv10": 1500,
                         "rise": 83.33333333333333
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -7389,7 +7389,7 @@
                         "lv10": 350,
                         "rise": 19.444444444444443
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -7464,7 +7464,7 @@
                         "lv10": 560,
                         "rise": 31.11111111111111
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -7581,7 +7581,7 @@
                         "lv10": 350,
                         "rise": 19.444444444444443
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -7653,7 +7653,7 @@
                         "lv10": 580,
                         "rise": 32.22222222222222
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -7764,7 +7764,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -7833,7 +7833,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -7944,7 +7944,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8013,7 +8013,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8127,7 +8127,7 @@
                         "lv10": 370,
                         "rise": 20.555555555555557
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -8202,7 +8202,7 @@
                         "lv10": 620,
                         "rise": 34.44444444444444
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": true,
                 "onlyYourself": {
@@ -8360,7 +8360,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8467,7 +8467,7 @@
                         "lv10": 480,
                         "rise": 26.666666666666668
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8539,7 +8539,7 @@
                         "lv10": 960,
                         "rise": 53.333333333333336
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8646,7 +8646,7 @@
                         "lv10": 500,
                         "rise": 27.77777777777778
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8718,7 +8718,7 @@
                         "lv10": 1000,
                         "rise": 55.55555555555556
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8825,7 +8825,7 @@
                         "lv10": 300,
                         "rise": 22.22222222222222
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -8897,7 +8897,7 @@
                         "lv10": 600,
                         "rise": 33.333333333333336
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -9004,7 +9004,7 @@
                         "lv10": 460,
                         "rise": 25.555555555555557
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "isAlly": false,
@@ -9034,7 +9034,7 @@
                         "lv10": 560,
                         "rise": 31.11111111111111
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -9206,7 +9206,7 @@
                         "lv10": 960,
                         "rise": 53.333333333333336
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -9307,7 +9307,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -9376,7 +9376,7 @@
                     "color": null,
                     "attackStyle": "ヰ能",
                     "damagePercent": null,
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -9483,7 +9483,7 @@
                         "lv10": 300,
                         "rise": 16.666666666666668
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -9555,7 +9555,7 @@
                         "lv10": 600,
                         "rise": 33.333333333333336
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "onlyYourself": {
@@ -9765,7 +9765,7 @@
                         "lv10": 500,
                         "rise": 27.77777777777778
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "isAlly": false,
@@ -9798,7 +9798,7 @@
                         "lv10": 750,
                         "rise": 41.666666666666664
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "isAlly": false,
@@ -9866,7 +9866,7 @@
                         "lv10": 700,
                         "rise": 38.888888888888886
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "isAlly": false,
@@ -9888,7 +9888,7 @@
                         "lv10": 1000,
                         "rise": 55.55555555555556
                     },
-                    "fix_damage": null
+                    "fixed_damage": null
                 },
                 "isOnlyYourself": false,
                 "isAlly": false,

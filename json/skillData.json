@@ -520,7 +520,8 @@
                 "damagePercent": null,
                 "fixed_damage": null
             },
-            "isOnlyYourself": {
+            "isOnlyYourself": true,
+            "OnlyYourself": {
                 "isIncludingYourself": true,
                 "decreaseDamage": null,
                 "fixed_heal": null,
@@ -906,8 +907,8 @@
                 "knock_up": null,
                 "dodge_up": null,
                 "fitness_up": {
-                    "lv10": 2,
-                    "rise": 0.1111111111111111
+                    "lv10": 1.5,
+                    "rise": 0.05555555555555555
                 },
                 "isInterval": false,
                 "interval": {
