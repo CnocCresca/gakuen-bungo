@@ -1655,7 +1655,7 @@
                     "fixed_damage": null
                 },
                 "isOnlyYourself": true,
-                "OnlyYourself": {
+                "onlyYourself": {
                     "isIncludingYourself": true,
                     "decreaseDamage": null,
                     "fixed_heal": null,
@@ -3357,7 +3357,7 @@
                     }
                 },
                 "isAlly": false,
-                "allies": {
+                "ally": {
                     "isIncludingYourself": false,
                     "decreaseDamage": null,
                     "fixed_heal": null,
