@@ -1093,8 +1093,8 @@
         "position": "中衛",
         "type": "支援型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
+            "HP": 5220,
+            "ATK": 5220,
             "resist": 30,
             "range": 400,
             "speed": 560,
@@ -1618,8 +1618,8 @@
         "position": "前衛",
         "type": "防御型",
         "status": {
-            "HP": 0,
-            "ATK": 0,
+            "HP": 12325,
+            "ATK": 6525,
             "resist": 70,
             "range": 200,
             "speed": 620,
