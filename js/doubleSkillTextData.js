@@ -1,4 +1,14 @@
 const doubleSkillTextData = {
+    雪中梅: {
+        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の翠属性ヰ能ダメージを、12秒間、自身の回避を${accuracy_up}%上昇させる`,
+        pt: 320,
+        range: 900,
+    },
+    千金の涙: {
+        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の翠属性ヰ能ダメージを、12秒間、自身の回避を${knock_up}%上昇させる`,
+        pt: 560,
+        range: 500,
+    },
     "釣り上げてみせる。": {
         text: () =>
             `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性物理ダメージを、12秒間、敵の攻撃力を${ATK_down}%減少、攻撃頻度を${attackSpan_down}%延長させる\n12秒間、自身の抵抗力を${resist_up}%上昇させる`,

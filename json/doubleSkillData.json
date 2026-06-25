@@ -1014,7 +1014,7 @@
                 },
                 "fixed_damage": null
             },
-            "isOnlyYourself": false,
+            "isOnlyYourself": true,
             "onlyYourself": {
                 "decreaseDamage": null,
                 "fixed_heal": null,
@@ -1027,6 +1027,7 @@
                 "knock_up": null,
                 "dodge_up": null,
                 "fitness_up": null,
+                "damageNullification": "ヰ能",
                 "isInterval": false,
                 "interval": {
                     "time": null,
