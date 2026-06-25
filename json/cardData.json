@@ -275,7 +275,7 @@
             }
         },
         "doubleSkill": {
-            "name": "千金の涙:",
+            "name": "千金の涙",
             "pt": 560,
             "range": 500,
             "effect": {
