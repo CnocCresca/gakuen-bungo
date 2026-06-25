@@ -1,4 +1,150 @@
 {
+    "雪中梅": {
+        "name": "雪中梅",
+        "pt": 160,
+        "range": 600,
+        "effect": {
+            "time": 8,
+            "target": 3,
+            "isAttack": true,
+            "attack": {
+                "color": "蒼",
+                "attackStyle": "ヰ能",
+                "damagePercent": {
+                    "lv10": 500,
+                    "rise": 27.77777777777778
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "accuracy_up": {
+                    "lv10": 50,
+                    "rise": 2.7777777777777777
+                },
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isAlly": false,
+            "ally": {
+                "isIncludingYourself": false,
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isEnemy": false,
+            "enemy": {
+                "ATK_down": null,
+                "increaseDamage": null,
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": null,
+                "speed_down": null
+            }
+        }
+    },
+    "千金の涙": {
+        "name": "千金の涙:",
+        "pt": 280,
+        "range": 400,
+        "effect": {
+            "time": 8,
+            "target": 3,
+            "isAttack": true,
+            "attack": {
+                "color": "翠",
+                "attackStyle": "ヰ能",
+                "damagePercent": {
+                    "lv10": 750,
+                    "rise": 41.666666666666664
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": {
+                    "lv10": 50,
+                    "rise": 2.7777777777777777
+                },
+                "accuracy_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isAlly": false,
+            "ally": {
+                "isIncludingYourself": false,
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isEnemy": false,
+            "enemy": {
+                "ATK_down": null,
+                "increaseDamage": null,
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": null,
+                "speed_down": null
+            }
+        }
+    },
     "次のキャストで決めるぞ。": {
         "name": "次のキャストで決めるぞ。",
         "pt": 220,
