@@ -1,12 +1,12 @@
 const skillTextData = {
     /* SSR */
     雪中梅: {
-        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の翠属性ヰ能ダメージを、8秒間、自身の回避を${accuracy_up}%上昇させる`,
+        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、8秒間、自身の回避を${accuracy_up}%上昇させる`,
         pt: 160,
         range: 600,
     },
     千金の涙: {
-        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の翠属性ヰ能ダメージを、8秒間、自身の回避を${knock_up}%上昇させる`,
+        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の翠属性ヰ能ダメージを、8秒間、自身の回避を${dodge_up}%上昇させる`,
         pt: 280,
         range: 400,
     },
