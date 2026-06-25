@@ -1,10 +1,12 @@
 const doubleSkillTextData = {
     雪中梅: {
+        name: "雪中梅",
         text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、12秒間、自身の回避を${accuracy_up}%上昇させる`,
         pt: 320,
         range: 900,
     },
     千金の涙: {
+        name: "千金の涙",
         text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の翠属性ヰ能ダメージを、12秒間、自身の回避を${dodge_up}%上昇させる`,
         pt: 560,
         range: 500,
