@@ -1,6 +1,50 @@
 {
-    "尋ね人の捜索": [],
-    "迷い人の葛藤": [],
+    "尋ね人の捜索": [
+        {
+            "name": "福沢諭吉",
+            "effectType": "命中",
+            "unit": "上昇",
+            "isRatio": true,
+            "effectValue": 0.1
+        },
+        {
+            "name": "条野採菊",
+            "effectType": "攻撃頻度",
+            "unit": "短縮",
+            "isRatio": true,
+            "effectValue": 0.1
+        },
+        {
+            "name": "大倉燁子",
+            "effectType": "攻撃力",
+            "unit": "上昇",
+            "isRatio": true,
+            "effectValue": 0.15
+        }
+    ],
+    "迷い人の葛藤": [
+        {
+            "name": "福沢諭吉",
+            "effectType": "回避",
+            "unit": "上昇",
+            "isRatio": true,
+            "effectValue": 0.1
+        },
+        {
+            "name": "大倉燁子",
+            "effectType": "抵抗力",
+            "unit": "短縮",
+            "isRatio": true,
+            "effectValue": 0.2
+        },
+        {
+            "name": "末広鐵腸",
+            "effectType": "攻撃力",
+            "unit": "上昇",
+            "isRatio": true,
+            "effectValue": 0.15
+        }
+    ],
     "筋書破りの日曜日": [
         {
             "name": "谷崎潤一郎",

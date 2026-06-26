@@ -224,5 +224,40 @@
                 }
             }
         }
+    },
+    "江戸川乱歩_翠ノ壱": {
+        "status": {
+            "color": "翠",
+            "HP": 4000,
+            "ATK": 4000
+        },
+        "effct": {
+            "isOnlyYourself": false,
+            "onlyYourself": {
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isSystem": true,
+            "system": {
+                "fixed_battle_pt": {
+                    "lv10": 1000,
+                    "rise": 55.55555555555556
+                }
+            }
+        }
     }
 }
