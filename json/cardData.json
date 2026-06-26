@@ -7620,7 +7620,7 @@
             "range": 400,
             "effect": {
                 "time": null,
-                "target": null,
+                "target": 1,
                 "isAttack": true,
                 "attack": {
                     "color": "蒼",
