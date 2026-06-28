@@ -111,7 +111,7 @@
                     "color": "蒼",
                     "attackStyle": "ヰ能",
                     "damagePercent": {
-                        "lv10": 500,
+                        "lv10": 750,
                         "rise": 41.666666666666664
                     },
                     "fix_damage": null
