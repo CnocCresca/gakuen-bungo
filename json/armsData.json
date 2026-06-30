@@ -266,7 +266,7 @@
             "HP": 5600,
             "ATK": 2400
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "fixed_heal": null,
@@ -301,7 +301,7 @@
             "HP": 2400,
             "ATK": 5600
         },
-        "effct": {
+        "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
                 "decreaseDamage": null,
