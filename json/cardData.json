@@ -1321,7 +1321,7 @@
             "resist": 45,
             "range": 250,
             "speed": 550,
-            "attckSpan": 20
+            "attckSpan": 2
         },
         "unique": {
             "Step3": {

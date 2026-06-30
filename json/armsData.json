@@ -259,5 +259,72 @@
                 }
             }
         }
+    },
+    "条野採菊_翠ノ壱": {
+        "status": {
+            "color": "翠",
+            "HP": 5600,
+            "ATK": 2400
+        },
+        "effct": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "fixed_heal": null,
+                "healPercent": null,
+                "decreaseDamage": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            }
+        }
+    },
+    "末広鐵腸_蒼ノ壱": {
+        "status": {
+            "color": "蒼",
+            "HP": 2400,
+            "ATK": 5600
+        },
+        "effct": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": {
+                    "lv10": 35,
+                    "rise": 2
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            }
+        }
     }
 }
