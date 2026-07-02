@@ -2040,7 +2040,7 @@
             "range": 0,
             "effect": {
                 "time": 8,
-                "target": 0,
+                "target": null,
                 "isAttack": false,
                 "attack": {
                     "color": null,
@@ -2093,7 +2093,7 @@
             "range": 600,
             "effect": {
                 "time": 12,
-                "target": 3,
+                "target": 1,
                 "isAttack": true,
                 "attack": {
                     "color": "白",
@@ -2903,7 +2903,7 @@
         "rarity": "SSR",
         "color": "翠",
         "position": "後衛",
-        "type": " 支援型",
+        "type": "支援型",
         "status": {
             "HP": 5800,
             "ATK": 2305,
@@ -3687,7 +3687,7 @@
         "rarity": "SSR",
         "color": "白",
         "position": "前衛",
-        "type": "攻撃",
+        "type": "攻撃型",
         "status": {
             "HP": 7250,
             "ATK": 6148,
@@ -9211,8 +9211,8 @@
             "pt": 250,
             "range": 550,
             "effect": {
-                "time": 2,
-                "target": 8,
+                "time": 8,
+                "target": 2,
                 "isAttack": true,
                 "attack": {
                     "color": null,

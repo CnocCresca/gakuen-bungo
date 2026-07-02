@@ -658,7 +658,7 @@
         "range": 0,
         "effect": {
             "time": 8,
-            "target": 0,
+            "target": null,
             "isAttack": false,
             "attack": {
                 "color": null,
@@ -3338,8 +3338,8 @@
         "pt": 250,
         "range": 550,
         "effect": {
-            "time": 2,
-            "target": 8,
+            "time": 8,
+            "target": 2,
             "isAttack": true,
             "attack": {
                 "color": null,

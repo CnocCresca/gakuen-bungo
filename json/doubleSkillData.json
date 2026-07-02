@@ -792,7 +792,7 @@
         "range": 600,
         "effect": {
             "time": 12,
-            "target": 3,
+            "target": 1,
             "isAttack": true,
             "attack": {
                 "color": "白",
