@@ -2683,12 +2683,12 @@
                 "isIncludingYourself": true,
                 "decreaseDamage": null,
                 "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": {
+                "healPercent": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
+                "ATK_up": null,
+                "MAXHP_up": null,
                 "resist_up": null,
                 "attackSpan_up": null,
                 "speed_up": null,
