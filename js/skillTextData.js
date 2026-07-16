@@ -1,8 +1,14 @@
 const skillTextData = {
     /* SSR */
+    "危ないですよ～！": {
+        name: "危ないですよ～！",
+        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、12秒間、攻撃頻度を${attackSpan_down}%延長、移動速度を${speed_down}%減少させる。`,
+        pt: 260, //skillポイント
+        range: 500, //範囲
+    },
     雪中梅: {
         name: "雪中梅",
-        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、8秒間、自身の回避を${accuracy_up}%上昇させる`,
+        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、8秒間、自身の命中を${accuracy_up}%上昇させる`,
         pt: 160,
         range: 600,
     },

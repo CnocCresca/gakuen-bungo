@@ -1,4 +1,205 @@
 {
+    "お日様の少年": {
+        "rarity": "SSR",
+        "color": "紅",
+        "position": "前衛",
+        "type": "防御型",
+        "status": {
+            "HP": 11200,
+            "ATK": 8400,
+            "resist": 65,
+            "range": 200,
+            "speed": 620,
+            "attckSpan": 2.3
+        },
+        "Step3": {
+            "ATK": 0.15,
+            "HP": 0.2
+        },
+        "Step2": {
+            "ATK": 0.11,
+            "HP": 0.15
+        },
+        "Step1": {
+            "ATK": 0.07,
+            "HP": 0.1
+        },
+        "skill": {
+            "name": "危ないですよ～！",
+            "pt": 260,
+            "range": 500,
+            "effect": {
+                "time": 8,
+                "target": 3,
+                "isAttack": true,
+                "attack": {
+                    "color": "紅",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 900,
+                        "rise": 50
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": false,
+                "onlyYourself": {
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": null,
+                    "accuracy_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isAlly": false,
+                "ally": {
+                    "isIncludingYourself": false,
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isEnemy": true,
+                "enemy": {
+                    "ATK_down": null,
+                    "increaseDamage": null,
+                    "knock_down": null,
+                    "resist_down": null,
+                    "attackSpan_down": {
+                        "lv10": 20,
+                        "rise": 1.1111111111111112
+                    },
+                    "speed_down": {
+                        "lv10": 20,
+                        "rise": 1.1111111111111112
+                    }
+                }
+            }
+        },
+        "doubleSkill": {
+            "name": "邪魔をしないでください",
+            "pt": 520,
+            "range": 700,
+            "effect": {
+                "time": 12,
+                "target": 3,
+                "isAttack": true,
+                "attack": {
+                    "color": "紅",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 1200,
+                        "rise": 66.66666666666667
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": false,
+                "onlyYourself": {
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": null,
+                    "accuracy_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isAlly": false,
+                "ally": {
+                    "isIncludingYourself": false,
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isEnemy": true,
+                "enemy": {
+                    "ATK_down": null,
+                    "increaseDamage": null,
+                    "knock_down": null,
+                    "resist_down": null,
+                    "attackSpan_down": {
+                        "lv10": 40,
+                        "rise": 2.2222222222222223
+                    },
+                    "speed_down": {
+                        "lv10": 40,
+                        "rise": 2.2222222222222223
+                    }
+                }
+            }
+        },
+        "tagEffect": [
+            {
+                "name": "太宰治",
+                "effectType": "最大体力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.1
+            },
+            {
+                "name": "条野採菊",
+                "effectType": "攻撃力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.15
+            },
+            {
+                "name": "末広鐵腸",
+                "effectType": "攻撃力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.15
+            }
+        ]
+    },
     "尋ね人の捜索": {
         "rarity": "SSR",
         "color": "蒼",
@@ -850,6 +1051,10 @@
                     "resist_down": null,
                     "attackSpan_down": null,
                     "speed_down": null
+                },
+                "isSpecial": true,
+                "special": {
+                    "description": "敵のヰ能攻撃を発動を制限"
                 }
             }
         },
@@ -1727,7 +1932,8 @@
                     "resist_down": null,
                     "attackSpan_down": null,
                     "speed_down": null
-                }
+                },
+                "isSpecial": false
             }
         },
         "doubleSkill": {
@@ -1796,6 +2002,10 @@
                     "resist_down": null,
                     "attackSpan_down": null,
                     "speed_down": null
+                },
+                "isSpecial": true,
+                "special": {
+                    "description": "味方1体の不利効果を全て除去"
                 }
             }
         },
@@ -2599,8 +2809,7 @@
                         "time": null,
                         "healPercent": null,
                         "fixed_heal": null
-                    },
-                    "damageNullification": "ヰ能"
+                    }
                 },
                 "isAlly": false,
                 "ally": {
@@ -2631,6 +2840,10 @@
                     "resist_down": null,
                     "attackSpan_down": null,
                     "speed_down": null
+                },
+                "isSpecial": true,
+                "special": {
+                    "description": "自身へのヰ能攻撃を無効化"
                 }
             }
         },
@@ -2664,7 +2877,6 @@
                     "knock_up": null,
                     "dodge_up": null,
                     "fitness_up": null,
-                    "damageNullification": "ヰ能",
                     "isInterval": false,
                     "interval": {
                         "time": null,
@@ -2701,6 +2913,10 @@
                     "resist_down": null,
                     "attackSpan_down": null,
                     "speed_down": null
+                },
+                "isSpecial": true,
+                "special": {
+                    "description": "自身へのヰ能攻撃を無効化"
                 }
             }
         },
