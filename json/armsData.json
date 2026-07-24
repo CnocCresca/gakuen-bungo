@@ -39,7 +39,7 @@
         "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
-                "damageCut": {
+                "damageCutAbility": {
                     "lv10": 3000,
                     "rise": 166.66666666666666
                 },
@@ -317,6 +317,43 @@
                 "speed_up": null,
                 "knock_up": null,
                 "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            }
+        }
+    },
+    "谷崎潤一郎_紅ノ壱": {
+        "status": {
+            "color": "紅",
+            "HP": 5600,
+            "ATK": 2400
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "damageCutPhysical": {
+                    "lv10": 6000,
+                    "rise": 333.3333333333333
+                },
+                "damageCutOver": 1,
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
                 "fitness_up": null,
                 "isInterval": false,
                 "interval": {
