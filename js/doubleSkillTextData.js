@@ -1,4 +1,10 @@
 const doubleSkillTextData = {
+    外套: {
+        name: "外套",
+        text: () => `範囲内のすべての敵に対し、通常攻撃の${damagePercent}倍の黒属性ヰ能ダメージを与え、自身の最大体力の${healPercent}%回復する。`,
+        pt: 480, //skillポイント
+        range: 550, //範囲
+    },
     邪魔をしないでください: {
         name: "邪魔をしないでください",
         text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、12秒間、攻撃頻度を${attackSpan_down}%延長、移動速度を${speed_down}%減少させる。`,

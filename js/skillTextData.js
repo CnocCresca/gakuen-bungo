@@ -1,5 +1,11 @@
 const skillTextData = {
     /* SSR */
+    外套: {
+        name: "外套",
+        text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の黒属性ヰ能ダメージを与え、自身の最大体力の${healPercent}%回復する。`,
+        pt: 240, //skillポイント
+        range: 400, //範囲
+    },
     "危ないですよ～！": {
         name: "危ないですよ～！",
         text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、12秒間、攻撃頻度を${attackSpan_down}%延長、移動速度を${speed_down}%減少させる。`,

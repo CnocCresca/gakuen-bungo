@@ -1,4 +1,77 @@
 {
+    "外套": {
+        "name": "外套",
+        "pt": 240,
+        "range": 400,
+        "effect": {
+            "time": null,
+            "target": "すべて",
+            "isAttack": true,
+            "attack": {
+                "color": "黒",
+                "attackStyle": "ヰ能",
+                "damagePercent": {
+                    "lv10": 800,
+                    "rise": 44.44444444444444
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "accuracy_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isAlly": false,
+            "ally": {
+                "isIncludingYourself": false,
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isEnemy": false,
+            "enemy": {
+                "ATK_down": null,
+                "increaseDamage": null,
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": null,
+                "speed_down": null
+            }
+        }
+    },
     "危ないですよ～！": {
         "name": "危ないですよ～！",
         "pt": 260,
