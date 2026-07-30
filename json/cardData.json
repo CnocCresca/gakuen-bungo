@@ -12,9 +12,11 @@
             "speed": 2.2,
             "attckSpan": 610
         },
-        "Step3": {},
-        "Step2": {},
-        "Step1": {},
+        "unique": {
+            "Step3": {},
+            "Step2": {},
+            "Step1": {}
+        },
         "skill": {
             "name": "外套",
             "pt": 240,
