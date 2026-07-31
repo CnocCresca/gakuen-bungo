@@ -13,9 +13,18 @@
             "attckSpan": 610
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "HP": 0.2,
+                "dodge_up": 0.1
+            },
+            "Step2": {
+                "HP": 0.15,
+                "dodge_up": 0.075
+            },
+            "Step1": {
+                "HP": 0.1,
+                "dodge_up": 0.05
+            }
         },
         "skill": {
             "name": "外套",
@@ -163,7 +172,29 @@
                 }
             }
         },
-        "tagEffect": []
+        "tagEffect": [
+            {
+                "name": "フョードル・D",
+                "effectType": "最大体力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.2
+            },
+            {
+                "name": "澁澤龍彦",
+                "effectType": "被ダメージ",
+                "unit": "減少",
+                "isRatio": true,
+                "effectValue": 0.15
+            },
+            {
+                "name": "シグマ",
+                "effectType": "回避",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.1
+            }
+        ]
     },
     "お日様の少年": {
         "rarity": "SSR",
