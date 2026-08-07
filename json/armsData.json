@@ -363,5 +363,37 @@
                 }
             }
         }
+    },
+    "ニコライ・G_黒ノ壱": {
+        "status": {
+            "color": "黒",
+            "HP": 4040,
+            "ATK": 4040
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 50,
+                    "rise": 2.7777777777777777
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            }
+        }
     }
 }

@@ -9,8 +9,8 @@
             "ATK": 7975,
             "resist": 70,
             "range": 200,
-            "speed": 2.2,
-            "attckSpan": 610
+            "speed": 610,
+            "attckSpan": 2.2
         },
         "unique": {
             "Step3": {
