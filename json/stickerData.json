@@ -1,0 +1,509 @@
+{
+    "笑う奇術師": {
+        "status": {
+            "color": "黒",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 80,
+                    "isRaitio": false
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "お日様の少年": {
+        "status": {
+            "color": "紅",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": {
+                    "lv10": 180,
+                    "isRaitio": false
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "尋ね人の捜索": {
+        "status": {
+            "color": "蒼",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": {
+                    "lv10": 180,
+                    "isRaitio": false
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "迷い人の葛藤": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": {
+                    "lv10": 0.1,
+                    "isRaitio": true
+                }
+            }
+        }
+    },
+    "筋書破りの日曜日": {
+        "status": {
+            "color": "蒼",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 80,
+                    "isRaitio": false
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "陰の輪郭、垣間見て": {
+        "status": {
+            "color": "白",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "dodge_up": null
+            }
+        }
+    },
+    "馬房にて": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": {
+                    "lv10": 180,
+                    "isRaitio": false
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "消閑のしらべ": {
+        "status": {
+            "color": "黒",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "マイ・オピニオン": {
+        "status": {
+            "color": "白",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": {
+                    "lv10": 1,
+                    "isRaitio": true
+                },
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "無頼漢": {
+        "status": {
+            "color": "蒼",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "dodge_up": null
+            }
+        }
+    },
+    "題目のない昼下り": {
+        "status": {
+            "color": "白",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": {
+                    "lv10": 0.1,
+                    "isRaitio": true
+                }
+            }
+        }
+    },
+    "潤いを求めて": {
+        "status": {
+            "color": "紅",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 80,
+                    "isRaitio": false
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "迎えに来てよ": {
+        "status": {
+            "color": "紅",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "dodge_up": null
+            }
+        }
+    },
+    "慌ただしいお使い": {
+        "status": {
+            "color": "白",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 80,
+                    "isRaitio": false
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "静かな午餉": {
+        "status": {
+            "color": "黒",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": {
+                    "lv10": 180,
+                    "isRaitio": false
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "一緒に野菜収穫": {
+        "status": {
+            "color": "白",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "dodge_up": null
+            }
+        }
+    },
+    "放課後の寄り道": {
+        "status": {
+            "color": "蒼",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": {
+                    "lv10": 0.02,
+                    "isRaitio": false
+                },
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "生徒会長の心構え": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "舞い散る桜吹雪": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "治療の時間": {
+        "status": {
+            "color": "蒼",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": {
+                    "lv10": 4,
+                    "isRaitio": false
+                },
+                "dodge_up": null
+            }
+        }
+    },
+    "素敵な写真": {
+        "status": {
+            "color": "紅",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 80,
+                    "isRaitio": false
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "多忙な副会長": {
+        "status": {
+            "color": "紅",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": {
+                    "lv10": 3,
+                    "isRaitio": false
+                },
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "武装生徒会の新人": {
+        "status": {
+            "color": "紅",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": {
+                    "lv10": 180,
+                    "isRaitio": false
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    }
+}
