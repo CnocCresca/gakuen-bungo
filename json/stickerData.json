@@ -1,4 +1,93 @@
 {
+    "學園長ノ風格": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": {
+                    "lv10": 3,
+                    "isRaitio": false
+                },
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "ニコライ・G_黒ノ壱": {
+        "status": {
+            "color": "黒",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": {
+                    "lv10": 0.1,
+                    "isRaitio": true
+                }
+            }
+        }
+    },
+    "芥川龍之介_黒ノ壱": {
+        "status": {
+            "color": "黒",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 80,
+                    "isRaitio": false
+                },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "フョードル・D_黒ノ壱": {
+        "status": {
+            "color": "黒",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": {
+                    "lv10": 1,
+                    "isRaitio": true
+                },
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
     "笑う奇術師": {
         "status": {
             "color": "黒",
@@ -81,7 +170,7 @@
                 "speed_up": null,
                 "knock_up": null,
                 "dodge_up": {
-                    "lv10": 0.1,
+                    "lv10": 0.01,
                     "isRaitio": true
                 }
             }
@@ -236,7 +325,7 @@
                 "speed_up": null,
                 "knock_up": null,
                 "dodge_up": {
-                    "lv10": 0.1,
+                    "lv10": 0.01,
                     "isRaitio": true
                 }
             }

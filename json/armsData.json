@@ -387,12 +387,7 @@
                 "knock_up": null,
                 "dodge_up": null,
                 "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             }
         }
     }

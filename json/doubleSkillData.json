@@ -1,4 +1,73 @@
 {
+    "人上人不造": {
+        "name": "人上人不造",
+        "pt": 225,
+        "range": 2000,
+        "effect": {
+            "time": 8,
+            "target": "すべて",
+            "isAttack": false,
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "accuracy_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isAlly": true,
+            "isRestrictions": true,
+            "restrictions": {
+                "highSchool": "桜眞學園"
+            },
+            "ally": {
+                "isIncludingYourself": false,
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "speed_up": null,
+                "knock_up": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isEnemy": false
+        }
+    },
     "外套": {
         "name": "外套",
         "pt": 480,

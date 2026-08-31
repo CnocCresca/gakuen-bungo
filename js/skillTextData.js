@@ -1,5 +1,12 @@
 const skillTextData = {
     /* SSR */
+    人上人不造: {
+        name: "人上人不造",
+        text: () =>
+            `12秒間、自身の被ダメージを${decreaseDamage}%減少させる。12秒間、範囲内の自身以外の櫻眞學園所属の味方全員に対し、攻撃力を${ATK_up}上昇、威圧を${knock_up}上昇、攻撃頻度を${attackSpan_up}を短縮させる。`,
+        pt: 450, //skillポイント
+        range: 2000, //範囲
+    },
     外套: {
         name: "外套",
         text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の黒属性ヰ能ダメージを与え、自身の最大体力の${healPercent}%回復する。`,
