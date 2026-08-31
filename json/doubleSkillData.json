@@ -10,8 +10,8 @@
             "isOnlyYourself": true,
             "onlyYourself": {
                 "decreaseDamage": {
-                    "lv10": 20,
-                    "rise": 1.1111111111111112
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
                 },
                 "fixed_heal": null,
                 "healPercent": null,
@@ -42,19 +42,19 @@
                 "fixed_heal": null,
                 "healPercent": null,
                 "ATK_up": {
-                    "lv10": 20,
-                    "rise": 1.1111111111111112
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
                 },
                 "MAXHP_up": null,
                 "resist_up": null,
                 "attackSpan_up": {
-                    "lv10": 20,
-                    "rise": 1.1111111111111112
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
                 },
                 "speed_up": null,
                 "knock_up": {
-                    "lv10": 20,
-                    "rise": 1.1111111111111112
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
                 },
                 "dodge_up": null,
                 "fitness_up": null,
