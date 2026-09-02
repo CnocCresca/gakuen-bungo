@@ -3,7 +3,7 @@
         "rarity": "SSR",
         "color": "翠",
         "position": "前衛",
-        "type": "型",
+        "role": "防御型",
         "status": {
             "HP": 12615,
             "ATK": 9280,
@@ -190,13 +190,14 @@
                 "isRatio": true,
                 "effectValue": 0.3
             }
-        ]
+        ],
+        "releaseDate": "2026-08-31"
     },
     "笑う奇術師": {
         "rarity": "SSR",
         "color": "黒",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 11310,
             "ATK": 7975,
@@ -390,7 +391,7 @@
         "rarity": "SSR",
         "color": "紅",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 11200,
             "ATK": 8400,
@@ -594,7 +595,7 @@
         "rarity": "SSR",
         "color": "蒼",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 7975,
             "ATK": 11310,
@@ -792,7 +793,7 @@
         "rarity": "SSR",
         "color": "翠",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 6525,
             "ATK": 12470,
@@ -990,7 +991,7 @@
         "rarity": "SSR",
         "color": "蒼",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 11600,
             "ATK": 7250,
@@ -1158,7 +1159,7 @@
         "rarity": "SSR",
         "color": "白",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 8410,
             "ATK": 10730,
@@ -1356,7 +1357,7 @@
         "rarity": "SSR",
         "color": "翠",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 8700,
             "ATK": 10440,
@@ -1550,7 +1551,7 @@
         "rarity": "SSR",
         "color": "黒",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 7250,
             "ATK": 3625,
@@ -1732,7 +1733,7 @@
         "rarity": "SSR",
         "color": "白",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 5800,
             "ATK": 4350,
@@ -1916,7 +1917,7 @@
         "rarity": "SSR",
         "color": "蒼",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 7250,
             "ATK": 12325,
@@ -2088,7 +2089,7 @@
         "rarity": "SSR",
         "color": "白",
         "position": "中衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 5220,
             "ATK": 5220,
@@ -2260,7 +2261,7 @@
         "rarity": "SSR",
         "color": "紅",
         "position": "中衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 5800,
             "ATK": 1740,
@@ -2437,7 +2438,7 @@
         "rarity": "SSR",
         "color": "紅",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 4060,
             "ATK": 6525,
@@ -2621,7 +2622,7 @@
         "rarity": "SSR",
         "color": "白",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 12325,
             "ATK": 6525,
@@ -2799,7 +2800,7 @@
         "rarity": "SSR",
         "color": "黒",
         "position": "中衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 6525,
             "ATK": 12325,
@@ -2970,7 +2971,7 @@
         "rarity": "SSR",
         "color": "紅",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 7925,
             "ATK": 10875,
@@ -3154,7 +3155,7 @@
         "rarity": "SSR",
         "color": "翠",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 10875,
             "ATK": 7975,
@@ -3353,7 +3354,7 @@
         "rarity": "SSR",
         "color": "紅",
         "position": "後衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 7250,
             "ATK": 11600,
@@ -3525,7 +3526,7 @@
         "rarity": "SSR",
         "color": "翠",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 5800,
             "ATK": 2305,
@@ -3722,7 +3723,7 @@
         "rarity": "SSR",
         "color": "紅",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 11600,
             "ATK": 7250,
@@ -3925,7 +3926,7 @@
         "rarity": "SSR",
         "color": "蒼",
         "position": "中衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 4350,
             "ATK": 2900,
@@ -4119,7 +4120,7 @@
         "rarity": "SSR",
         "color": "蒼",
         "position": "中衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 7250,
             "ATK": 7540,
@@ -4313,7 +4314,7 @@
         "rarity": "SSR",
         "color": "白",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 7250,
             "ATK": 6148,
@@ -4510,7 +4511,7 @@
         "rarity": "SR",
         "color": "蒼",
         "position": "中衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 5600,
             "ATK": 8960,
@@ -4698,7 +4699,7 @@
         "cardInfo": {},
         "color": "翠",
         "position": "",
-        "type": "",
+        "role": "",
         "status": {
             "HP": 0,
             "ATK": 0,
@@ -4872,7 +4873,7 @@
         "rarity": "SR",
         "color": "翠",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 5600,
             "ATK": 8960,
@@ -5053,7 +5054,7 @@
         "rarity": "SR",
         "color": "蒼",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 8960,
             "ATK": 3639,
@@ -5246,7 +5247,7 @@
         "rarity": "SR",
         "color": "紅",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 7280,
             "ATK": 5824,
@@ -5427,7 +5428,7 @@
         "rarity": "SR",
         "color": "翠",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 4200,
             "ATK": 3639,
@@ -5614,7 +5615,7 @@
         "rarity": "SR",
         "color": "黒",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 5320,
             "ATK": 9240,
@@ -5795,7 +5796,7 @@
         "rarity": "SR",
         "color": "紅",
         "position": "中衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 3360,
             "ATK": 1187,
@@ -5976,7 +5977,7 @@
         "rarity": "SR",
         "color": "白",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 4480,
             "ATK": 3360,
@@ -6169,7 +6170,7 @@
         "rarity": "SR",
         "color": "蒼",
         "position": "前衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 3600,
             "ATK": 2000,
@@ -6362,7 +6363,7 @@
         "rarity": "SR",
         "color": "白",
         "position": "中衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 4080,
             "ATK": 3080,
@@ -6549,7 +6550,7 @@
         "rarity": "SR",
         "color": "翠",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 4900,
             "ATK": 9600,
@@ -6730,7 +6731,7 @@
         "rarity": "SR",
         "color": "紅",
         "position": "中衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 5600,
             "ATK": 8960,
@@ -6911,7 +6912,7 @@
         "rarity": "SR",
         "color": "白",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 6160,
             "ATK": 8400,
@@ -7092,7 +7093,7 @@
         "rarity": "SR",
         "color": "黒",
         "position": "後衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 3360,
             "ATK": 2240,
@@ -7273,7 +7274,7 @@
         "rarity": "SR",
         "color": "紅",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 9240,
             "ATK": 5320,
@@ -7466,7 +7467,7 @@
         "rarity": "SR",
         "color": "翠",
         "position": "中衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 3360,
             "ATK": 2240,
@@ -7647,7 +7648,7 @@
         "rarity": "SR",
         "color": "蒼",
         "position": "中衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 4200,
             "ATK": 3639,
@@ -7840,7 +7841,7 @@
         "rarity": "SR",
         "color": "蒼",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 3920,
             "ATK": 3920,
@@ -8029,7 +8030,7 @@
         "rarity": "SR",
         "color": "紅",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 7839,
             "ATK": 6300,
@@ -8216,7 +8217,7 @@
         "rarity": "SR",
         "color": "蒼",
         "position": "前衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 5600,
             "ATK": 8960,
@@ -8397,7 +8398,7 @@
         "rarity": "SR",
         "color": "黒",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 9100,
             "ATK": 5460,
@@ -8590,7 +8591,7 @@
         "rarity": "SR",
         "color": "紅",
         "position": "中衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 4480,
             "ATK": 3360,
@@ -8777,7 +8778,7 @@
         "rarity": "SR",
         "color": "蒼",
         "position": "後衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 3360,
             "ATK": 2240,
@@ -8958,7 +8959,7 @@
         "rarity": "SR",
         "color": "白",
         "position": "中衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 3360,
             "ATK": 2240,
@@ -9139,7 +9140,7 @@
         "rarity": "SR",
         "color": "翠",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 8960,
             "ATK": 3639,
@@ -9332,7 +9333,7 @@
         "rarity": "R",
         "color": "紅",
         "position": "中衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 2100,
             "ATK": 910,
@@ -9481,7 +9482,7 @@
         "rarity": "R",
         "color": "白",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 5600,
             "ATK": 3500,
@@ -9661,7 +9662,7 @@
         "rarity": "R",
         "color": "蒼",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 5600,
             "ATK": 3500,
@@ -9841,7 +9842,7 @@
         "rarity": "R",
         "color": "紅",
         "position": "中衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 2800,
             "ATK": 1365,
@@ -10021,7 +10022,7 @@
         "rarity": "R",
         "color": "蒼",
         "position": "中衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 5600,
             "ATK": 3500,
@@ -10156,7 +10157,7 @@
         "rarity": "R",
         "color": "翠",
         "position": "中衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 3500,
             "ATK": 3640,
@@ -10329,7 +10330,7 @@
         "rarity": "R",
         "color": "翠",
         "position": "後衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 2100,
             "ATK": 742,
@@ -10503,7 +10504,7 @@
         "rarity": "R",
         "color": "黒",
         "position": "後衛",
-        "type": "支援型",
+        "role": "支援型",
         "status": {
             "HP": 2800,
             "ATK": 1113,
@@ -10683,7 +10684,7 @@
         "rarity": "R",
         "color": "蒼",
         "position": "中衛",
-        "type": "回復型",
+        "role": "回復型",
         "status": {
             "HP": 2100,
             "ATK": 1400,
@@ -10787,7 +10788,7 @@
         "rarity": "R",
         "color": "黒",
         "position": "前衛",
-        "type": "防御型",
+        "role": "防御型",
         "status": {
             "HP": 5600,
             "ATK": 3500,
@@ -10889,7 +10890,7 @@
         "rarity": "R",
         "color": "白",
         "position": "後衛",
-        "type": "攻撃型",
+        "role": "攻撃型",
         "status": {
             "HP": 3500,
             "ATK": 5600,
