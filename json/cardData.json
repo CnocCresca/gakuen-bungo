@@ -11056,6 +11056,15 @@
                 }
             }
         },
+        "tagEffect": [
+            {
+                "name": "織田作之助",
+                "effectType": "攻撃力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.07
+            }
+        ],
         "releaseDate": "2026-08-31"
     },
     "織田作之助_体操服": {
@@ -11172,6 +11181,15 @@
                 "isEnemy": false
             }
         },
+        "tagEffect": [
+            {
+                "name": "森鴎外",
+                "effectType": "移動速度",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.07
+            }
+        ],
         "releaseDate": "2026-08-31"
     }
 }
