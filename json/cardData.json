@@ -10965,5 +10965,213 @@
             }
         ],
         "releaseDate": "2025-05-28"
+    },
+    "森鴎外_体操服": {
+        "rarity": "R",
+        "color": "紅",
+        "position": "中衛",
+        "type": "支援型",
+        "status": {
+            "HP": 2800,
+            "ATK": 2100,
+            "resist": 30,
+            "range": 500,
+            "speed": 490,
+            "attckSpan": 2.5
+        },
+        "unique": {
+            "Step3": {
+                "HP": 400
+            },
+            "Step2": {
+                "HP": 300
+            },
+            "Step1": {
+                "HP": 200
+            }
+        },
+        "skill": {
+            "name": "遠投は勘弁してくれないかな",
+            "pt": 200,
+            "range": 600,
+            "effect": {
+                "time": 8,
+                "target": 1,
+                "isAttack": true,
+                "attack": {
+                    "color": "紅",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 300,
+                        "rise": 16.666666666666668
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": false,
+                "isAlly": false,
+                "isEnemy": true,
+                "enemy": {
+                    "ATK_down": {
+                        "lv10": 20,
+                        "rise": 1.1111111111111112
+                    },
+                    "increaseDamage": null,
+                    "knock_down": null,
+                    "resist_down": null,
+                    "attackSpan_down": null,
+                    "speed_down": null
+                }
+            }
+        },
+        "doubleSkill": {
+            "name": "消えない魔球だよ",
+            "pt": 400,
+            "range": 700,
+            "effect": {
+                "time": 12,
+                "target": 1,
+                "isAttack": true,
+                "attack": {
+                    "color": "紅",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 400,
+                        "rise": 22.22222222222222
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": false,
+                "isAlly": false,
+                "isEnemy": true,
+                "enemy": {
+                    "ATK_down": {
+                        "lv10": 30,
+                        "rise": 1.6666666666666667
+                    },
+                    "increaseDamage": null,
+                    "knock_down": null,
+                    "resist_down": null,
+                    "attackSpan_down": null,
+                    "speed_down": null
+                }
+            }
+        },
+        "releaseDate": "2026-08-31"
+    },
+    "織田作之助_体操服": {
+        "rarity": "R",
+        "color": "黒",
+        "position": "前衛",
+        "type": "攻撃型",
+        "status": {
+            "HP": 3500,
+            "ATK": 5600,
+            "resist": 40,
+            "range": 300,
+            "speed": 550,
+            "attckSpan": 2.2
+        },
+        "unique": {
+            "Step3": {
+                "ATK": 0.1
+            },
+            "Step2": {
+                "ATK": 0.075
+            },
+            "Step1": {
+                "ATK": 0.05
+            }
+        },
+        "skill": {
+            "name": "ドッジボールの要領でいいか。",
+            "pt": 220,
+            "range": 350,
+            "effect": {
+                "time": 12,
+                "target": 1,
+                "isAttack": true,
+                "attack": {
+                    "color": "黒",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 500,
+                        "rise": 27.77777777777778
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": true,
+                "onlyYourself": {
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": {
+                        "lv10": 10,
+                        "rise": 0.5555555555555556
+                    },
+                    "accuracy_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isAlly": false,
+                "isEnemy": false
+            }
+        },
+        "doubleSkill": {
+            "name": "当てさせて貰う。",
+            "pt": 440,
+            "range": 400,
+            "effect": {
+                "time": 12,
+                "target": 1,
+                "isAttack": true,
+                "attack": {
+                    "color": "黒",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 750,
+                        "rise": 41.666666666666664
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": true,
+                "onlyYourself": {
+                    "decreaseDamage": null,
+                    "fixed_heal": null,
+                    "healPercent": null,
+                    "ATK_up": null,
+                    "MAXHP_up": null,
+                    "resist_up": null,
+                    "attackSpan_up": null,
+                    "speed_up": null,
+                    "knock_up": null,
+                    "dodge_up": {
+                        "lv10": 15,
+                        "rise": 0.8888888888888888
+                    },
+                    "accuracy_up": null,
+                    "fitness_up": null,
+                    "isInterval": false,
+                    "interval": {
+                        "time": null,
+                        "healPercent": null,
+                        "fixed_heal": null
+                    }
+                },
+                "isAlly": false,
+                "isEnemy": false
+            }
+        },
+        "releaseDate": "2026-08-31"
     }
 }

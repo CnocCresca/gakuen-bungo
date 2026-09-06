@@ -3960,5 +3960,83 @@
             "isAlly": false,
             "isEnemy": false
         }
+    },
+    "遠投は勘弁してくれないかな": {
+        "name": "遠投は勘弁してくれないかな",
+        "pt": 200,
+        "range": 600,
+        "effect": {
+            "time": 8,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "紅",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 300,
+                    "rise": 16.666666666666668
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "isAlly": false,
+            "isEnemy": true,
+            "enemy": {
+                "ATK_down": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "increaseDamage": null,
+                "knock_down": null,
+                "resist_down": null,
+                "attackSpan_down": null,
+                "speed_down": null
+            }
+        }
+    },
+    "ドッジボールの要領でいいか。": {
+        "name": "ドッジボールの要領でいいか。",
+        "pt": 220,
+        "range": 350,
+        "effect": {
+            "time": 12,
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "黒",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 500,
+                    "rise": 27.77777777777778
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": {
+                    "lv10": 10,
+                    "rise": 0.5555555555555556
+                },
+                "accuracy_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isAlly": false,
+            "isEnemy": false
+        }
     }
 }
