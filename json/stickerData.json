@@ -1,5 +1,5 @@
 {
-    "學園長ノ風格": {
+    "福沢諭吉_翠ノ壱": {
         "status": {
             "color": "翠",
             "HP": 300,
@@ -8,12 +8,105 @@
         "effect": {
             "isOnlyYourself": true,
             "onlyYourself": {
+                "decreaseDamage": null,
                 "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": {
-                    "lv10": 3,
+                "MAXHP_up": {
+                    "lv10": 80,
                     "isRaitio": false
                 },
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "条野採菊_翠ノ壱": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "ATK_up": {
+                    "lv10": 180,
+                    "isRaitio": false
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "江戸川乱歩_翠ノ壱": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "ATK_up": {
+                    "lv10": 180,
+                    "isRaitio": false
+                },
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "太宰治_翠ノ壱": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": {
+                    "lv10": 2,
+                    "isRaitio": true
+                },
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "澁澤滝彦_翠ノ壱": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "ATK_up": null,
+                "MAXHP_up": {
+                    "lv10": 80,
+                    "isRaitio": false
+                },
+                "resist_up": null,
                 "attackSpan_up": null,
                 "speed_up": null,
                 "knock_up": null,
@@ -75,12 +168,34 @@
             "isOnlyYourself": true,
             "onlyYourself": {
                 "decreaseDamage": {
-                    "lv10": 1,
+                    "lv10": 2,
                     "isRaitio": true
                 },
                 "ATK_up": null,
                 "MAXHP_up": null,
                 "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null
+            }
+        }
+    },
+    "學園長ノ風格": {
+        "status": {
+            "color": "翠",
+            "HP": 300,
+            "ATK": 300
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": {
+                    "lv10": 3,
+                    "isRaitio": false
+                },
                 "attackSpan_up": null,
                 "speed_up": null,
                 "knock_up": null,
@@ -170,7 +285,7 @@
                 "speed_up": null,
                 "knock_up": null,
                 "dodge_up": {
-                    "lv10": 0.01,
+                    "lv10": 1,
                     "isRaitio": true
                 }
             }
@@ -274,7 +389,7 @@
             "isOnlyYourself": true,
             "onlyYourself": {
                 "decreaseDamage": {
-                    "lv10": 1,
+                    "lv10": 2,
                     "isRaitio": true
                 },
                 "ATK_up": null,
@@ -325,7 +440,7 @@
                 "speed_up": null,
                 "knock_up": null,
                 "dodge_up": {
-                    "lv10": 0.01,
+                    "lv10": 1,
                     "isRaitio": true
                 }
             }
