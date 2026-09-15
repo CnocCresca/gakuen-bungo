@@ -28,7 +28,7 @@
         },
         "skill": {
             "name": "人上人不造",
-            "pt": 450,
+            "pt": 225,
             "range": 2000,
             "effect": {
                 "time": 12,
@@ -101,7 +101,7 @@
         },
         "doubleSkill": {
             "name": "人上人不造",
-            "pt": 225,
+            "pt": 450,
             "range": 2000,
             "effect": {
                 "time": 8,
