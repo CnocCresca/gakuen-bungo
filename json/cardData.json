@@ -10422,7 +10422,7 @@
         },
         "doubleSkill": {
             "name": "水分補給を忘れるンじゃないよ",
-            "pt": 600,
+            "pt": 300,
             "range": 800,
             "effect": {
                 "time": null,
