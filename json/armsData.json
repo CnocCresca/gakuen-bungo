@@ -28,7 +28,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-03-31"
     },
     "太宰治_翠ノ壱": {
         "status": {
@@ -61,7 +62,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-03-31"
     },
     "中原中也_蒼ノ壱": {
         "status": {
@@ -92,7 +94,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-04-07"
     },
     "芥川龍之介_黒ノ壱": {
         "status": {
@@ -124,7 +127,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-04-24"
     },
     "フョードル・D_黒ノ壱": {
         "status": {
@@ -155,7 +159,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-05-08"
     },
     "澁澤龍彦_翠ノ壱": {
         "status": {
@@ -189,7 +194,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-05-21"
     },
     "織田作之助_白ノ壱": {
         "status": {
@@ -223,7 +229,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-06-05"
     },
     "江戸川乱歩_翠ノ壱": {
         "status": {
@@ -258,7 +265,8 @@
                     "rise": 55.55555555555556
                 }
             }
-        }
+        },
+        "releaseDate": "2026-07-26"
     },
     "条野採菊_翠ノ壱": {
         "status": {
@@ -293,7 +301,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-07-26"
     },
     "末広鐵腸_蒼ノ壱": {
         "status": {
@@ -325,7 +334,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-07-26"
     },
     "谷崎潤一郎_紅ノ壱": {
         "status": {
@@ -362,7 +372,8 @@
                     "fixed_heal": null
                 }
             }
-        }
+        },
+        "releaseDate": "2026-07-24"
     },
     "ニコライ・G_黒ノ壱": {
         "status": {
@@ -389,7 +400,8 @@
                 "fitness_up": null,
                 "isInterval": false
             }
-        }
+        },
+        "releaseDate": "2026-08-07"
     },
     "福沢諭吉_翠ノ壱": {
         "status": {
@@ -420,8 +432,41 @@
                     "healPercent": null,
                     "fixed_heal": null
                 }
-            },
-            "releaseDate": "2026-09-26"
-        }
+            }
+        },
+        "releaseDate": "2026-09-07"
+    },
+    "森鴎外_黒ノ壱": {
+        "status": {
+            "color": "黒",
+            "HP": 1600,
+            "ATK": 6400
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": null,
+                "fixed_heal": null,
+                "healPercent": null,
+                "ATK_up": null,
+                "MAXHP_up": null,
+                "resist_up": null,
+                "attackSpan_up": null,
+                "speed_up": null,
+                "knock_up": null,
+                "dodge_up": null,
+                "fitness_up": null,
+                "isInterval": false,
+                "interval": {
+                    "time": 2,
+                    "healPercent": {
+                        "lv10": 2,
+                        "rise": 0.1111111111111111
+                    },
+                    "fixed_heal": null
+                }
+            }
+        },
+        "releaseDate": "2026-09-17"
     }
 }
