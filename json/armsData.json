@@ -472,8 +472,8 @@
     "国木田独歩_紅ノ壱": {
         "status": {
             "color": "紅",
-            "HP": 7200,
-            "ATK": 800
+            "HP": 800,
+            "ATK": 7200
         },
         "effect": {
             "isOnlyYourself": true,
