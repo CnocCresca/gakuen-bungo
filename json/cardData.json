@@ -3645,7 +3645,7 @@
         "releaseDate": "2025-12-23"
     },
     "小栗虫太郎_学生服": {
-        "rarity": "SSR",
+        "rarity": "SR",
         "color": "蒼",
         "position": "後衛",
         "role": "攻撃型",
@@ -3669,7 +3669,7 @@
             }
         },
         "skill": {
-            "name": "",
+            "name": "身だしなみは整えるべし",
             "pt": 240,
             "range": 800,
             "effect": {
@@ -3690,7 +3690,7 @@
             }
         },
         "doubleSkill": {
-            "name": "",
+            "name": "化物風情が近づくな",
             "pt": 480,
             "range": 900,
             "effect": {
