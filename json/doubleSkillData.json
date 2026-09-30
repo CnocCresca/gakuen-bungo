@@ -750,6 +750,27 @@
             "isEnemy": false
         }
     },
+    "化物風情が近づくな": {
+        "name": "",
+        "pt": 480,
+        "range": 900,
+        "effect": {
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "蒼",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 1000,
+                    "rise": 55.55555555555556
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "isAlly": false,
+            "isEnemy": false
+        }
+    },
     "僕が守ります": {
         "name": "僕が守ります",
         "pt": 440,

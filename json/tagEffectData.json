@@ -1,5 +1,27 @@
 {
-    "めまぐるしい道草": [],
+    "めまぐるしい道草": [
+        {
+            "name": "江戸川乱歩",
+            "effectType": "移動速度",
+            "unit": "上昇",
+            "isRatio": false,
+            "effectValue": 75
+        },
+        {
+            "name": "ルーシー・M",
+            "effectType": "攻撃頻度",
+            "unit": "短縮",
+            "isRatio": true,
+            "effectValue": 0.1
+        },
+        {
+            "name": "小栗虫太郎",
+            "effectType": "最大体力",
+            "unit": "上昇",
+            "isRatio": false,
+            "effectValue": 600
+        }
+    ],
     "學園長ノ風格": [
         {
             "name": "江戸川乱歩",
@@ -567,6 +589,22 @@
             "effectValue": 0.1
         }
     ],
+    "小栗虫太郎_学生服": [
+        {
+            "name": "江戸川乱歩",
+            "effectType": "攻撃力",
+            "unit": "上昇",
+            "isRatio": true,
+            "effectValue": 10
+        },
+        {
+            "name": "ポオ",
+            "effectType": "最大体力",
+            "unit": "上昇",
+            "isRatio": false,
+            "effectValue": 400
+        }
+    ],
     "福沢諭吉_仕事着": [
         {
             "name": "江戸川乱歩",
@@ -580,7 +618,7 @@
             "effectType": "最大体力",
             "unit": "上昇",
             "isRatio": false,
-            "effectValue": 200
+            "effectValue": 400
         }
     ],
     "織田作之助_仕事着": [

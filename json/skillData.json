@@ -748,6 +748,27 @@
             "isEnemy": false
         }
     },
+    "身だしなみは整えるべし": {
+        "name": "",
+        "pt": 240,
+        "range": 800,
+        "effect": {
+            "target": 1,
+            "isAttack": true,
+            "attack": {
+                "color": "蒼",
+                "attackStyle": "物理",
+                "damagePercent": {
+                    "lv10": 700,
+                    "rise": 38.888888888888886
+                },
+                "fix_damage": null
+            },
+            "isOnlyYourself": false,
+            "isAlly": false,
+            "isEnemy": false
+        }
+    },
     "僕が助けます": {
         "name": "僕が助けます",
         "pt": 230,

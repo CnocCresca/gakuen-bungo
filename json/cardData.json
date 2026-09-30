@@ -13,9 +13,18 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "Step3": {
+                "decreaseDamage": 0.15,
+                "HP": 600
+            },
+            "Step2": {
+                "HP": 0.15,
+                "decreaseDamage": 450
+            },
+            "Step1": {
+                "HP": 0.1,
+                "decreaseDamage": 300
+            }
         },
         "skill": {
             "name": "モルグ街の黒猫",
@@ -67,7 +76,29 @@
                 "isEnemy": false
             }
         },
-        "tagEffect": [],
+        "tagEffect": [
+            {
+                "name": "江戸川乱歩",
+                "effectType": "移動速度",
+                "unit": "上昇",
+                "isRatio": false,
+                "effectValue": 75
+            },
+            {
+                "name": "ルーシー・M",
+                "effectType": "攻撃頻度",
+                "unit": "短縮",
+                "isRatio": true,
+                "effectValue": 0.1
+            },
+            {
+                "name": "小栗虫太郎",
+                "effectType": "最大体力",
+                "unit": "上昇",
+                "isRatio": false,
+                "effectValue": 600
+            }
+        ],
         "releaseDate": "2026-09-30"
     },
     "學園長ノ風格": {
@@ -3613,6 +3644,90 @@
         ],
         "releaseDate": "2025-12-23"
     },
+    "小栗虫太郎_学生服": {
+        "rarity": "SSR",
+        "color": "蒼",
+        "position": "後衛",
+        "role": "攻撃型",
+        "status": {
+            "HP": 5320,
+            "ATK": 9240,
+            "resist": 40,
+            "range": 650,
+            "speed": 520,
+            "attckSpan": 2.3
+        },
+        "unique": {
+            "Step3": {
+                "ATK": 0.15
+            },
+            "Step2": {
+                "ATK": 0.11
+            },
+            "Step1": {
+                "ATK": 0.07
+            }
+        },
+        "skill": {
+            "name": "",
+            "pt": 240,
+            "range": 800,
+            "effect": {
+                "target": 1,
+                "isAttack": true,
+                "attack": {
+                    "color": "蒼",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 700,
+                        "rise": 38.888888888888886
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": false,
+                "isAlly": false,
+                "isEnemy": false
+            }
+        },
+        "doubleSkill": {
+            "name": "",
+            "pt": 480,
+            "range": 900,
+            "effect": {
+                "target": 1,
+                "isAttack": true,
+                "attack": {
+                    "color": "蒼",
+                    "attackStyle": "物理",
+                    "damagePercent": {
+                        "lv10": 1000,
+                        "rise": 55.55555555555556
+                    },
+                    "fix_damage": null
+                },
+                "isOnlyYourself": false,
+                "isAlly": false,
+                "isEnemy": false
+            }
+        },
+        "tagEffect": [
+            {
+                "name": "江戸川乱歩",
+                "effectType": "攻撃力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 10
+            },
+            {
+                "name": "ポオ",
+                "effectType": "最大体力",
+                "unit": "上昇",
+                "isRatio": false,
+                "effectValue": 400
+            }
+        ],
+        "releaseDate": "2026-09-30"
+    },
     "坂口安吾_学生服": {
         "rarity": "SR",
         "color": "白",
@@ -3957,7 +4072,7 @@
                 "effectType": "最大体力",
                 "unit": "上昇",
                 "isRatio": false,
-                "effectValue": 200
+                "effectValue": 400
             }
         ],
         "releaseDate": "2025-12-23"
