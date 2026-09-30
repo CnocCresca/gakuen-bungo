@@ -1,22 +1,28 @@
 const doubleSkillTextData = {
+    モルグ街の黒猫: {
+        name: "モルグ街の黒猫",
+        text: () => `2秒間、範囲内の自身の味方3体に対してのダメージを無効化し、12秒間、2秒毎に最大体力の${interval_fixed_heal}自然治癒する。`,
+        pt: 400,
+        range: 800,
+    },
     人上人不造: {
         name: "人上人不造",
         text: () =>
             `8秒間、自身の被ダメージを${decreaseDamage}%減少させる。8秒間、範囲内の自身以外の櫻眞學園所属の味方全員に対し、攻撃力を${ATK_up}上昇、威圧を${knock_up}上昇、攻撃頻度を${attackSpan_up}を短縮させる。`,
-        pt: 225, //skillポイント
-        range: 2000, //範囲
+        pt: 225,
+        range: 2000,
     },
     外套: {
         name: "外套",
         text: () => `範囲内のすべての敵に対し、通常攻撃の${damagePercent}倍の黒属性ヰ能ダメージを与え、自身の最大体力の${healPercent}%回復する。`,
-        pt: 480, //skillポイント
-        range: 550, //範囲
+        pt: 480,
+        range: 550,
     },
     邪魔をしないでください: {
         name: "邪魔をしないでください",
         text: () => `範囲内の3体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性ヰ能ダメージを、12秒間、攻撃頻度を${attackSpan_down}%延長、移動速度を${speed_down}%減少させる。`,
-        pt: 520, //skillポイント
-        range: 700, //範囲
+        pt: 520,
+        range: 700,
     },
     雪中梅: {
         name: "雪中梅",
@@ -35,14 +41,14 @@ const doubleSkillTextData = {
         text: () =>
             `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の蒼属性物理ダメージを、12秒間、敵の攻撃力を${ATK_down}%減少、攻撃頻度を${attackSpan_down}%延長させる\n12秒間、自身の抵抗力を${resist_up}%上昇させる`,
         name: "釣り上げてみせる。",
-        pt: 440, //skillポイント
-        range: 700, //範囲
+        pt: 440,
+        range: 700,
     },
     掃除の仕上げだ: {
         name: "掃除の仕上げだ",
         text: () => `範囲内の6体の敵に対し、通常攻撃の${damagePercent}倍の白属性物理ダメージを与え、10秒間、敵の命中を${dodge_down}%減少させる`, //dodge_down 初出
-        pt: 520, //skillポイント
-        range: 800, //範囲
+        pt: 520,
+        range: 800,
     },
     "ドラコニア・ルーム": {
         name: "ドラコニア・ルーム",
@@ -373,31 +379,31 @@ const doubleSkillTextData = {
     "回復を図る。": {
         name: "回復を図る。",
         text: () => `範囲内の自身を含め味方2体に対し、体力を${fixed_heal}回復する`,
-        pt: 300, //skillポイント
-        range: 800, //範囲
+        pt: 300,
+        range: 800,
     },
     "受けてみやがれ！": {
         name: "受けてみやがれ！",
         text: () => `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の黒属性物理ダメージを与え、8秒間、敵の被ダメージを${increaseDamage}%上昇させる`,
-        pt: 400, //skillポイント
-        range: 500, //範囲
+        pt: 400,
+        range: 500,
     },
     痛かったらごめんね: {
         name: "痛かったらごめんね",
         text: () => `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の白属性物理ダメージを与える`,
-        pt: 500, //skillポイント
-        range: 900, //範囲
+        pt: 500,
+        range: 900,
     },
     消えない魔球だよ: {
         name: "消えない魔球だよ",
         text: () => `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の紅属性物理ダメージを与え、12秒間、敵の攻撃力を${ATK_down}減少させる`,
-        pt: 400, //skillポイント
-        range: 700, //範囲
+        pt: 400,
+        range: 700,
     },
     "当てさせて貰う。": {
         name: "当てさせて貰う。",
         text: () => `範囲内の1体の敵に対し、通常攻撃の${damagePercent}倍の黒属性物理ダメージを与え、12秒間、自身の回避を${dodge_up}%上昇させる。`,
-        pt: 440, //skillポイント
-        range: 400, //範囲
+        pt: 440,
+        range: 400,
     },
 };

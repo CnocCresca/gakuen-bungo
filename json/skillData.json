@@ -1,4 +1,29 @@
 {
+    "モルグ街の黒猫": {
+        "name": "モルグ街の黒猫",
+        "pt": 200,
+        "range": 600,
+        "effect": {
+            "time": 1.5,
+            "target": 2,
+            "isAttack": false,
+            "isOnlyYourself": false,
+            "isAlly": true,
+            "ally": {
+                "isIncludingYourself": false,
+                "preventDamage": true,
+                "isInterval": true,
+                "interval": {
+                    "time": 8,
+                    "healPercent": {
+                        "lv10": 8,
+                        "rise": 0.4444444444444444
+                    }
+                }
+            },
+            "isEnemy": false
+        }
+    },
     "人上人不造": {
         "name": "人上人不造",
         "pt": 225,
@@ -13,63 +38,26 @@
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "accuracy_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
                 "ATK_up": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "MAXHP_up": null,
-                "resist_up": null,
                 "attackSpan_up": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "speed_up": null,
                 "knock_up": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "外套": {
@@ -77,7 +65,6 @@
         "pt": 240,
         "range": 400,
         "effect": {
-            "time": null,
             "target": "すべて",
             "isAttack": true,
             "attack": {
@@ -86,32 +73,15 @@
                 "damagePercent": {
                     "lv10": 800,
                     "rise": 44.44444444444444
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
                 "healPercent": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "accuracy_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": true,
             "isRestrictions": true,
@@ -120,23 +90,7 @@
             },
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isEnemy": false
         }
@@ -155,57 +109,15 @@
                 "damagePercent": {
                     "lv10": 900,
                     "rise": 50
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "accuracy_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
                 "attackSpan_down": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
@@ -231,63 +143,19 @@
                 "damagePercent": {
                     "lv10": 500,
                     "rise": 27.77777777777778
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
                 "accuracy_up": {
                     "lv10": 50,
                     "rise": 2.7777777777777777
                 },
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "enemy": {}
         }
     },
     "千金の涙": {
@@ -304,63 +172,19 @@
                 "damagePercent": {
                     "lv10": 750,
                     "rise": 41.666666666666664
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
                 "dodge_up": {
                     "lv10": 50,
                     "rise": 2.7777777777777777
                 },
-                "accuracy_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "enemy": {}
         }
     },
     "次のキャストで決めるぞ。": {
@@ -377,31 +201,15 @@
                 "damagePercent": {
                     "lv10": 900,
                     "rise": 50
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
                 "resist_up": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
             "isEnemy": true,
@@ -410,14 +218,10 @@
                     "lv10": 15,
                     "rise": 0.8888888888888888
                 },
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
                 "attackSpan_down": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
-                },
-                "speed_down": null
+                }
             }
         }
     },
@@ -435,58 +239,12 @@
                 "damagePercent": {
                     "lv10": 700,
                     "rise": 38.888888888888886
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null,
                 "dodge_down": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
@@ -508,59 +266,11 @@
                 "damagePercent": {
                     "lv10": 800,
                     "rise": 44.44444444444444
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            },
             "isSpecial": true,
             "special": {
                 "description": "敵のヰ能攻撃を発動を制限"
@@ -577,12 +287,10 @@
             "isAttack": true,
             "attack": {
                 "color": "黒",
-                "attackStyle": null,
                 "damagePercent": {
                     "lv10": 400,
                     "rise": 22.22222222222222
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
@@ -596,7 +304,6 @@
                     "lv10": 15,
                     "rise": 0.8888888888888888
                 },
-                "knock_down": null,
                 "resist_down": {
                     "lv10": 15,
                     "rise": 0.8888888888888888
@@ -620,19 +327,10 @@
             "time": 8,
             "target": 3,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": null,
-                "damagePercent": null,
-                "fixed_damage": null
-            },
             "isOnlyYourself": false,
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
                 "ATK_up": {
                     "lv10": 30,
                     "rise": 1.6666666666666667
@@ -641,31 +339,16 @@
                     "lv10": 30,
                     "rise": 1.6666666666666667
                 },
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
                 "isInterval": true,
                 "interval": {
                     "time": 2,
                     "healPercent": {
                         "lv10": 2,
                         "rise": 0.1111111111111111
-                    },
-                    "fixed_heal": null
+                    }
                 }
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "汚れつちまつた悲しみに": {
@@ -673,7 +356,6 @@
         "pt": 320,
         "range": 600,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": true,
             "attack": {
@@ -682,40 +364,11 @@
                 "damagePercent": {
                     "lv10": 1200,
                     "rise": 66.66666666666667
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": null,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "天衣無縫": {
@@ -726,46 +379,17 @@
             "time": 5.5,
             "target": 3,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "null",
-                "damagePercent": null,
-                "fixed_damage": null
-            },
             "isOnlyYourself": false,
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
                 "dodge_up": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "紅茶も悪くないね": {
@@ -773,49 +397,19 @@
         "pt": 125,
         "range": 800,
         "effect": {
-            "time": null,
             "target": 3,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": null,
-                "damagePercent": null,
-                "fixed_damage": null
-            },
             "isOnlyYourself": false,
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
                 "fixed_heal": {
                     "lv10": 2500,
                     "rise": 138.88888888888889
                 },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            },
             "isSpecial": false
         }
     },
@@ -833,31 +427,10 @@
                 "damagePercent": {
                     "lv10": 300,
                     "rise": 16.666666666666668
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
                 "ATK_down": {
@@ -867,49 +440,27 @@
                 "increaseDamage": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
-                },
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
     "荷物だけは守らないと...！": {
         "name": "荷物だけは守らないと...！",
         "pt": 250,
-        "range": 0,
+        "range": null,
         "effect": {
             "time": 8,
-            "target": null,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": null,
-                "damagePercent": null,
-                "fixed_damage": null
-            },
             "isOnlyYourself": true,
             "onlyYourself": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
                 "MAXHP_up": {
                     "lv10": 50,
                     "rise": 25
                 },
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
                 "isInterval": true,
                 "interval": {
                     "time": 2,
-                    "healPercent": null,
                     "fixed_heal": {
                         "lv10": 300,
                         "rise": 16.666666666666668
@@ -917,15 +468,7 @@
                 }
             },
             "isAlly": false,
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "羅生門・顎": {
@@ -933,7 +476,6 @@
         "pt": 250,
         "range": 700,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -942,39 +484,11 @@
                 "damagePercent": {
                     "lv10": 1200,
                     "rise": 66.66666666666667
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "月下獣": {
@@ -991,30 +505,18 @@
                 "damagePercent": {
                     "lv10": 330,
                     "rise": 18.333333333333332
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
                 "ATK_up": {
                     "lv10": 15,
                     "rise": 0.8888888888888888
                 },
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
                 "isInterval": true,
                 "interval": {
                     "time": 2,
-                    "healPercent": null,
                     "fixed_heal": {
                         "lv10": 100,
                         "rise": 5.555555555555555
@@ -1022,15 +524,7 @@
                 }
             },
             "isAlly": false,
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "独歩吟客": {
@@ -1038,7 +532,6 @@
         "pt": 280,
         "range": 900,
         "effect": {
-            "time": null,
             "target": 5,
             "isAttack": true,
             "attack": {
@@ -1047,40 +540,11 @@
                 "damagePercent": {
                     "lv10": 410,
                     "rise": 22.77777777777778
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "雨ニモマケズ": {
@@ -1097,62 +561,18 @@
                 "damagePercent": {
                     "lv10": 400,
                     "rise": 22.22222222222222
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
                 "knock_up": {
                     "lv10": 40,
                     "rise": 2.2222222222222223
                 },
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "人間失格": {
@@ -1169,59 +589,14 @@
                 "damagePercent": {
                     "lv10": 600,
                     "rise": 33.333333333333336
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            },
             "isSpecial": true,
             "special": {
                 "description": "自身へのヰ能攻撃を無効化"
@@ -1236,68 +611,21 @@
             "time": 8,
             "target": 3,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": null,
-                "damagePercent": null,
-                "fixed_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
                 "ATK_up": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
                 },
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
                 "fitness_up": {
                     "lv10": 1.5,
                     "rise": 0.05555555555555555
                 },
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "細雪": {
@@ -1314,8 +642,7 @@
                 "damagePercent": {
                     "lv10": 600,
                     "rise": 33.333333333333336
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
@@ -1323,55 +650,15 @@
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
                 "ATK_down": {
                     "lv10": 10,
                     "rise": 0.5555555555555556
-                },
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -1380,71 +667,19 @@
         "pt": 120,
         "range": 400,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": null,
-                "damagePercent": null,
-                "fixed_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": {
-                    "lv10": 4000,
-                    "rise": 222.22222222222223
-                },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
                 "fixed_heal": {
                     "lv10": 4000,
                     "rise": 222.22222222222223
                 },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "夜叉白雪": {
@@ -1452,7 +687,6 @@
         "pt": 180,
         "range": 600,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": true,
             "attack": {
@@ -1461,59 +695,11 @@
                 "damagePercent": {
                     "lv10": 350,
                     "rise": 19.444444444444443
-                },
-                "fixed_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "リュックが当たれば...！": {
@@ -1525,66 +711,20 @@
             "target": 1,
             "isAttack": true,
             "attack": {
-                "color": null,
                 "attackStyle": "ヰ能",
                 "damagePercent": {
                     "lv10": 600,
                     "rise": 33.333333333333336
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
                 "increaseDamage": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
-                },
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -1593,68 +733,19 @@
         "pt": 90,
         "range": 700,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
                 "MAXHP_up": {
                     "lv10": 18,
                     "rise": 1
                 },
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "僕が助けます": {
@@ -1662,7 +753,6 @@
         "pt": 230,
         "range": 500,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -1671,59 +761,11 @@
                 "damagePercent": {
                     "lv10": 750,
                     "rise": 41.666666666666664
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "これでも食らえ": {
@@ -1740,61 +782,16 @@
                 "damagePercent": {
                     "lv10": 680,
                     "rise": 37.77777777777778
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
                 "ATK_down": {
                     "lv10": 10,
                     "rise": 0.5555555555555556
-                },
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -1803,68 +800,19 @@
         "pt": 120,
         "range": 400,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
                 "fixed_heal": {
                     "lv10": 1100,
                     "rise": 61.111111111111114
                 },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "そーれ、飛んでけ～！": {
@@ -1872,7 +820,6 @@
         "pt": 280,
         "range": 375,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -1881,59 +828,11 @@
                 "damagePercent": {
                     "lv10": 750,
                     "rise": 41.666666666666664
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "僕が出るまでもないよ": {
@@ -1944,43 +843,14 @@
             "time": 8,
             "target": 2,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
                 "ATK_up": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
                 },
-                "MAXHP_up": null,
                 "resist_up": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
@@ -1989,26 +859,9 @@
                     "lv10": 25,
                     "rise": 1.4444444444444444
                 },
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "演奏を始めるよ": {
@@ -2019,41 +872,10 @@
             "time": 8,
             "target": 3,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
                 "attackSpan_up": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
@@ -2066,24 +888,9 @@
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "治療の邪魔だよ": {
@@ -2091,7 +898,6 @@
         "pt": 200,
         "range": 300,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": true,
             "attack": {
@@ -2100,59 +906,11 @@
                 "damagePercent": {
                     "lv10": 370,
                     "rise": 20.555555555555557
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "大人しくして": {
@@ -2169,65 +927,26 @@
                 "damagePercent": {
                     "lv10": 400,
                     "rise": 22.22222222222222
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
                 "knock_up": {
                     "lv10": 25,
                     "rise": 0.8888888888888888
                 },
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
                 "speed_up": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "試させて貰う": {
@@ -2235,7 +954,6 @@
         "pt": 250,
         "range": 300,
         "effect": {
-            "time": null,
             "target": 4,
             "isAttack": true,
             "attack": {
@@ -2244,59 +962,11 @@
                 "damagePercent": {
                     "lv10": 300,
                     "rise": 16.666666666666668
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "邪魔をするな": {
@@ -2304,7 +974,6 @@
         "pt": 270,
         "range": 900,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": true,
             "attack": {
@@ -2313,59 +982,11 @@
                 "damagePercent": {
                     "lv10": 490,
                     "rise": 27.22222222222222
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "これでも食らいな": {
@@ -2373,7 +994,6 @@
         "pt": 230,
         "range": 500,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -2382,59 +1002,14 @@
                 "damagePercent": {
                     "lv10": 750,
                     "rise": 41.666666666666664
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "お絵描きするね☆": {
@@ -2445,65 +1020,20 @@
             "time": 8.5,
             "target": 2,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
                 "isInterval": true,
                 "interval": {
                     "time": 2,
                     "healPercent": {
                         "lv10": 6,
                         "rise": 0.3333333333333333
-                    },
-                    "fixed_heal": null
+                    }
                 }
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "焦る事は無い": {
@@ -2514,65 +1044,23 @@
             "time": 8.5,
             "target": 2,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
                 "isInterval": true,
                 "interval": {
                     "time": 2,
-                    "healPercent": null,
                     "fixed_heal": {
                         "lv10": 300,
                         "rise": 16.666666666666668
                     }
                 }
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "少し痛いぞ": {
@@ -2589,64 +1077,23 @@
                 "damagePercent": {
                     "lv10": 530,
                     "rise": 29.444444444444443
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
                 "resist_up": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
                 },
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
                 "resist_down": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
-                },
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -2664,61 +1111,16 @@
                 "damagePercent": {
                     "lv10": 520,
                     "rise": 28.88888888888889
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
                 "ATK_down": {
                     "lv10": 15,
                     "rise": 0.8888888888888888
-                },
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -2736,56 +1138,12 @@
                 "damagePercent": {
                     "lv10": 500,
                     "rise": 27.77777777777778
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
                 "attackSpan_down": {
                     "lv10": 15,
                     "rise": 0.8888888888888888
@@ -2802,65 +1160,10 @@
         "pt": 240,
         "range": 0,
         "effect": {
-            "time": null,
-            "target": null,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            },
             "isSystem": true,
             "system": {
                 "battle_pt_percent": {
@@ -2875,68 +1178,19 @@
         "pt": 110,
         "range": 450,
         "effect": {
-            "time": null,
             "target": 2,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
-                "fixed_heal": null,
                 "healPercent": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "贈呈品だ": {
@@ -2953,61 +1207,16 @@
                 "damagePercent": {
                     "lv10": 350,
                     "rise": 19.444444444444443
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
                 "attackSpan_down": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
-                },
-                "speed_down": null
+                }
             }
         }
     },
@@ -3025,8 +1234,7 @@
                 "damagePercent": {
                     "lv10": 370,
                     "rise": 20.555555555555557
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
@@ -3034,55 +1242,15 @@
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
                 "knock_down": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
-                },
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -3091,68 +1259,19 @@
         "pt": 120,
         "range": 600,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
                 "fixed_heal": {
                     "lv10": 1500,
                     "rise": 83.33333333333333
                 },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "受け止めきれますか？": {
@@ -3169,8 +1288,7 @@
                 "damagePercent": {
                     "lv10": 350,
                     "rise": 19.444444444444443
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
@@ -3178,51 +1296,11 @@
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
                 "speed_down": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
@@ -3244,8 +1322,7 @@
                 "damagePercent": {
                     "lv10": 560,
                     "rise": 31.11111111111111
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
@@ -3253,53 +1330,10 @@
                     "lv10": 20,
                     "rise": 1.1111111111111112
                 },
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "我が剣は躱せぬ": {
@@ -3307,7 +1341,6 @@
         "pt": 230,
         "range": 350,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -3316,59 +1349,14 @@
                 "damagePercent": {
                     "lv10": 750,
                     "rise": 41.666666666666664
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "飲み物をどうぞ": {
@@ -3376,43 +1364,19 @@
         "pt": 125,
         "range": 500,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": false,
             "isOnlyYourself": false,
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": false,
-                "decreaseDamage": null,
                 "fixed_heal": {
                     "lv10": 400,
                     "rise": 44.44444444444444
                 },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "野球は得意だ": {
@@ -3429,61 +1393,16 @@
                 "damagePercent": {
                     "lv10": 480,
                     "rise": 26.666666666666668
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
                 "resist_down": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
-                },
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -3501,61 +1420,16 @@
                 "damagePercent": {
                     "lv10": 500,
                     "rise": 27.77777777777778
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
                 "knock_down": {
                     "lv10": 25,
                     "rise": 1.4444444444444444
-                },
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -3568,66 +1442,20 @@
             "target": 2,
             "isAttack": true,
             "attack": {
-                "color": null,
                 "attackStyle": "物理",
                 "damagePercent": {
                     "lv10": 300,
                     "rise": 22.22222222222222
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
                 "attackSpan_down": {
                     "lv10": 10,
                     "rise": 0.5555555555555556
-                },
-                "speed_down": null
+                }
             }
         }
     },
@@ -3636,7 +1464,6 @@
         "pt": 200,
         "range": 400,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -3645,20 +1472,11 @@
                 "damagePercent": {
                     "lv10": 460,
                     "rise": 25.555555555555557
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "狙ッて投げれば・・・": {
@@ -3666,7 +1484,6 @@
         "pt": 250,
         "range": 550,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -3678,55 +1495,8 @@
                 }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "スポーツドリンクだよ": {
@@ -3734,68 +1504,19 @@
         "pt": 150,
         "range": 600,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": false,
-            "attack": {
-                "color": null,
-                "attackStyle": "ヰ能",
-                "damagePercent": null,
-                "fix_damage": null
-            },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
                 "fixed_heal": {
                     "lv10": 800,
                     "rise": 44.44444444444444
                 },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
-            "isEnemy": false,
-            "enemy": {
-                "ATK_down": null,
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
-            }
+            "isEnemy": false
         }
     },
     "外さない": {
@@ -3803,8 +1524,6 @@
         "pt": 300,
         "range": 850,
         "effect": {
-            "time": null,
-            "target": null,
             "isAttack": true,
             "attack": {
                 "color": "黒",
@@ -3812,61 +1531,16 @@
                 "damagePercent": {
                     "lv10": 300,
                     "rise": 16.666666666666668
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
-            "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isAlly": false,
-            "ally": {
-                "isIncludingYourself": false,
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
-            },
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
                 "increaseDamage": {
                     "lv10": 5,
                     "rise": 0.3333333333333333
-                },
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -3875,33 +1549,17 @@
         "pt": 150,
         "range": 600,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": false,
             "isOnlyYourself": false,
             "isAlly": true,
             "ally": {
                 "isIncludingYourself": true,
-                "decreaseDamage": null,
                 "fixed_heal": {
                     "lv10": 800,
                     "rise": 44.44444444444444
                 },
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
-                "dodge_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isEnemy": false
         }
@@ -3920,22 +1578,16 @@
                 "damagePercent": {
                     "lv10": 500,
                     "rise": 27.77777777777778
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
             "isEnemy": true,
             "enemy": {
-                "ATK_down": null,
                 "increaseDamage": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
-                },
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -3944,7 +1596,6 @@
         "pt": 250,
         "range": 850,
         "effect": {
-            "time": null,
             "target": 1,
             "isAttack": true,
             "attack": {
@@ -3953,8 +1604,7 @@
                 "damagePercent": {
                     "lv10": 700,
                     "rise": 38.888888888888886
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
@@ -3975,8 +1625,7 @@
                 "damagePercent": {
                     "lv10": 300,
                     "rise": 16.666666666666668
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": false,
             "isAlly": false,
@@ -3985,12 +1634,7 @@
                 "ATK_down": {
                     "lv10": 20,
                     "rise": 1.1111111111111112
-                },
-                "increaseDamage": null,
-                "knock_down": null,
-                "resist_down": null,
-                "attackSpan_down": null,
-                "speed_down": null
+                }
             }
         }
     },
@@ -4008,32 +1652,15 @@
                 "damagePercent": {
                     "lv10": 500,
                     "rise": 27.77777777777778
-                },
-                "fix_damage": null
+                }
             },
             "isOnlyYourself": true,
             "onlyYourself": {
-                "decreaseDamage": null,
-                "fixed_heal": null,
-                "healPercent": null,
-                "ATK_up": null,
-                "MAXHP_up": null,
-                "resist_up": null,
-                "attackSpan_up": null,
-                "speed_up": null,
-                "knock_up": null,
                 "dodge_up": {
                     "lv10": 10,
                     "rise": 0.5555555555555556
                 },
-                "accuracy_up": null,
-                "fitness_up": null,
-                "isInterval": false,
-                "interval": {
-                    "time": null,
-                    "healPercent": null,
-                    "fixed_heal": null
-                }
+                "isInterval": false
             },
             "isAlly": false,
             "isEnemy": false
