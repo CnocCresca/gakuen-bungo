@@ -1,7 +1,7 @@
 const doubleSkillTextData = {
     モルグ街の黒猫: {
         name: "モルグ街の黒猫",
-        text: () => `2秒間、範囲内の自身の味方3体に対してのダメージを無効化し、12秒間、2秒毎に最大体力の${interval_fixed_heal}自然治癒する。`,
+        text: () => `2秒間、範囲内の自身の味方3体に対してのダメージを無効化し、12秒間、2秒毎に最大体力の${interval_healPercent}自然治癒する。`,
         pt: 400,
         range: 800,
     },

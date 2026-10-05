@@ -3715,7 +3715,7 @@
                 "name": "江戸川乱歩",
                 "effectType": "攻撃力",
                 "unit": "上昇",
-                "isRatio": true,
+                "isRatio": false,
                 "effectValue": 10
             },
             {
