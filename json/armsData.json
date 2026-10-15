@@ -355,8 +355,8 @@
     "宮沢賢治_白ノ壱": {
         "status": {
             "color": "白",
-            "HP": 6400,
-            "ATK": 1600
+            "HP": 1600,
+            "ATK": 6400
         },
         "effect": {
             "isOnlyYourself": true,
