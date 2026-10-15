@@ -351,5 +351,33 @@
             }
         },
         "releaseDate": "2026-10-08"
+    },
+    "宮沢賢治_白ノ壱": {
+        "status": {
+            "color": "白",
+            "HP": 6400,
+            "ATK": 1600
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": {
+                    "lv10": 10,
+                    "rise": 0.5555555555555556
+                },
+                "ATK_up": {
+                    "lv10": 2500,
+                    "rise": 138.88888888888889
+                },
+                "isInterval": false,
+                "interval": {
+                    "time": null,
+                    "healPercent": null,
+                    "fixed_heal": null
+                }
+            },
+            "isSystem": false
+        },
+        "releaseDate": "2026-10-15"
     }
 }
