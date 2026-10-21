@@ -3279,7 +3279,7 @@
     "太宰治_学生服": {
         "rarity": "SR",
         "color": "黒",
-        "position": "前衛",
+        "position": "後衛",
         "role": "攻撃型",
         "status": {
             "HP": 5320,
@@ -3828,7 +3828,7 @@
     "芥川龍之介_学生服": {
         "rarity": "SR",
         "color": "翠",
-        "position": "前衛",
+        "position": "後衛",
         "role": "攻撃型",
         "status": {
             "HP": 4900,

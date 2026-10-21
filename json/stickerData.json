@@ -592,7 +592,7 @@
                 "MAXHP_up": null,
                 "resist_up": null,
                 "attackSpan_up": {
-                    "lv10": 0.02,
+                    "lv10": 0.04,
                     "isRaitio": false
                 },
                 "speed_up": null,
