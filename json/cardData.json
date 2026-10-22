@@ -1335,7 +1335,7 @@
         },
         "doubleSkill": {
             "name": "知識は使ってこそさ",
-            "pt": 250,
+            "pt": 500,
             "range": 1000,
             "effect": {
                 "time": 12,
