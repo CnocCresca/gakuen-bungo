@@ -28,7 +28,10 @@
                     },
                     "time": 2,
                     "healPercent": null,
-                    "fixed_heal": 500
+                    "fixed_heal": {
+                        "lv10": 500,
+                        "rise": 27.77777777777778
+                    }
                 }
             },
             "isEnemy": false
