@@ -1,4 +1,39 @@
 {
+    "あんみつは美味しい": {
+        "name": "あんみつは美味しい",
+        "pt": 250,
+        "range": 800,
+        "effect": {
+            "time": 8,
+            "target": 3,
+            "isAttack": false,
+            "isOnlyYourself": false,
+            "isAlly": true,
+            "ally": {
+                "isIncludingYourself": true,
+                "decreaseDamage": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "ATK_up": {
+                    "lv10": 20,
+                    "rise": 1.1111111111111112
+                },
+                "isInterval": true,
+                "interval": {
+                    "islimit": true,
+                    "limit": {
+                        "label": "color",
+                        "text": "蒼属性のみ"
+                    },
+                    "time": 2,
+                    "healPercent": null,
+                    "fixed_heal": 500
+                }
+            },
+            "isEnemy": false
+        }
+    },
     "モルグ街の黒猫": {
         "name": "モルグ街の黒猫",
         "pt": 200,

@@ -379,5 +379,23 @@
             "isSystem": false
         },
         "releaseDate": "2026-10-15"
+    },
+    "泉鏡花_蒼ノ壱": {
+        "status": {
+            "color": "蒼",
+            "HP": 2400,
+            "ATK": 5600
+        },
+        "effect": {
+            "isOnlyYourself": false,
+            "isSystem": true,
+            "system": {
+                "loot_battle_pt": {
+                    "lv10": 50,
+                    "rise": 2.7777777777777777
+                }
+            }
+        },
+        "releaseDate": "2026-10-22"
     }
 }

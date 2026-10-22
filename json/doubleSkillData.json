@@ -1,4 +1,39 @@
 {
+    "みんなも食べる?": {
+        "name": "みんなも食べる?",
+        "pt": 500,
+        "range": 900,
+        "effect": {
+            "time": 12,
+            "target": 4,
+            "isAttack": false,
+            "isOnlyYourself": false,
+            "isAlly": true,
+            "ally": {
+                "isIncludingYourself": true,
+                "decreaseDamage": {
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
+                },
+                "ATK_up": {
+                    "lv10": 30,
+                    "rise": 1.6666666666666667
+                },
+                "isInterval": true,
+                "interval": {
+                    "islimit": true,
+                    "limit": {
+                        "label": "color",
+                        "text": "蒼属性のみ"
+                    },
+                    "time": 2,
+                    "healPercent": null,
+                    "fixed_heal": 750
+                }
+            },
+            "isEnemy": false
+        }
+    },
     "モルグ街の黒猫": {
         "name": "モルグ街の黒猫",
         "pt": 400,

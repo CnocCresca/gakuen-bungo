@@ -1,8 +1,15 @@
 const skillTextData = {
     /* SSR */
+    あんみつは美味しい: {
+        name: "あんみつは美味しい",
+        text: (object) =>
+            `8秒間、範囲内の自身を含む味方4体に対し、攻撃力${object.ATK_up}%上昇し、被ダメージを${object.decreaseDamage}%減少させる。対象が蒼属性の場合、8秒間、2秒毎に最大体力の${object.interval_fixed_heal}自然治癒する。`,
+        pt: 250,
+        range: 800,
+    },
     モルグ街の黒猫: {
         name: "モルグ街の黒猫",
-        text: (object) => `2秒間、範囲内の自身の味方2体に対してのダメージを無効化し、8秒間、1.5秒毎に最大体力の${object.interval_healPercent}自然治癒する。`,
+        text: (object) => `2秒間、範囲内の自身以外の味方2体に対してのダメージを無効化し、8秒間、1.5秒毎に最大体力の${object.interval_healPercent}自然治癒する。`,
         pt: 200,
         range: 600,
     },

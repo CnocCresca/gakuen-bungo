@@ -1,4 +1,126 @@
 {
+    "健やかなる願い": {
+        "rarity": "SSR",
+        "color": "蒼",
+        "position": "後衛",
+        "role": "支援型",
+        "status": {
+            "HP": 5075,
+            "ATK": 5510,
+            "resist": 30,
+            "range": 650,
+            "speed": 590,
+            "attckSpan": 2.1
+        },
+        "unique": {
+            "Step3": {
+                "ATK": 0.15,
+                "decreaseDamage": 0.15
+            },
+            "Step2": {
+                "ATK": 0.11,
+                "decreaseDamage": 0.11
+            },
+            "Step1": {
+                "ATK": 0.07,
+                "decreaseDamage": 0.07
+            }
+        },
+        "skill": {
+            "name": "あんみつは美味しい",
+            "pt": 250,
+            "range": 800,
+            "effect": {
+                "time": 8,
+                "target": 3,
+                "isAttack": false,
+                "isOnlyYourself": false,
+                "isAlly": true,
+                "ally": {
+                    "isIncludingYourself": true,
+                    "decreaseDamage": {
+                        "lv10": 20,
+                        "rise": 1.1111111111111112
+                    },
+                    "ATK_up": {
+                        "lv10": 20,
+                        "rise": 1.1111111111111112
+                    },
+                    "isInterval": true,
+                    "interval": {
+                        "islimit": true,
+                        "limit": {
+                            "label": "color",
+                            "text": "蒼属性のみ"
+                        },
+                        "time": 2,
+                        "healPercent": null,
+                        "fixed_heal": 500
+                    }
+                },
+                "isEnemy": false
+            }
+        },
+        "doubleSkill": {
+            "name": "みんなも食べる?",
+            "pt": 500,
+            "range": 900,
+            "effect": {
+                "time": 12,
+                "target": 4,
+                "isAttack": false,
+                "isOnlyYourself": false,
+                "isAlly": true,
+                "ally": {
+                    "isIncludingYourself": true,
+                    "decreaseDamage": {
+                        "lv10": 30,
+                        "rise": 1.6666666666666667
+                    },
+                    "ATK_up": {
+                        "lv10": 30,
+                        "rise": 1.6666666666666667
+                    },
+                    "isInterval": true,
+                    "interval": {
+                        "islimit": true,
+                        "limit": {
+                            "label": "color",
+                            "text": "蒼属性のみ"
+                        },
+                        "time": 2,
+                        "healPercent": null,
+                        "fixed_heal": 750
+                    }
+                },
+                "isEnemy": false
+            }
+        },
+        "tagEffect": [
+            {
+                "name": "江戸川乱歩",
+                "effectType": "移動速度",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.15
+            },
+            {
+                "name": "与謝野晶子",
+                "effectType": "攻撃力",
+                "unit": "上昇",
+                "isRatio": true,
+                "effectValue": 0.15
+            },
+            {
+                "name": "森鴎外",
+                "effectType": "被ダメージ",
+                "unit": "減少",
+                "isRatio": true,
+                "effectValue": 0.15
+            }
+        ],
+        "releaseDate": "2026-10-22"
+    },
     "めまぐるしい道草": {
         "rarity": "SSR",
         "color": "翠",
