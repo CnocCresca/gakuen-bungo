@@ -9,7 +9,7 @@ const skillTextData = {
     },
     モルグ街の黒猫: {
         name: "モルグ街の黒猫",
-        text: (object) => `2秒間、範囲内の自身以外の味方2体に対してのダメージを無効化し、8秒間、1.5秒毎に最大体力の${object.interval_healPercent}自然治癒する。`,
+        text: (object) => `2秒間、範囲内の自身以外の味方2体に対してのダメージを無効化し、8秒間、1.5秒毎に最大体力の${object.interval_healPercent}%自然治癒する。`,
         pt: 200,
         range: 600,
     },
@@ -29,7 +29,7 @@ const skillTextData = {
     "危ないですよ～！": {
         name: "危ないですよ～！",
         text: (object) =>
-            `範囲内の3体の敵に対し、通常攻撃の${object.damagePercent}倍の蒼属性ヰ能ダメージを、12秒間、攻撃頻度を${object.attackSpan_down}%延長、移動速度を${object.speed_down}%減少させる。`,
+            `範囲内の3体の敵に対し、通常攻撃の${object.damagePercent}倍の紅属性ヰ能ダメージを、12秒間、攻撃頻度を${object.attackSpan_down}%延長、移動速度を${object.speed_down}%減少させる。`,
         pt: 260,
         range: 500,
     },
