@@ -15,14 +15,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.15
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.11
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.07
             }
         },
@@ -143,15 +155,27 @@
         "unique": {
             "Step3": {
                 "decreaseDamage": 0.15,
-                "HP": 600
+                "HP": 600,
+                "MAXHP_up": {
+                    "value": 600,
+                    "isRatio": false
+                }
             },
             "Step2": {
-                "HP": 0.15,
-                "decreaseDamage": 450
+                "decreaseDamage": 0.15,
+                "HP": 450,
+                "MAXHP_up": {
+                    "value": 450,
+                    "isRatio": false
+                }
             },
             "Step1": {
-                "HP": 0.1,
-                "decreaseDamage": 300
+                "decreaseDamage": 0.1,
+                "HP": 300,
+                "MAXHP_up": {
+                    "value": 300,
+                    "isRatio": false
+                }
             }
         },
         "skill": {
@@ -245,14 +269,26 @@
         "unique": {
             "Step3": {
                 "decreaseDamage": 0.15,
-                "HP": 0.2
+                "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                }
             },
             "Step2": {
                 "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.11
             },
             "Step1": {
                 "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.07
             }
         },
@@ -371,14 +407,26 @@
         "unique": {
             "Step3": {
                 "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                },
                 "dodge_up": 0.1
             },
             "Step2": {
                 "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "dodge_up": 0.075
             },
             "Step1": {
                 "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                },
                 "dodge_up": 0.05
             }
         },
@@ -484,15 +532,39 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
-                "HP": 0.2
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
+                "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                }
             },
             "Step2": {
                 "ATK": 0.11,
-                "HP": 0.15
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
+                "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step1": {
                 "ATK": 0.07,
-                "HP": 0.1
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
+                "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             }
         },
         "skill": {
@@ -601,14 +673,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "attackSpan": 0.1
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "attackSpan": 0.075
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "attackSpan": 0.05
             }
         },
@@ -710,14 +794,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "dodge_up": 0.1
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "dodge_up": 0.075
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "dodge_up": 0.05
             }
         },
@@ -948,14 +1044,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "knockBack": 20
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "knockBack": 15
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "knockBack": 10
             }
         },
@@ -1053,14 +1161,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.15
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.11
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "decreaseDamage": 0.07
             }
         },
@@ -1151,14 +1271,26 @@
         "unique": {
             "Step3": {
                 "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                },
                 "resist": 0.2
             },
             "Step2": {
                 "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "resist": 0.15
             },
             "Step1": {
                 "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                },
                 "resist": 0.1
             }
         },
@@ -1289,14 +1421,26 @@
         "unique": {
             "Step3": {
                 "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                },
                 "speed": 0.15
             },
             "Step2": {
                 "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "speed": 0.11
             },
             "Step1": {
                 "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                },
                 "speed": 0.07
             }
         },
@@ -1406,14 +1550,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "knockBack": 20
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "knockBack": 15
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "knockBack": 10
             }
         },
@@ -1594,15 +1750,27 @@
         "unique": {
             "Step3": {
                 "decreaseDamage": 0.15,
-                "HP": 0.2
+                "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                }
             },
             "Step2": {
                 "decreaseDamage": 0.11,
-                "HP": 0.15
+                "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step1": {
                 "decreaseDamage": 0.07,
-                "HP": 0.1
+                "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -1807,14 +1975,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "knockBack": 20
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "knockBack": 15
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "knockBack": 10
             }
         },
@@ -1914,14 +2094,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "knockBack": 20
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "knockBack": 15
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "knockBack": 10
             }
         },
@@ -2007,14 +2199,26 @@
         "unique": {
             "Step3": {
                 "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                },
                 "resist": 0.2
             },
             "Step2": {
                 "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                },
                 "resist": 0.15
             },
             "Step1": {
                 "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                },
                 "resist": 0.1
             }
         },
@@ -2131,15 +2335,27 @@
         "unique": {
             "Step3": {
                 "decreaseDamage": 0.15,
-                "HP": 600
+                "HP": 600,
+                "MAXHP_up": {
+                    "value": 600,
+                    "isRatio": false
+                }
             },
             "Step2": {
                 "decreaseDamage": 0.11,
-                "HP": 450
+                "HP": 450,
+                "MAXHP_up": {
+                    "value": 450,
+                    "isRatio": false
+                }
             },
             "Step1": {
                 "decreaseDamage": 0.07,
-                "HP": 300
+                "HP": 300,
+                "MAXHP_up": {
+                    "value": 300,
+                    "isRatio": false
+                }
             }
         },
         "cardInfo": {},
@@ -2244,14 +2460,26 @@
         "unique": {
             "Step3": {
                 "HP": 600,
+                "MAXHP_up": {
+                    "value": 600,
+                    "isRatio": false
+                },
                 "knockBack": 20
             },
             "Step2": {
                 "HP": 450,
+                "MAXHP_up": {
+                    "value": 450,
+                    "isRatio": false
+                },
                 "knockBack": 15
             },
             "Step1": {
                 "HP": 300,
+                "MAXHP_up": {
+                    "value": 300,
+                    "isRatio": false
+                },
                 "knockBack": 10
             }
         },
@@ -2337,15 +2565,27 @@
         "unique": {
             "Step3": {
                 "attackSpan": 0.1,
-                "HP": 0.2
+                "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                }
             },
             "Step2": {
                 "attackSpan": 0.075,
-                "HP": 0.15
+                "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step1": {
                 "attackSpan": 0.05,
-                "HP": 0.1
+                "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -2561,15 +2801,27 @@
         "unique": {
             "Step3": {
                 "knockBack": 20,
-                "HP": 600
+                "HP": 600,
+                "MAXHP_up": {
+                    "value": 600,
+                    "isRatio": false
+                }
             },
             "Step2": {
                 "knockBack": 15,
-                "HP": 450
+                "HP": 450,
+                "MAXHP_up": {
+                    "value": 450,
+                    "isRatio": false
+                }
             },
             "Step1": {
                 "knockBack": 10,
-                "HP": 300
+                "HP": 300,
+                "MAXHP_up": {
+                    "value": 300,
+                    "isRatio": false
+                }
             }
         },
         "cardInfo": {},
@@ -2653,15 +2905,27 @@
         "unique": {
             "Step3": {
                 "speed": 80,
-                "ATK": 0.15
+                "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {
                 "speed": 60,
-                "ATK": 0.11
+                "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                }
             },
             "Step1": {
                 "speed": 40,
-                "ATK": 0.07
+                "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -2754,14 +3018,26 @@
         "unique": {
             "Step3": {
                 "knockBack": 0.3,
-                "HP": 0.2
+                "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                }
             },
             "Step2": {
                 "knockBack": 0.225,
-                "HP": 0.15
+                "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step1": {
                 "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                },
                 "knockBack": 0.15
             }
         },
@@ -3236,13 +3512,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.07
+                "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -3322,13 +3610,25 @@
         },
         "unique": {
             "Step3": {
-                "HP": 0.2
+                "HP": 0.2,
+                "MAXHP_up": {
+                    "value": 0.2,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "HP": 0.15
+                "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "HP": 0.1
+                "HP": 0.1,
+                "MAXHP_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -3502,13 +3802,25 @@
         },
         "unique": {
             "Step3": {
-                "HP": 600
+                "HP": 600,
+                "MAXHP_up": {
+                    "value": 600,
+                    "isRatio": false
+                }
             },
             "Step2": {
-                "HP": 450
+                "HP": 450,
+                "MAXHP_up": {
+                    "value": 450,
+                    "isRatio": false
+                }
             },
             "Step1": {
-                "HP": 300
+                "HP": 300,
+                "MAXHP_up": {
+                    "value": 300,
+                    "isRatio": false
+                }
             }
         },
         "cardInfo": {},
@@ -3787,13 +4099,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.07
+                "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                }
             }
         },
         "skill": {
@@ -3968,13 +4292,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.07
+                "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -4051,13 +4387,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.07
+                "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -4425,13 +4773,25 @@
         },
         "unique": {
             "Step3": {
-                "HP": 600
+                "HP": 600,
+                "MAXHP_up": {
+                    "value": 600,
+                    "isRatio": false
+                }
             },
             "Step2": {
-                "HP": 450
+                "HP": 450,
+                "MAXHP_up": {
+                    "value": 450,
+                    "isRatio": false
+                }
             },
             "Step1": {
-                "HP": 300
+                "HP": 300,
+                "MAXHP_up": {
+                    "value": 300,
+                    "isRatio": false
+                }
             }
         },
         "cardInfo": {},
@@ -4515,13 +4875,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.07
+                "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -4799,13 +5171,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.15
+                "ATK": 0.15,
+                "ATK_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.11
+                "ATK": 0.11,
+                "ATK_up": {
+                    "value": 0.11,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.07
+                "ATK": 0.07,
+                "ATK_up": {
+                    "value": 0.07,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -5628,13 +6012,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.1
+                "ATK": 0.1,
+                "ATK_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.075
+                "ATK": 0.075,
+                "ATK_up": {
+                    "value": 0.075,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.05
+                "ATK": 0.05,
+                "ATK_up": {
+                    "value": 0.05,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -5717,13 +6113,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.1
+                "ATK": 0.1,
+                "ATK_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.075
+                "ATK": 0.075,
+                "ATK_up": {
+                    "value": 0.075,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.05
+                "ATK": 0.05,
+                "ATK_up": {
+                    "value": 0.05,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -5803,13 +6211,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.1
+                "ATK": 0.1,
+                "ATK_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.075
+                "ATK": 0.075,
+                "ATK_up": {
+                    "value": 0.075,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.05
+                "ATK": 0.05,
+                "ATK_up": {
+                    "value": 0.05,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -5955,13 +6375,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.1
+                "ATK": 0.1,
+                "ATK_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.075
+                "ATK": 0.075,
+                "ATK_up": {
+                    "value": 0.075,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.05
+                "ATK": 0.05,
+                "ATK_up": {
+                    "value": 0.05,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -6043,7 +6475,11 @@
         },
         "unique": {
             "Step3": {
-                "HP": 0.15
+                "HP": 0.15,
+                "MAXHP_up": {
+                    "value": 0.15,
+                    "isRatio": true
+                }
             },
             "Step2": {},
             "Step1": {}
@@ -6205,13 +6641,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.1
+                "ATK": 0.1,
+                "ATK_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.075
+                "ATK": 0.075,
+                "ATK_up": {
+                    "value": 0.075,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.05
+                "ATK": 0.05,
+                "ATK_up": {
+                    "value": 0.05,
+                    "isRatio": true
+                }
             }
         },
         "cardInfo": {},
@@ -6284,7 +6732,11 @@
                 "HP": 400
             },
             "Step2": {
-                "HP": 300
+                "HP": 300,
+                "MAXHP_up": {
+                    "value": 300,
+                    "isRatio": false
+                }
             },
             "Step1": {
                 "HP": 200
@@ -6370,13 +6822,25 @@
         },
         "unique": {
             "Step3": {
-                "ATK": 0.1
+                "ATK": 0.1,
+                "ATK_up": {
+                    "value": 0.1,
+                    "isRatio": true
+                }
             },
             "Step2": {
-                "ATK": 0.075
+                "ATK": 0.075,
+                "ATK_up": {
+                    "value": 0.075,
+                    "isRatio": true
+                }
             },
             "Step1": {
-                "ATK": 0.05
+                "ATK": 0.05,
+                "ATK_up": {
+                    "value": 0.05,
+                    "isRatio": true
+                }
             }
         },
         "skill": {
