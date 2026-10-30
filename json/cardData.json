@@ -13,29 +13,33 @@
             "attckSpan": 2.1
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
-                "ATK_up": {
-                    "value": 0.15,
-                    "isRatio": true
-                },
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
-                "ATK_up": {
-                    "value": 0.11,
-                    "isRatio": true
-                },
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 },
                 "decreaseDamage": 0.07
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
         "skill": {
@@ -153,7 +157,7 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15,
                 "HP": 600,
                 "MAXHP_up": {
@@ -161,21 +165,33 @@
                     "isRatio": false
                 }
             },
-            "Step2": {
-                "decreaseDamage": 0.15,
+            "step2": {
+                "decreaseDamage": 0.11,
                 "HP": 450,
                 "MAXHP_up": {
                     "value": 450,
                     "isRatio": false
                 }
             },
-            "Step1": {
-                "decreaseDamage": 0.1,
+            "step1": {
+                "decreaseDamage": 0.07,
                 "HP": 300,
                 "MAXHP_up": {
                     "value": 300,
                     "isRatio": false
                 }
+            },
+            "MAXHP_up": {
+                "step3": 600,
+                "step2": 450,
+                "step1": 300,
+                "isRatio": false
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
         "skill": {
@@ -267,7 +283,7 @@
             "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15,
                 "HP": 0.2,
                 "MAXHP_up": {
@@ -275,7 +291,7 @@
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "HP": 0.15,
                 "MAXHP_up": {
                     "value": 0.15,
@@ -283,13 +299,25 @@
                 },
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 },
                 "decreaseDamage": 0.07
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
         "skill": {
@@ -405,7 +433,7 @@
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 0.2,
                 "MAXHP_up": {
                     "value": 0.2,
@@ -413,7 +441,7 @@
                 },
                 "dodge_up": 0.1
             },
-            "Step2": {
+            "step2": {
                 "HP": 0.15,
                 "MAXHP_up": {
                     "value": 0.15,
@@ -421,13 +449,25 @@
                 },
                 "dodge_up": 0.075
             },
-            "Step1": {
+            "step1": {
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 },
                 "dodge_up": 0.05
+            },
+            "dodge_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
         "skill": {
@@ -530,7 +570,7 @@
             "attckSpan": 2.3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -542,7 +582,7 @@
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -554,7 +594,7 @@
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
@@ -565,6 +605,18 @@
                     "value": 0.1,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
         "skill": {
@@ -671,7 +723,7 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -679,7 +731,7 @@
                 },
                 "attackSpan": 0.1
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -687,13 +739,19 @@
                 },
                 "attackSpan": 0.075
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 },
                 "attackSpan": 0.05
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
         "skill": {
@@ -792,7 +850,7 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -800,7 +858,7 @@
                 },
                 "dodge_up": 0.1
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -808,13 +866,25 @@
                 },
                 "dodge_up": 0.075
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 },
                 "dodge_up": 0.05
+            },
+            "dodge_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
         "skill": {
@@ -914,17 +984,29 @@
             "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15,
                 "resist": 0.2
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11,
                 "resist": 0.15
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07,
                 "resist": 0.1
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "resist_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
         "skill": {
@@ -1042,7 +1124,7 @@
             "attckSpan": 1.8
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -1050,7 +1132,7 @@
                 },
                 "knockBack": 20
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -1058,7 +1140,7 @@
                 },
                 "knockBack": 15
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
@@ -1159,7 +1241,7 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -1167,7 +1249,7 @@
                 },
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -1175,13 +1257,25 @@
                 },
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 },
                 "decreaseDamage": 0.07
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
         "skill": {
@@ -1269,7 +1363,7 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 0.2,
                 "MAXHP_up": {
                     "value": 0.2,
@@ -1277,7 +1371,7 @@
                 },
                 "resist": 0.2
             },
-            "Step2": {
+            "step2": {
                 "HP": 0.15,
                 "MAXHP_up": {
                     "value": 0.15,
@@ -1285,16 +1379,27 @@
                 },
                 "resist": 0.15
             },
-            "Step1": {
+            "step1": {
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 },
                 "resist": 0.1
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
+            },
+            "resist_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "残念ですがお別れのようです",
             "pt": 200,
@@ -1419,7 +1524,7 @@
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 0.2,
                 "MAXHP_up": {
                     "value": 0.2,
@@ -1427,7 +1532,7 @@
                 },
                 "speed": 0.15
             },
-            "Step2": {
+            "step2": {
                 "HP": 0.15,
                 "MAXHP_up": {
                     "value": 0.15,
@@ -1435,16 +1540,27 @@
                 },
                 "speed": 0.11
             },
-            "Step1": {
+            "step1": {
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 },
                 "speed": 0.07
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
+            },
+            "speed_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "勉強の時間だよ",
             "pt": 250,
@@ -1548,7 +1664,7 @@
             "attckSpan": 2.1
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -1556,7 +1672,7 @@
                 },
                 "knockBack": 20
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -1564,16 +1680,27 @@
                 },
                 "knockBack": 15
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 },
                 "knockBack": 10
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "knockBack_up": {
+                "step3": 20,
+                "step2": 15,
+                "step1": 10,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "汚れつちまつた悲しみに",
             "pt": 320,
@@ -1653,20 +1780,31 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "dodge_up": 0.1,
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "dodge_up": 0.075,
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "dodge_up": 0.05,
                 "decreaseDamage": 0.07
+            },
+            "dodge_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "天衣無縫",
             "pt": 240,
@@ -1748,7 +1886,7 @@
             "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15,
                 "HP": 0.2,
                 "MAXHP_up": {
@@ -1756,7 +1894,7 @@
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11,
                 "HP": 0.15,
                 "MAXHP_up": {
@@ -1764,16 +1902,27 @@
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07,
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "紅茶も悪くないね",
             "pt": 125,
@@ -1858,20 +2007,31 @@
             "attckSpan": 1.7
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "speed": 80,
                 "knockBack": 0.3
             },
-            "Step2": {
+            "step2": {
                 "speed": 60,
                 "knockBack": 0.225
             },
-            "Step1": {
+            "step1": {
                 "speed": 40,
                 "knockBack": 0.15
+            },
+            "knockBack_up": {
+                "step3": 0.3,
+                "step2": 0.225,
+                "step1": 0.15,
+                "isRatio": true
+            },
+            "speed_up": {
+                "step3": 80,
+                "step2": 60,
+                "step1": 40,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "はい、チーズ！",
             "pt": 210,
@@ -1973,7 +2133,7 @@
             "attckSpan": 2.3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -1981,7 +2141,7 @@
                 },
                 "knockBack": 20
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -1989,16 +2149,27 @@
                 },
                 "knockBack": 15
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 },
                 "knockBack": 10
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "knockBack_up": {
+                "step3": 20,
+                "step2": 15,
+                "step1": 10,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "荷物だけは守らないと...！",
             "pt": 250,
@@ -2092,7 +2263,7 @@
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -2100,7 +2271,7 @@
                 },
                 "knockBack": 20
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -2108,16 +2279,27 @@
                 },
                 "knockBack": 15
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 },
                 "knockBack": 10
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "knockBack_up": {
+                "step3": 20,
+                "step2": 15,
+                "step1": 10,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "羅生門・顎",
             "pt": 250,
@@ -2197,7 +2379,7 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
@@ -2205,7 +2387,7 @@
                 },
                 "resist": 0.2
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
@@ -2213,7 +2395,7 @@
                 },
                 "resist": 0.15
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
@@ -2222,7 +2404,6 @@
                 "resist": 0.1
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "月下獣",
             "pt": 200,
@@ -2333,7 +2514,7 @@
             "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15,
                 "HP": 600,
                 "MAXHP_up": {
@@ -2341,7 +2522,7 @@
                     "isRatio": false
                 }
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11,
                 "HP": 450,
                 "MAXHP_up": {
@@ -2349,16 +2530,27 @@
                     "isRatio": false
                 }
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07,
                 "HP": 300,
                 "MAXHP_up": {
                     "value": 300,
                     "isRatio": false
                 }
+            },
+            "MAXHP_up": {
+                "step3": 600,
+                "step2": 450,
+                "step1": 300,
+                "isRatio": false
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "人間失格",
             "pt": 260,
@@ -2458,7 +2650,7 @@
             "attckSpan": 2.8
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 600,
                 "MAXHP_up": {
                     "value": 600,
@@ -2466,7 +2658,7 @@
                 },
                 "knockBack": 20
             },
-            "Step2": {
+            "step2": {
                 "HP": 450,
                 "MAXHP_up": {
                     "value": 450,
@@ -2474,16 +2666,27 @@
                 },
                 "knockBack": 15
             },
-            "Step1": {
+            "step1": {
                 "HP": 300,
                 "MAXHP_up": {
                     "value": 300,
                     "isRatio": false
                 },
                 "knockBack": 10
+            },
+            "MAXHP_up": {
+                "step3": 600,
+                "step2": 450,
+                "step1": 300,
+                "isRatio": false
+            },
+            "knockBack_up": {
+                "step3": 20,
+                "step2": 15,
+                "step1": 10,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "独歩吟客",
             "pt": 280,
@@ -2563,7 +2766,7 @@
             "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "attackSpan": 0.1,
                 "HP": 0.2,
                 "MAXHP_up": {
@@ -2571,7 +2774,7 @@
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "attackSpan": 0.075,
                 "HP": 0.15,
                 "MAXHP_up": {
@@ -2579,16 +2782,21 @@
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "attackSpan": 0.05,
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "超推理",
             "pt": 240,
@@ -2678,20 +2886,31 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15,
                 "resist": 10
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11,
                 "resist": 8
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07,
                 "resist": 5
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "resist_up": {
+                "step3": 10,
+                "step2": 8,
+                "step1": 5,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "細雪",
             "pt": 200,
@@ -2799,7 +3018,7 @@
             "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "knockBack": 20,
                 "HP": 600,
                 "MAXHP_up": {
@@ -2807,7 +3026,7 @@
                     "isRatio": false
                 }
             },
-            "Step2": {
+            "step2": {
                 "knockBack": 15,
                 "HP": 450,
                 "MAXHP_up": {
@@ -2815,16 +3034,27 @@
                     "isRatio": false
                 }
             },
-            "Step1": {
+            "step1": {
                 "knockBack": 10,
                 "HP": 300,
                 "MAXHP_up": {
                     "value": 300,
                     "isRatio": false
                 }
+            },
+            "knockBack_up": {
+                "step3": 20,
+                "step2": 15,
+                "step1": 10,
+                "isRatio": false
+            },
+            "MAXHP_up": {
+                "step3": 600,
+                "step2": 450,
+                "step1": 300,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "君死給勿",
             "pt": 120,
@@ -2903,7 +3133,7 @@
             "attckSpan": 1.8
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "speed": 80,
                 "ATK": 0.15,
                 "ATK_up": {
@@ -2911,7 +3141,7 @@
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "speed": 60,
                 "ATK": 0.11,
                 "ATK_up": {
@@ -2919,16 +3149,27 @@
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "speed": 40,
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "speed_up": {
+                "step3": 80,
+                "step2": 60,
+                "step1": 40,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "夜叉白雪",
             "pt": 180,
@@ -3016,7 +3257,7 @@
             "attckSpan": 3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "knockBack": 0.3,
                 "HP": 0.2,
                 "MAXHP_up": {
@@ -3024,7 +3265,7 @@
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "knockBack": 0.225,
                 "HP": 0.15,
                 "MAXHP_up": {
@@ -3032,16 +3273,27 @@
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 },
                 "knockBack": 0.15
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
+            },
+            "knockBack_up": {
+                "step3": 0.3,
+                "step2": 0.225,
+                "step1": 0.15,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "雨ニモマケズ",
             "pt": 300,
@@ -3137,17 +3389,22 @@
             "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "リュックが当たれば...！",
             "pt": 240,
@@ -3221,7 +3478,6 @@
     },
     "うずまき": {
         "rarity": "SR",
-        "cardInfo": {},
         "color": "翠",
         "position": "",
         "role": "",
@@ -3234,9 +3490,9 @@
             "attckSpan": 0
         },
         "unique": {
-            "Step3": {},
-            "Step2": {},
-            "Step1": {}
+            "step3": {},
+            "step2": {},
+            "step1": {}
         },
         "skill": {
             "name": "ごゆっくりどうぞ！",
@@ -3313,17 +3569,22 @@
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "speed": 0.15
             },
-            "Step2": {
+            "step2": {
                 "speed": 0.11
             },
-            "Step1": {
+            "step1": {
                 "speed": 0.07
+            },
+            "speed_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "僕が助けます",
             "pt": 230,
@@ -3396,17 +3657,22 @@
             "attckSpan": 2.1
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "resist": 10
             },
-            "Step2": {
+            "step2": {
                 "resist": 8
             },
-            "Step1": {
+            "step1": {
                 "resist": 5
+            },
+            "resist_up": {
+                "step3": 10,
+                "step2": 8,
+                "step1": 5,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "大人しくして",
             "pt": 210,
@@ -3511,29 +3777,34 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "治療の邪魔だよ",
             "pt": 200,
@@ -3609,29 +3880,34 @@
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 0.2,
                 "MAXHP_up": {
                     "value": 0.2,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "HP": 0.15,
                 "MAXHP_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "HP": 0.1,
                 "MAXHP_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
+            },
+            "MAXHP_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "これでも食らえ",
             "pt": 220,
@@ -3718,17 +3994,22 @@
             "attckSpan": 2.8
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "そーれ、飛んでけ～！",
             "pt": 280,
@@ -3801,29 +4082,34 @@
             "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 600,
                 "MAXHP_up": {
                     "value": 600,
                     "isRatio": false
                 }
             },
-            "Step2": {
+            "step2": {
                 "HP": 450,
                 "MAXHP_up": {
                     "value": 450,
                     "isRatio": false
                 }
             },
-            "Step1": {
+            "step1": {
                 "HP": 300,
                 "MAXHP_up": {
                     "value": 300,
                     "isRatio": false
                 }
+            },
+            "MAXHP_up": {
+                "step3": 600,
+                "step2": 450,
+                "step1": 300,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "",
             "pt": 120,
@@ -3896,17 +4182,22 @@
             "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "僕が出るまでもないよ",
             "pt": 260,
@@ -3997,17 +4288,22 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "speed": 0.15
             },
-            "Step2": {
+            "step2": {
                 "speed": 0.11
             },
-            "Step1": {
+            "step1": {
                 "speed": 0.07
+            },
+            "speed_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "演奏を始めるよ",
             "pt": 250,
@@ -4098,26 +4394,32 @@
             "attckSpan": 2.3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
         "skill": {
@@ -4194,17 +4496,22 @@
             "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "邪魔をしないでください",
             "pt": 180,
@@ -4291,29 +4598,34 @@
             "attckSpan": 2.7
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "邪魔をするな",
             "pt": 270,
@@ -4386,29 +4698,34 @@
             "attckSpan": 2.3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "これでも食らいな",
             "pt": 230,
@@ -4484,17 +4801,22 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "knockBack": 0.3
             },
-            "Step2": {
+            "step2": {
                 "knockBack": 0.225
             },
-            "Step1": {
+            "step1": {
                 "knockBack": 0.15
+            },
+            "knockBack_up": {
+                "step3": 0.3,
+                "step2": 0.225,
+                "step1": 0.15,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "試させて貰う",
             "pt": 250,
@@ -4567,17 +4889,22 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "焦る事は無い",
             "pt": 100,
@@ -4661,17 +4988,22 @@
             "attckSpan": 1.9
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "resist": 0.2
             },
-            "Step2": {
+            "step2": {
                 "resist": 0.15
             },
-            "Step1": {
+            "step1": {
                 "resist": 0.1
+            },
+            "resist_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "少し痛いぞ",
             "pt": 190,
@@ -4772,29 +5104,34 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 600,
                 "MAXHP_up": {
                     "value": 600,
                     "isRatio": false
                 }
             },
-            "Step2": {
+            "step2": {
                 "HP": 450,
                 "MAXHP_up": {
                     "value": 450,
                     "isRatio": false
                 }
             },
-            "Step1": {
+            "step1": {
                 "HP": 300,
                 "MAXHP_up": {
                     "value": 300,
                     "isRatio": false
                 }
+            },
+            "MAXHP_up": {
+                "step3": 600,
+                "step2": 450,
+                "step1": 300,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "お絵描きするね☆",
             "pt": 100,
@@ -4874,29 +5211,34 @@
             "attckSpan": 2.1
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "避けないで頂戴ね！",
             "pt": 220,
@@ -4991,17 +5333,22 @@
             "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "attackSpan": "0.2秒"
             },
-            "Step2": {
+            "step2": {
                 "attackSpan": "0.15秒"
             },
-            "Step1": {
+            "step1": {
                 "attackSpan": "0.1秒"
+            },
+            "attckSpan_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "忘れずに書いておくのである",
             "pt": 240,
@@ -5071,17 +5418,22 @@
             "attckSpan": 1.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "speed": 0.15
             },
-            "Step2": {
+            "step2": {
                 "speed": 0.11
             },
-            "Step1": {
+            "step1": {
                 "speed": 0.07
+            },
+            "speed_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "避けてくれるなよ",
             "pt": 160,
@@ -5170,29 +5522,34 @@
             "attckSpan": 2.3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.15,
                 "ATK_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.11,
                 "ATK_up": {
                     "value": 0.11,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.07,
                 "ATK_up": {
                     "value": 0.07,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "我が剣は躱せぬ",
             "pt": 230,
@@ -5268,17 +5625,22 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "speed": 80
             },
-            "Step2": {
+            "step2": {
                 "speed": 60
             },
-            "Step1": {
+            "step1": {
                 "speed": 40
+            },
+            "speed_up": {
+                "step3": 80,
+                "step2": 60,
+                "step1": 40,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "受け止めきれますか？",
             "pt": 200,
@@ -5379,17 +5741,16 @@
             "attckSpan": 2.6
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "attackSpan": 0.1
             },
-            "Step2": {
+            "step2": {
                 "attackSpan": 0.075
             },
-            "Step1": {
+            "step1": {
                 "attackSpan": 0.05
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "贈呈品だ",
             "pt": 260,
@@ -5476,17 +5837,22 @@
             "attckSpan": 2.4
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "attackSpan": "0.2秒"
             },
-            "Step2": {
+            "step2": {
                 "attackSpan": "0.15秒"
             },
-            "Step1": {
+            "step1": {
                 "attackSpan": "0.1秒"
+            },
+            "attckSpan_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": false
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "一息つくか",
             "pt": 120,
@@ -5562,17 +5928,22 @@
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.15
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.11
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.07
+            },
+            "decreaseDamage": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "一息入れましょう",
             "pt": 110,
@@ -5645,17 +6016,22 @@
             "attckSpan": 2.3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "knockBack": 0.3
             },
-            "Step2": {
+            "step2": {
                 "knockBack": 0.225
             },
-            "Step1": {
+            "step1": {
                 "knockBack": 0.15
+            },
+            "knockBack_up": {
+                "step3": 0.3,
+                "step2": 0.225,
+                "step1": 0.15,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "杖の先にご注目～！",
             "pt": 230,
@@ -5756,17 +6132,22 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.1
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.075
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.05
+            },
+            "decreaseDamage": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "飲み物をどうぞ",
             "pt": 125,
@@ -5832,17 +6213,22 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.1
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.075
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.05
+            },
+            "decreaseDamage": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "野球は得意だ",
             "pt": 200,
@@ -5922,17 +6308,22 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.1
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.075
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.05
+            },
+            "decreaseDamage": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "投げますよー",
             "pt": 200,
@@ -6011,29 +6402,34 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.1,
                 "ATK_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.075,
                 "ATK_up": {
                     "value": 0.075,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.05,
                 "ATK_up": {
                     "value": 0.05,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "果たして避けられるかな？",
             "pt": 250,
@@ -6112,29 +6508,34 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.1,
                 "ATK_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.075,
                 "ATK_up": {
                     "value": 0.075,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.05,
                 "ATK_up": {
                     "value": 0.05,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "えーい！",
             "pt": 200,
@@ -6210,29 +6611,34 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.1,
                 "ATK_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.075,
                 "ATK_up": {
                     "value": 0.075,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.05,
                 "ATK_up": {
                     "value": 0.05,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "狙ッて投げれば・・・",
             "pt": 250,
@@ -6298,17 +6704,22 @@
             "attckSpan": 3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.1
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.075
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.05
+            },
+            "decreaseDamage": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "スポーツドリンクだよ",
             "pt": 150,
@@ -6374,29 +6785,34 @@
             "attckSpan": 3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.1,
                 "ATK_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.075,
                 "ATK_up": {
                     "value": 0.075,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.05,
                 "ATK_up": {
                     "value": 0.05,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "外さない",
             "pt": 300,
@@ -6474,17 +6890,22 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 0.15,
                 "MAXHP_up": {
                     "value": 0.15,
                     "isRatio": true
                 }
             },
-            "Step2": {},
-            "Step1": {}
+            "step2": {},
+            "step1": {},
+            "MAXHP_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            }
         },
-        "cardInfo": {},
         "skill": {
             "name": "む…飲み物を…",
             "pt": 150,
@@ -6550,17 +6971,22 @@
             "attckSpan": 2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "decreaseDamage": 0.1
             },
-            "Step2": {
+            "step2": {
                 "decreaseDamage": 0.075
             },
-            "Step1": {
+            "step1": {
                 "decreaseDamage": 0.05
+            },
+            "decreaseDamage": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "当てるのは得意でな！",
             "pt": 200,
@@ -6640,29 +7066,34 @@
             "attckSpan": 3
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.1,
                 "ATK_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.075,
                 "ATK_up": {
                     "value": 0.075,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.05,
                 "ATK_up": {
                     "value": 0.05,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
-        "cardInfo": {},
         "skill": {
             "name": "パスだよ☆受け取って！",
             "pt": 250,
@@ -6728,18 +7159,24 @@
             "attckSpan": 2.5
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "HP": 400
             },
-            "Step2": {
+            "step2": {
                 "HP": 300,
                 "MAXHP_up": {
                     "value": 300,
                     "isRatio": false
                 }
             },
-            "Step1": {
+            "step1": {
                 "HP": 200
+            },
+            "MAXHP_up": {
+                "step3": 400,
+                "step2": 300,
+                "step1": 200,
+                "isRatio": false
             }
         },
         "skill": {
@@ -6821,26 +7258,32 @@
             "attckSpan": 2.2
         },
         "unique": {
-            "Step3": {
+            "step3": {
                 "ATK": 0.1,
                 "ATK_up": {
                     "value": 0.1,
                     "isRatio": true
                 }
             },
-            "Step2": {
+            "step2": {
                 "ATK": 0.075,
                 "ATK_up": {
                     "value": 0.075,
                     "isRatio": true
                 }
             },
-            "Step1": {
+            "step1": {
                 "ATK": 0.05,
                 "ATK_up": {
                     "value": 0.05,
                     "isRatio": true
                 }
+            },
+            "ATK_up": {
+                "step3": 0.1,
+                "step2": 0.075,
+                "step1": 0.05,
+                "isRatio": true
             }
         },
         "skill": {
