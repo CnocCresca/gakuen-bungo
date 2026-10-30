@@ -1147,6 +1147,18 @@
                     "isRatio": true
                 },
                 "knockBack": 10
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "knockBack_up": {
+                "step3": 20,
+                "step2": 15,
+                "step1": 10,
+                "isRatio": false
             }
         },
         "skill": {
@@ -2402,6 +2414,18 @@
                     "isRatio": true
                 },
                 "resist": 0.1
+            },
+            "ATK_up": {
+                "step3": 0.15,
+                "step2": 0.11,
+                "step1": 0.07,
+                "isRatio": true
+            },
+            "resist_up": {
+                "step3": 0.2,
+                "step2": 0.15,
+                "step1": 0.1,
+                "isRatio": true
             }
         },
         "skill": {
