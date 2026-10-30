@@ -153,7 +153,7 @@
                 "speed_up": null,
                 "knock_up": null,
                 "dodge_up": {
-                    "lv10": 0.1,
+                    "lv10": 1,
                     "isRaitio": true
                 }
             }
