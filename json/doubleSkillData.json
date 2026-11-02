@@ -1,4 +1,25 @@
 {
+    "まだ楽しませてくれるのだろう？": {
+        "name": "",
+        "pt": 320,
+        "range": 1000,
+        "effect": {
+            "time": null,
+            "target": 1,
+            "isAttack": false,
+            "isOnlyYourself": false,
+            "isAlly": true,
+            "ally": {
+                "healPercent": {
+                    "lv10": 80,
+                    "rise": 4.444444444444445
+                },
+                "isInterval": false,
+                "reviva": true
+            },
+            "isEnemy": false
+        }
+    },
     "みんなも食べる?": {
         "name": "みんなも食べる?",
         "pt": 500,

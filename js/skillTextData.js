@@ -1,5 +1,11 @@
 const skillTextData = {
     /* SSR */
+    "もう終わりかい？": {
+        name: "もう終わりかい？",
+        text: (object) => `範囲内の自身を含む味方1体に対し、体力を${object.healPercent}%回復する。戦闘不能で退場している控えではない味方1体を復活させる`,
+        pt: 160,
+        range: 750,
+    },
     あんみつは美味しい: {
         name: "あんみつは美味しい",
         text: (object) =>

@@ -397,5 +397,23 @@
             }
         },
         "releaseDate": "2026-10-22"
+    },
+    "与謝野晶子_蒼ノ壱": {
+        "status": {
+            "color": "蒼",
+            "HP": 6720,
+            "ATK": 1280
+        },
+        "effect": {
+            "isOnlyYourself": true,
+            "onlyYourself": {
+                "decreaseDamage": {
+                    "lv10": 40,
+                    "rise": 2.2222222222222223
+                }
+            },
+            "isSystem": false
+        },
+        "releaseDate": "2026-10-30"
     }
 }

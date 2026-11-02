@@ -1,4 +1,10 @@
 const doubleSkillTextData = {
+    "まだ楽しませてくれるのだろう？": {
+        name: "もう終わりかい？",
+        text: (object) => `範囲内の自身を含む味方1体に対し、体力を${object.healPercent}%回復する。戦闘不能で退場している控えではない味方1体を復活させる`,
+        pt: 320,
+        range: 1000,
+    },
     "みんなも食べる?": {
         name: "みんなも食べる?",
         text: (object) =>
