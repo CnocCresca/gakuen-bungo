@@ -26,8 +26,29 @@
                 "isRatio": true
             }
         },
-        "doubleSkill": {
+        "skill": {
             "name": "",
+            "pt": 160,
+            "range": 750,
+            "effect": {
+                "time": null,
+                "target": 1,
+                "isAttack": false,
+                "isOnlyYourself": false,
+                "isAlly": true,
+                "ally": {
+                    "healPercent": {
+                        "lv10": 50,
+                        "rise": 2.7777777777777777
+                    },
+                    "isInterval": false,
+                    "reviva": true
+                },
+                "isEnemy": false
+            }
+        },
+        "doubleSkill": {
+            "name": "まだ楽しませてくれるのだろう？",
             "pt": 320,
             "range": 1000,
             "effect": {
