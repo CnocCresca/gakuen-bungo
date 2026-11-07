@@ -1490,7 +1490,7 @@
         "pt": 400,
         "range": 300,
         "effect": {
-            "target": 5,
+            "target": 1,
             "isAttack": true,
             "attack": {
                 "color": "蒼",
