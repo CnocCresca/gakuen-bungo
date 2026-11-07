@@ -2830,7 +2830,7 @@
             "pt": 560,
             "range": 1050,
             "effect": {
-                "target": "全て",
+                "target": "すべて",
                 "isAttack": true,
                 "attack": {
                     "color": "紅",
@@ -3446,7 +3446,7 @@
             "range": 500,
             "effect": {
                 "time": 12,
-                "target": "全て",
+                "target": "すべて",
                 "isAttack": true,
                 "attack": {
                     "color": "白",
