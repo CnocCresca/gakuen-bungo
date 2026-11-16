@@ -4131,7 +4131,7 @@
         "skill": {
             "name": "そーれ、飛んでけ～！",
             "pt": 280,
-            "range": 375,
+            "range": 850,
             "effect": {
                 "target": 1,
                 "isAttack": true,
